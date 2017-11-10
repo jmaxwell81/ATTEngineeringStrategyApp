@@ -27,7 +27,7 @@
         <sys_updated_on>2017-10-23 16:38:40</sys_updated_on>
         <template/>
         <trackable>true</trackable>
-        <user_role display_value="x_attme_engr_strat.user" name="x_attme_engr_strat.user">bc2c836cdb4e034028f3d5ab5e961934</user_role>
+        <user_role display_value="x_attme_engr_strat.capacity_management_user" name="x_attme_engr_strat.capacity_management_user">bc2c836cdb4e034028f3d5ab5e961934</user_role>
         <vendor/>
         <vendor_prefix/>
         <version>1.0.0</version>
