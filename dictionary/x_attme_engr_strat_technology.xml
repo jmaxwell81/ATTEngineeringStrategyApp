@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Purchase requisition item technology" max_length="40" name="x_attme_engr_strat_technology" type="collection">
+        <element display="true" label="Technology" max_length="40" name="technology" type="string"/>
+    </element>
+</database>

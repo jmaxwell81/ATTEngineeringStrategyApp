@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Purchase requisition item service classification" max_length="40" name="x_attme_engr_strat_purchase_requisition_item_service_class" type="collection">
+        <element display="true" label="Service classification" max_length="200" name="service_classification" type="string"/>
+    </element>
+</database>

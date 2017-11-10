@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Purchase requisiton item unit of measure" max_length="40" name="x_attme_engr_strat_unit_of_measure" type="collection">
+        <element display="true" label="Unit of measure" max_length="40" name="unit_of_measure" type="string"/>
+    </element>
+</database>

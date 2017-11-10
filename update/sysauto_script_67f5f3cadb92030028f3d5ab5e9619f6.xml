@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Capacity management  - Monthly report</name>
+        <run_as display_value="Hugo Ernesto Ruano Valle">59f351e6db53b60028f3d5ab5e961947</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>7</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2017-11-09 21:37:43</run_start>
+        <run_time>1970-01-01 06:00:00</run_time>
+        <run_type>monthly</run_type>
+        <script><![CDATA[//el presente scheduled job sirve para crear las tareas del reporte mensual para el equipo de Capacidad, estas tareas se crearan todos los dias X de cada mes, se crea una tarea para cada integrante de los equipos "Capacidad de transporte" y "Capacidad core".
+
+createMonthlyReportTasks();
+
+function createMonthlyReportTasks()
+{
+	//inicializamos variables
+	var transport_team = gs.getProperty('x_attme_engr_strat.SysIdTeamTransportTeam') ; 
+	var core_team = gs.getProperty('x_attme_engr_strat.SysIdTeamCoreTeam');
+	var transport_assigned_to = [];
+	var core_assigned_to = [];
+	
+	
+	//determinamos la cantidad de personas para las cuales se les debe de crear una tarea de reporte mensual para el equipo de transporte
+	
+	var transport_group_member = new GlideRecord('sys_user_grmember');
+	transport_group_member.addQuery('group', transport_team);
+	transport_group_member.query();
+	
+	while(transport_group_member.next())
+	{
+		transport_assigned_to.push(transport_group_member.user.sys_id);
+	}
+	
+		
+	//determinamos la cantidad de personas para las cuales se les debe de crear una tarea de reporte mensual para el equipo de transporte
+	
+	var core_group_member = new GlideRecord('sys_user_grmember');
+	core_group_member.addQuery('group', core_team);
+	core_group_member.query();
+	
+	while(core_group_member.next())
+	{
+		core_assigned_to.push(core_group_member.user.sys_id);
+	}
+
+	
+	
+	//creamos las tareas para el equipo de capacidad de transporte
+	
+	for(var i=0; i<transport_assigned_to.length; i++)
+	{
+		var monthly_task_1 = new GlideRecord('x_attme_engr_strat_transport_capacity_request');
+	    monthly_task_1.request_type = 'Monthly report';
+	    monthly_task_1.short_description = 'Solicitud de reporte mensual';
+	    monthly_task_1.description = 'Solicitud de reporte mensual. Tarea creada de manera automática';
+		monthly_task_1.work_notes = 'Solicitud creada de manera automática';
+		monthly_task_1.state = 1; //estado open
+		monthly_task_1.assigment_group = transport_team;
+	    monthly_task_1.assigned_to = transport_assigned_to[i];
+		monthly_task_1.insert();
+		gs.info("Tarea creada: " + monthly_task_1.number);
+	}
+	
+	//creamos las tareas para el equipo de capacidad core
+	
+	for(var j=0; j<core_assigned_to.length; j++)
+	{
+		var monthly_task_2 = new GlideRecord('x_attme_engr_strat_core_capacity_request');
+	    monthly_task_2.request_type = 'Monthly report';
+	    monthly_task_2.short_description = 'Solicitud de reporte mensual';
+	    monthly_task_2.description = 'Solicitud de reporte mensual. Tarea creada de manera automática';
+		monthly_task_2.work_notes = 'Solicitud creada de manera automática.'
+		monthly_task_2.state = 1; //estado open
+		monthly_task_2.assignment_group = core_team;
+	    monthly_task_2.assigned_to = core_assigned_to[j];
+		monthly_task_2.insert();
+		gs.info("Tarea creada: " + monthly_task_2.number);
+	}
+		
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>hugo.ruano</sys_created_by>
+        <sys_created_on>2017-11-09 22:34:08</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>67f5f3cadb92030028f3d5ab5e9619f6</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name>Capacity management  - Monthly report</sys_name>
+        <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
+        <sys_update_name>sysauto_script_67f5f3cadb92030028f3d5ab5e9619f6</sys_update_name>
+        <sys_updated_by>hugo.ruano</sys_updated_by>
+        <sys_updated_on>2017-11-10 16:21:33</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

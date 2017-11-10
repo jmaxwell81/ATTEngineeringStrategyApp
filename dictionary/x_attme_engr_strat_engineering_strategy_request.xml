@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="Capacity request" max_length="40" name="x_attme_engr_strat_engineering_strategy_request" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="On hold reason" max_length="40" name="on_hold_reason" type="string">
+            <choice>
+                <element label="Awaiting user information" sequence="0" value="Awaiting user information"/>
+                <element label="Awaiting internal supplier" sequence="1" value="Awaiting internal supplier"/>
+                <element label="Other" sequence="2" value="Other"/>
+            </choice>
+        </element>
+        <element label="Problemt ticket" max_length="40" name="problemt_ticket" type="string"/>
+        <element label="Report category 1" max_length="32" name="report_category_1" reference="x_attme_engr_strat_capacity_report_category_1" type="reference"/>
+        <element dependent="report_category_1" dependent_on_field="report_category_1" label="Report category 2" max_length="32" name="report_category_2" reference="x_attme_engr_strat_capacity_report_category_2" reference_qual="javascript:&quot;parent_category_1=&quot; + current.report_category_1;" type="reference" use_dependent_field="true" use_reference_qualifier="advanced"/>
+        <element dependent="report_category_2" dependent_on_field="report_category_2" label="Report category 3" max_length="32" name="report_category_3" reference="x_attme_engr_strat_capacity_report_category_3" reference_qual="javascript:&quot;parent_category_2=&quot; + current.report_category_2;" type="reference" use_dependent_field="true" use_reference_qualifier="advanced"/>
+        <element default="javascript: gs.getUserID()" label="Requested for" mandatory="true" max_length="32" name="requested_for" read_only="true" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Request type" mandatory="true" max_length="40" name="request_type" type="string">
+            <choice>
+                <element label="Capacity problem" sequence="0" value="Capacity problem"/>
+                <element label="On demand report" sequence="1" value="On demand report"/>
+                <element label="Monthly report" sequence="2" value="Monthly report"/>
+            </choice>
+        </element>
+    </element>
+</database>

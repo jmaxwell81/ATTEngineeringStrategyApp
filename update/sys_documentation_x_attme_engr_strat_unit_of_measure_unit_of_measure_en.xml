@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="unit_of_measure" label="Unit of measure" language="en" table="x_attme_engr_strat_unit_of_measure">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>unit_of_measure</element>
+            <help/>
+            <hint/>
+            <label>Unit of measure</label>
+            <language>en</language>
+            <name>x_attme_engr_strat_unit_of_measure</name>
+            <plural>Unit of measures</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-05 17:17:44</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>40241e70db9ec30028f3d5ab5e961982</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Unit of measure</sys_name>
+            <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
+            <sys_update_name>sys_documentation_x_attme_engr_strat_unit_of_measure_unit_of_measure_en</sys_update_name>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-05 17:17:44</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

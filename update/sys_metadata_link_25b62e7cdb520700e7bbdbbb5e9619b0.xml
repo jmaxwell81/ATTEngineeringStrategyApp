@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>c8289af0db9ec30028f3d5ab5e96199e</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_attme_engr_strat_unit_of_measure">
+    <x_attme_engr_strat_unit_of_measure action="INSERT_OR_UPDATE">
+        <sys_created_by>hugo.ruano</sys_created_by>
+        <sys_created_on>2017-11-05 17:35:26</sys_created_on>
+        <sys_id>c8289af0db9ec30028f3d5ab5e96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>hugo.ruano</sys_updated_by>
+        <sys_updated_on>2017-11-05 17:35:26</sys_updated_on>
+        <unit_of_measure>No aplica</unit_of_measure>
+    </x_attme_engr_strat_unit_of_measure>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>hugo.ruano</sys_created_by>
+        <sys_created_on>2017-11-05 18:38:56</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>25b62e7cdb520700e7bbdbbb5e9619b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>No aplica</sys_name>
+        <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
+        <sys_update_name>sys_metadata_link_25b62e7cdb520700e7bbdbbb5e9619b0</sys_update_name>
+        <sys_updated_by>hugo.ruano</sys_updated_by>
+        <sys_updated_on>2017-11-05 18:38:56</sys_updated_on>
+        <tablename>x_attme_engr_strat_unit_of_measure</tablename>
+    </sys_metadata_link>
+</record_update>

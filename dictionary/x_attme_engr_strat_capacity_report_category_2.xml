@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Capacity report category 2" max_length="40" name="x_attme_engr_strat_capacity_report_category_2" type="collection">
+        <element display="true" label="Category name" mandatory="true" max_length="250" name="category_name" type="string"/>
+        <element label="Order" mandatory="true" max_length="40" name="order" type="integer"/>
+        <element label="Parent category 1" mandatory="true" max_length="32" name="parent_category_1" reference="x_attme_engr_strat_capacity_report_category_1" type="reference"/>
+        <index name="index">
+            <element name="parent_category_1"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_attme_engr_strat_capex_opex_request" label="Purchase requisition item" max_length="40" name="x_attme_engr_strat_purchase_req_item" sizeclass="1" type="collection">
+        <element label="Bidding" max_length="40" name="bidding" type="string"/>
+        <element label="Buyer" max_length="32" name="buyer" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Contract" max_length="40" name="contract" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" hint="Indica el almacén donde se requiere recibir el item/artículo" label="Destination warehouse" max_length="40" name="destination_warehouse" type="string">
+            <choice>
+                <element label="Mexico" sequence="0" value="Mexico"/>
+                <element label="Guadalajara" sequence="1" value="Guadalajara"/>
+                <element label="Monterrey" sequence="2" value="Monterrey"/>
+                <element label="Merida" sequence="3" value="Merida"/>
+                <element label="Tijuana" sequence="4" value="Tijuana"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" hint="En caso de software/licencia, indicar la marca del fabricante del equipo donde será instalado el mismo" label="Equipment brand where software will be installed" max_length="40" name="equipment_brand_installed_software" type="string"/>
+        <element attributes="edge_encryption_enabled=true" hint="En caso de software/licencia, indicar de manera puntual el equipo donde se instalará el mismo" label="Equipment model where software will be installed" max_length="40" name="equipment_model_where_software_will_be_installed" type="string"/>
+        <element attributes="edge_encryption_enabled=true" hint="ID del sistio (ubicación final)" label="Final location Site ID" max_length="40" name="final_location_site_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" hint="Nombre del sitio (ubicación final)" label="Final location Site name" max_length="40" name="final_location_site_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" hint="ID del sitio como se indica en la herramienta PANDA" label="Final location Site Panda ID" max_length="40" name="final_location_site_panda_id" type="string"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" hint="Unit cost multiplied by Quantity" label="Final price" mandatory="true" max_length="15" name="final_price" type="price"/>
+        <element attributes="edge_encryption_enabled=true" label="General negotiation conditions" max_length="1000" name="general_negotiation_conditions" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" hint="Sitio, MSO/RSO, AGGR, Tramo de FO, Nodo de FO, etc." label="Item final location" mandatory="true" max_length="40" name="item_final_location" type="string">
+            <choice>
+                <element label="Sitio" sequence="0" value="Sitio"/>
+                <element label="MSO/RSO" sequence="1" value="MSO/RSO"/>
+                <element label="Planta externa FO" sequence="2" value="Planta externa FO"/>
+                <element label="Agregador/Pop/Nodo FO" sequence="3" value="Agregador/Pop/Nodo FO"/>
+            </choice>
+        </element>
+        <element choice="1" hint="Clasificación del item como HW, SW, servicios, miscelaneos, etc. " label="Item type" mandatory="true" max_length="32" name="item_type" reference="x_attme_engr_strat_purchase_requisition_item_type" type="reference">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Net ID" max_length="40" name="net_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="OP ID" max_length="40" name="op_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" hint="Campo abierto para el usuario" label="Other comments" max_length="500" name="other_comments" type="string"/>
+        <element choice="1" hint="Las cuentas donde se asignaran los gastos están basadas en sistemas, subsistemas o plataformas. Se requiere indicar la que mayormente aplique" label="Platform" mandatory="true" max_length="32" name="platform" reference="x_attme_engr_strat_platform" type="reference">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" hint="Explicar el funcionamiento de manera general de la solicitud/proyecto en su conjunto: descripción general del proyecto, justificación, la finalidad de la compra, funcionalidad general, etc." label="Project/request functionality" mandatory="true" max_length="500" name="project_request_functionality" type="string"/>
+        <element attributes="edge_encryption_enabled=true" hint="Marca(s)/Proveedor(es) sugeridos" label="Proposed brand" max_length="100" name="proposed_brand" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Proposed project ID" max_length="40" name="proposed_project_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Proposed project name" max_length="40" name="proposed_project_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PR number" max_length="40" name="pr_number" type="string"/>
+        <element label="Purchase requistion" max_length="32" name="purchase_requisition" read_only="true" reference="x_attme_engr_strat_purchase_requisition" type="reference"/>
+        <element hint="Cantidad requerida" label="Quantity" mandatory="true" max_length="40" name="quantity" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript: gs.getUser().getEmail()" label="Requested for's email" mandatory="true" max_length="200" name="requested_for_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript: gs.getUser().getMobileNumber()" label="Requested for's mobile phone" mandatory="true" max_length="40" name="requested_for_mobile_phone" type="string"/>
+        <element label="Requested for's responsible" max_length="32" name="requested_for_responsible" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" hint="Este concepto será el título de la RQ/PO en el sistema, debe hacer referencia al proyecto en general y debe ser una descripción puntual" label="Requisition description" mandatory="true" max_length="250" name="requisition_description" type="string"/>
+        <element hint="En el caso de ser un servicio, indicar la clasificación de la actividad" label="Service classification" max_length="32" name="service_classification" reference="x_attme_engr_strat_purchase_requisition_item_service_class" type="reference"/>
+        <element hint="En el caso de ser un servicio, indicar la fecha estimada de termino de la actividad" label="Service end date" max_length="40" name="service_end_date" type="glide_date"/>
+        <element hint="En el caso de ser un servicio, indicar la fecha estimada de inicio de la actividad" label="Service start date" max_length="40" name="service_start_date" type="glide_date"/>
+        <element choice="1" hint="Tecnología  a la que aplica el item/artículo" label="Technology" mandatory="true" max_length="32" name="technology" reference="x_attme_engr_strat_technology" type="reference">
+            <choice/>
+        </element>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Unit cost" mandatory="true" max_length="15" name="unit_cost" type="price"/>
+        <element choice="1" hint="Unidad con la que se mide el item/artículo" label="Unit of measure" mandatory="true" max_length="32" name="unit_of_measure" reference="x_attme_engr_strat_unit_of_measure" type="reference">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" hint="En el caso de software/licencia, indicar la vigencia del mismo" label="Validity" max_length="40" name="validity" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Vendor" max_length="40" name="vendor" type="string"/>
+    </element>
+</database>
