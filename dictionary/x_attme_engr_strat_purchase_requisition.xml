@@ -14,10 +14,18 @@
         <element label="NET ID delivery date" max_length="40" name="net_id_delivery_date" type="glide_date"/>
         <element label="NET ID request date" max_length="40" name="net_id_request_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="OP" max_length="40" name="op" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="PO configuration and integration service" max_length="40" name="po_config_and_integration_service" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="PO HW" max_length="40" name="po_hw" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PO configuration &amp; integration service" max_length="40" name="po_configuration_integration_service" type="string"/>
+        <element label="PO config &amp; integration delivery date" max_length="40" name="po_config_integration_delivery_date" type="glide_date"/>
+        <element label="PO config &amp; integration request date" max_length="40" name="po_config_integration_request_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="PO Hardware" max_length="40" name="po_hardware" type="string"/>
+        <element label="PO HW delivery date" max_length="40" name="po_hw_delivery_date" type="glide_date"/>
+        <element label="PO HW request date" max_length="40" name="po_hw_request_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="PO installation service" max_length="40" name="po_installation_service" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="PO SW" max_length="40" name="po_sw" type="string"/>
+        <element label="PO installation service delivery date" max_length="40" name="po_installation_service_delivery_date" type="glide_date"/>
+        <element label="PO installation service request date" max_length="40" name="po_installation_service_request_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="PO software" max_length="40" name="po_software" type="string"/>
+        <element label="PO SW delivery date" max_length="40" name="po_sw_delivery_date" type="glide_date"/>
+        <element label="PO SW request date" max_length="40" name="po_sw_request_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="PR" max_length="40" name="pr" type="string"/>
         <element label="PR delivery date" max_length="40" name="pr_delivery_date" type="glide_date"/>
         <element label="PR request date" max_length="40" name="pr_request_date" type="glide_date"/>
@@ -29,6 +37,8 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Requisition" max_length="40" name="requisition" type="string"/>
+        <element label="Req. delivery date" max_length="40" name="requisition_delivery_date" type="glide_date"/>
+        <element label="Req. request date" max_length="40" name="requisition_request_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="RFQ" max_length="40" name="rfq" type="string"/>
         <element label="RFQ delivery date" max_length="40" name="rfq_delivery_date" type="glide_date"/>
         <element label="RFQ request date" max_length="40" name="rfq_request_date" type="glide_date"/>
