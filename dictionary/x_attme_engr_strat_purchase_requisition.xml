@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="x_attme_engr_strat_capex_opex_request" label="Purchase requisition" max_length="40" name="x_attme_engr_strat_purchase_requisition" sizeclass="4" type="collection">
+    <element audit="true" extends="x_attme_engr_strat_capex_opex_request" label="Purchase requisition" max_length="40" name="x_attme_engr_strat_purchase_requisition" sizeclass="2" type="collection">
         <element choice="1" label="Expense type" max_length="40" name="expense_type" type="choice">
             <choice>
                 <element label="Capex" sequence="0" value="Capex"/>
@@ -9,6 +9,7 @@
         </element>
         <element label="Finance date" max_length="40" name="finance_date" type="glide_date"/>
         <element attributes="omit_sys_original=true" label="Initial amount" max_length="15" name="initial_amount" type="currency"/>
+        <element label="Input document URL" max_length="1024" name="input_document_url" type="url"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Item classification" max_length="40" name="item_classification" type="string">
             <choice>
                 <element label="SW" sequence="0" value="SQ"/>
