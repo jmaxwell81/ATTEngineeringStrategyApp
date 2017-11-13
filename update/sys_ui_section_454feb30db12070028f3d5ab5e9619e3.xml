@@ -5,13 +5,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-10 22:11:32</sys_created_on>
-            <sys_id>28574566db1a030028f3d5ab5e961916</sys_id>
+            <sys_created_on>2017-11-12 20:01:04</sys_created_on>
+            <sys_id>c9ac768bdb9a8700e7bbdbbb5e96190c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="Default view">454feb30db12070028f3d5ab5e9619e3</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-10 22:11:32</sys_updated_on>
+            <sys_updated_on>2017-11-12 20:01:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,153 +19,167 @@
             <element>requested_for</element>
             <position>1</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-10 22:11:32</sys_created_on>
-            <sys_id>a8574566db1a030028f3d5ab5e961916</sys_id>
+            <sys_created_on>2017-11-12 20:01:04</sys_created_on>
+            <sys_id>4dac768bdb9a8700e7bbdbbb5e96190c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="Default view">454feb30db12070028f3d5ab5e9619e3</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-10 22:11:32</sys_updated_on>
+            <sys_updated_on>2017-11-12 20:01:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>expense_type</element>
+            <position>2</position>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-12 20:01:04</sys_created_on>
+            <sys_id>cdac768bdb9a8700e7bbdbbb5e96190c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="Default view">454feb30db12070028f3d5ab5e9619e3</sys_ui_section>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-12 20:01:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>purchase_type</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-10 22:11:32</sys_created_on>
-            <sys_id>2c574566db1a030028f3d5ab5e961916</sys_id>
+            <sys_created_on>2017-11-12 20:01:04</sys_created_on>
+            <sys_id>41ac768bdb9a8700e7bbdbbb5e96190d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="Default view">454feb30db12070028f3d5ab5e9619e3</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-10 22:11:32</sys_updated_on>
+            <sys_updated_on>2017-11-12 20:01:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>vendor</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-10 22:11:32</sys_created_on>
-            <sys_id>ac574566db1a030028f3d5ab5e961916</sys_id>
+            <sys_created_on>2017-11-12 20:01:04</sys_created_on>
+            <sys_id>c1ac768bdb9a8700e7bbdbbb5e96190d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="Default view">454feb30db12070028f3d5ab5e9619e3</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-10 22:11:32</sys_updated_on>
+            <sys_updated_on>2017-11-12 20:01:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>item_classification</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-10 22:11:32</sys_created_on>
-            <sys_id>20574566db1a030028f3d5ab5e961917</sys_id>
+            <sys_created_on>2017-11-12 20:01:04</sys_created_on>
+            <sys_id>45ac768bdb9a8700e7bbdbbb5e96190d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="Default view">454feb30db12070028f3d5ab5e9619e3</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-10 22:11:32</sys_updated_on>
+            <sys_updated_on>2017-11-12 20:01:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-10 22:11:32</sys_created_on>
-            <sys_id>a0574566db1a030028f3d5ab5e961917</sys_id>
+            <sys_created_on>2017-11-12 20:01:04</sys_created_on>
+            <sys_id>c5ac768bdb9a8700e7bbdbbb5e96190d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="Default view">454feb30db12070028f3d5ab5e9619e3</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-10 22:11:32</sys_updated_on>
+            <sys_updated_on>2017-11-12 20:01:04</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>opened_at</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-10 22:11:32</sys_created_on>
-            <sys_id>24574566db1a030028f3d5ab5e961917</sys_id>
+            <sys_created_on>2017-11-12 20:01:04</sys_created_on>
+            <sys_id>49ac768bdb9a8700e7bbdbbb5e96190d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="Default view">454feb30db12070028f3d5ab5e9619e3</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-10 22:11:32</sys_updated_on>
+            <sys_updated_on>2017-11-12 20:01:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>finance_date</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-10 22:11:32</sys_created_on>
-            <sys_id>a4574566db1a030028f3d5ab5e961917</sys_id>
+            <sys_created_on>2017-11-12 20:01:04</sys_created_on>
+            <sys_id>c9ac768bdb9a8700e7bbdbbb5e96190d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="Default view">454feb30db12070028f3d5ab5e9619e3</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-10 22:11:32</sys_updated_on>
+            <sys_updated_on>2017-11-12 20:01:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-10 22:11:32</sys_created_on>
-            <sys_id>28574566db1a030028f3d5ab5e961917</sys_id>
+            <sys_created_on>2017-11-12 20:01:04</sys_created_on>
+            <sys_id>4dac768bdb9a8700e7bbdbbb5e96190d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="Default view">454feb30db12070028f3d5ab5e9619e3</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-10 22:11:32</sys_updated_on>
+            <sys_updated_on>2017-11-12 20:01:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assignment_group</element>
-            <position>9</position>
+            <position>10</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-10 22:11:32</sys_created_on>
-            <sys_id>a8574566db1a030028f3d5ab5e961917</sys_id>
+            <sys_created_on>2017-11-12 20:01:04</sys_created_on>
+            <sys_id>cdac768bdb9a8700e7bbdbbb5e96190d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="Default view">454feb30db12070028f3d5ab5e9619e3</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-10 22:11:32</sys_updated_on>
+            <sys_updated_on>2017-11-12 20:01:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assigned_to</element>
-            <position>10</position>
+            <position>11</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-10 22:11:32</sys_created_on>
-            <sys_id>2c574566db1a030028f3d5ab5e961917</sys_id>
+            <sys_created_on>2017-11-12 20:01:04</sys_created_on>
+            <sys_id>41ac768bdb9a8700e7bbdbbb5e96190e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="Default view">454feb30db12070028f3d5ab5e9619e3</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-10 22:11:32</sys_updated_on>
+            <sys_updated_on>2017-11-12 20:01:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>11</position>
+            <position>12</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-10 22:11:32</sys_created_on>
-            <sys_id>ac574566db1a030028f3d5ab5e961917</sys_id>
+            <sys_created_on>2017-11-12 20:01:04</sys_created_on>
+            <sys_id>c1ac768bdb9a8700e7bbdbbb5e96190e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="Default view">454feb30db12070028f3d5ab5e9619e3</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-10 22:11:32</sys_updated_on>
+            <sys_updated_on>2017-11-12 20:01:04</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -173,13 +187,13 @@
             <element>short_description</element>
             <position>13</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-10 22:11:32</sys_created_on>
-            <sys_id>a0574566db1a030028f3d5ab5e961918</sys_id>
+            <sys_created_on>2017-11-12 20:01:04</sys_created_on>
+            <sys_id>45ac768bdb9a8700e7bbdbbb5e96190e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="Default view">454feb30db12070028f3d5ab5e9619e3</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-10 22:11:32</sys_updated_on>
+            <sys_updated_on>2017-11-12 20:01:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -187,13 +201,13 @@
             <element>description</element>
             <position>14</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-10 22:11:32</sys_created_on>
-            <sys_id>24574566db1a030028f3d5ab5e961918</sys_id>
+            <sys_created_on>2017-11-12 20:01:04</sys_created_on>
+            <sys_id>c5ac768bdb9a8700e7bbdbbb5e96190e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="Default view">454feb30db12070028f3d5ab5e9619e3</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-10 22:11:32</sys_updated_on>
+            <sys_updated_on>2017-11-12 20:01:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -201,13 +215,13 @@
             <element>.begin_split</element>
             <position>15</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-10 22:11:32</sys_created_on>
-            <sys_id>a4574566db1a030028f3d5ab5e961918</sys_id>
+            <sys_created_on>2017-11-12 20:01:04</sys_created_on>
+            <sys_id>49ac768bdb9a8700e7bbdbbb5e96190e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="Default view">454feb30db12070028f3d5ab5e9619e3</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-10 22:11:32</sys_updated_on>
+            <sys_updated_on>2017-11-12 20:01:04</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -215,13 +229,13 @@
             <element>initial_amount</element>
             <position>16</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-10 22:11:32</sys_created_on>
-            <sys_id>28574566db1a030028f3d5ab5e961918</sys_id>
+            <sys_created_on>2017-11-12 20:01:04</sys_created_on>
+            <sys_id>c9ac768bdb9a8700e7bbdbbb5e96190e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="Default view">454feb30db12070028f3d5ab5e9619e3</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-10 22:11:32</sys_updated_on>
+            <sys_updated_on>2017-11-12 20:01:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -229,13 +243,13 @@
             <element>.split</element>
             <position>17</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-10 22:11:32</sys_created_on>
-            <sys_id>a8574566db1a030028f3d5ab5e961918</sys_id>
+            <sys_created_on>2017-11-12 20:01:04</sys_created_on>
+            <sys_id>4dac768bdb9a8700e7bbdbbb5e96190e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="Default view">454feb30db12070028f3d5ab5e9619e3</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-10 22:11:32</sys_updated_on>
+            <sys_updated_on>2017-11-12 20:01:04</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -243,13 +257,13 @@
             <element>u_currency_6</element>
             <position>18</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-10 22:11:32</sys_created_on>
-            <sys_id>2c574566db1a030028f3d5ab5e961918</sys_id>
+            <sys_created_on>2017-11-12 20:01:04</sys_created_on>
+            <sys_id>cdac768bdb9a8700e7bbdbbb5e96190e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="Default view">454feb30db12070028f3d5ab5e9619e3</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-10 22:11:32</sys_updated_on>
+            <sys_updated_on>2017-11-12 20:01:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -43,6 +43,34 @@
             <sys_updated_by>hugo.ruano</sys_updated_by>
             <sys_updated_on>2017-11-10 21:25:40</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-12 21:05:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d07b8b8fdb9a8700e7bbdbbb5e9619b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_attme_engr_strat_purchase_requisition" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="Default view">ed493c22db1a030028f3d5ab5e96197f</sys_ui_form>
+            <sys_ui_section caption="Capex tracking state information" display_value="Capex tracking state information" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="Default view">5c7b8b8fdb9a8700e7bbdbbb5e9619b6</sys_ui_section>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-12 21:05:45</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-12 21:20:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>82ce4fcfdb9a8700e7bbdbbb5e96195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_attme_engr_strat_purchase_requisition" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="Default view">ed493c22db1a030028f3d5ab5e96197f</sys_ui_form>
+            <sys_ui_section caption="Opex tracking state information" display_value="Opex tracking state information" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="Default view">0ece4fcfdb9a8700e7bbdbbb5e96195e</sys_ui_section>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-12 21:20:20</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_attme_engr_strat_purchase_requisition</name>
             <roles/>

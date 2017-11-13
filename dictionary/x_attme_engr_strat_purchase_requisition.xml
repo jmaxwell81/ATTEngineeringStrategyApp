@@ -1,47 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element extends="x_attme_engr_strat_capex_opex_request" label="Purchase requisition" max_length="40" name="x_attme_engr_strat_purchase_requisition" sizeclass="4" type="collection">
+        <element choice="1" label="Expense type" max_length="40" name="expense_type" type="choice">
+            <choice>
+                <element label="Capex" sequence="0" value="Capex"/>
+                <element label="Opex" sequence="1" value="Opex"/>
+            </choice>
+        </element>
         <element label="Finance date" max_length="40" name="finance_date" type="glide_date"/>
         <element attributes="omit_sys_original=true" label="Initial amount" max_length="15" name="initial_amount" type="currency"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Item classification" max_length="40" name="item_classification" type="string">
             <choice>
-                <element label="Choice 1" sequence="0" value="Choice 1"/>
-                <element label="Choice 2" sequence="1" value="Choice 2"/>
-                <element label="Choice 3" sequence="2" value="Choice 3"/>
+                <element label="SW" sequence="0" value="SQ"/>
+                <element label="HW" sequence="1" value="HW"/>
+                <element label="Serv. instalación" sequence="2" value="Serv. instalación"/>
+                <element label="Serv. config. e integración" sequence="3" value="Serv. config. e integración"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="NET ID" max_length="40" name="net_id" type="string"/>
         <element label="NET ID delivery date" max_length="40" name="net_id_delivery_date" type="glide_date"/>
         <element label="NET ID request date" max_length="40" name="net_id_request_date" type="glide_date"/>
-        <element attributes="edge_encryption_enabled=true" label="OP" max_length="40" name="op" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="PO configuration &amp; integration service" max_length="40" name="po_configuration_integration_service" type="string"/>
-        <element label="PO config &amp; integration delivery date" max_length="40" name="po_config_integration_delivery_date" type="glide_date"/>
-        <element label="PO config &amp; integration request date" max_length="40" name="po_config_integration_request_date" type="glide_date"/>
-        <element attributes="edge_encryption_enabled=true" label="PO Hardware" max_length="40" name="po_hardware" type="string"/>
-        <element label="PO HW delivery date" max_length="40" name="po_hw_delivery_date" type="glide_date"/>
-        <element label="PO HW request date" max_length="40" name="po_hw_request_date" type="glide_date"/>
-        <element attributes="edge_encryption_enabled=true" label="PO installation service" max_length="40" name="po_installation_service" type="string"/>
-        <element label="PO installation service delivery date" max_length="40" name="po_installation_service_delivery_date" type="glide_date"/>
-        <element label="PO installation service request date" max_length="40" name="po_installation_service_request_date" type="glide_date"/>
-        <element attributes="edge_encryption_enabled=true" label="PO software" max_length="40" name="po_software" type="string"/>
-        <element label="PO SW delivery date" max_length="40" name="po_sw_delivery_date" type="glide_date"/>
-        <element label="PO SW request date" max_length="40" name="po_sw_request_date" type="glide_date"/>
-        <element attributes="edge_encryption_enabled=true" label="PR" max_length="40" name="pr" type="string"/>
-        <element label="PR delivery date" max_length="40" name="pr_delivery_date" type="glide_date"/>
-        <element label="PR request date" max_length="40" name="pr_request_date" type="glide_date"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Purchase type" max_length="40" name="purchase_type" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="NET ID status" max_length="40" name="net_id_status" type="string">
             <choice>
                 <element label="Choice 1" sequence="0" value="Choice 1"/>
                 <element label="Choice 2" sequence="1" value="Choice 2"/>
                 <element label="Choice 3" sequence="2" value="Choice 3"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="NET ID status observations" max_length="40" name="net_id_status_observations" type="string"/>
+        <element label="OCA delivery date" max_length="40" name="oca_delivery_date" type="glide_date"/>
+        <element label="OCA" max_length="40" name="oca_number" type="string"/>
+        <element label="OCA request date" max_length="40" name="oca_request_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="OCA status" max_length="40" name="oca_status" type="string">
+            <choice>
+                <element label="Choice 1" sequence="0" value="Choice 1"/>
+                <element label="Choice 2" sequence="1" value="Choice 2"/>
+                <element label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="OCA status observations" max_length="40" name="oca_status_observations" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="OP" max_length="40" name="op" type="string"/>
+        <element label="OP delivery date" max_length="40" name="op_delivery_date" type="glide_date"/>
+        <element label="OP request date" max_length="40" name="op_request_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="OP status" max_length="40" name="op_status" type="string">
+            <choice>
+                <element label="Choice 1" sequence="0" value="Choice 1"/>
+                <element label="Choice 2" sequence="1" value="Choice 2"/>
+                <element label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="OP status observations" max_length="40" name="op_status_observations" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PO configuration &amp; integration service" max_length="40" name="po_configuration_integration_service" type="string"/>
+        <element label="PO config &amp; integration delivery date" max_length="40" name="po_config_integration_delivery_date" type="glide_date"/>
+        <element label="PO config &amp; integration request date" max_length="40" name="po_config_integration_request_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="PO config. &amp; integration status" max_length="40" name="po_config_integration_status" type="string">
+            <choice>
+                <element label="Choice 1" sequence="0" value="Choice 1"/>
+                <element label="Choice 2" sequence="1" value="Choice 2"/>
+                <element label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="PO config. &amp; intg. status observations" max_length="40" name="po_config_intg_status_observations" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PO Hardware" max_length="40" name="po_hardware" type="string"/>
+        <element label="PO HW delivery date" max_length="40" name="po_hw_delivery_date" type="glide_date"/>
+        <element label="PO HW request date" max_length="40" name="po_hw_request_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="PO HW status" max_length="40" name="po_hw_status" type="string">
+            <choice>
+                <element label="Choice 1" sequence="0" value="Choice 1"/>
+                <element label="Choice 2" sequence="1" value="Choice 2"/>
+                <element label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="PO HW status observations" max_length="40" name="po_hw_status_observations" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PO installation service" max_length="40" name="po_installation_service" type="string"/>
+        <element label="PO installation service delivery date" max_length="40" name="po_installation_service_delivery_date" type="glide_date"/>
+        <element label="PO installation service request date" max_length="40" name="po_installation_service_request_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="PO Installation service status" max_length="40" name="po_installation_service_status" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="PO instal. serv. status observations" max_length="40" name="po_instal_serv_status_observations" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PO software" max_length="40" name="po_software" type="string"/>
+        <element label="PO SW delivery date" max_length="40" name="po_sw_delivery_date" type="glide_date"/>
+        <element label="PO SW request date" max_length="40" name="po_sw_request_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="PO SW status" max_length="40" name="po_sw_status" type="string">
+            <choice>
+                <element label="Choice 1" sequence="0" value="Choice 1"/>
+                <element label="Choice 2" sequence="1" value="Choice 2"/>
+                <element label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="PO SW status observations" max_length="40" name="po_sw_status_observations" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PR" max_length="40" name="pr" type="string"/>
+        <element label="PR delivery date" max_length="40" name="pr_delivery_date" type="glide_date"/>
+        <element label="PR request date" max_length="40" name="pr_request_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="PR status" max_length="40" name="pr_status" type="string">
+            <choice>
+                <element label="Choice 1" sequence="0" value="Choice 1"/>
+                <element label="Choice 2" sequence="1" value="Choice 2"/>
+                <element label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="PR status observations" max_length="40" name="pr_status_observations" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Purchase type" max_length="40" name="purchase_type" type="string">
+            <choice>
+                <element label="Concurso" sequence="0" value="Concurso"/>
+                <element label="Asignación directa" sequence="1" value="Asignación directa"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Requisition" max_length="40" name="requisition" type="string"/>
         <element label="Req. delivery date" max_length="40" name="requisition_delivery_date" type="glide_date"/>
         <element label="Req. request date" max_length="40" name="requisition_request_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Requisition status" max_length="40" name="requisition_status" type="string">
+            <choice>
+                <element label="Choice 1" sequence="0" value="Choice 1"/>
+                <element label="Choice 2" sequence="1" value="Choice 2"/>
+                <element label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Requisition status observations" max_length="40" name="requisition_status_observations" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="RFQ" max_length="40" name="rfq" type="string"/>
         <element label="RFQ delivery date" max_length="40" name="rfq_delivery_date" type="glide_date"/>
         <element label="RFQ request date" max_length="40" name="rfq_request_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="RFQ status" max_length="40" name="rfq_status" type="string">
+            <choice>
+                <element label="Choice 1" sequence="0" value="Choice 1"/>
+                <element label="Choice 2" sequence="1" value="Choice 2"/>
+                <element label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="RFQ status observations" max_length="40" name="rfq_status_observations" type="string"/>
+        <element label="SOCA delivery date" max_length="40" name="soca_delivery_date" type="glide_date"/>
+        <element label="SOCA request date" max_length="40" name="soca_request_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="SOCA status" max_length="40" name="soca_status" type="string">
+            <choice>
+                <element label="Choice 1" sequence="0" value="Choice 1"/>
+                <element label="Choice 2" sequence="1" value="Choice 2"/>
+                <element label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="SOCA status observations" max_length="40" name="soca_status_observations" type="string"/>
         <element attributes="omit_sys_original=true" label="Awarded amount" max_length="15" name="u_currency_6" type="currency"/>
         <element attributes="edge_encryption_enabled=true" label="Vendor" max_length="40" name="vendor" type="string"/>
     </element>

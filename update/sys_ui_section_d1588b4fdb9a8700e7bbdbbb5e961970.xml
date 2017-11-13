@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="d1588b4fdb9a8700e7bbdbbb5e961970" sys_domain="global" table="x_attme_engr_strat_purchase_requisition" version="3" view="ess">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-12 20:52:10</sys_created_on>
+            <sys_id>d1588b4fdb9a8700e7bbdbbb5e961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="ca861520db0032003f4dd79b5e961980">d1588b4fdb9a8700e7bbdbbb5e961970</sys_ui_section>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-12 20:52:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requested_for</element>
+            <position>1</position>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-12 20:52:10</sys_created_on>
+            <sys_id>55588b4fdb9a8700e7bbdbbb5e961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="ca861520db0032003f4dd79b5e961980">d1588b4fdb9a8700e7bbdbbb5e961970</sys_ui_section>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-12 20:52:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>purchase_type</element>
+            <position>2</position>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-12 20:52:10</sys_created_on>
+            <sys_id>d5588b4fdb9a8700e7bbdbbb5e961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="ca861520db0032003f4dd79b5e961980">d1588b4fdb9a8700e7bbdbbb5e961970</sys_ui_section>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-12 20:52:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vendor</element>
+            <position>3</position>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-12 20:52:10</sys_created_on>
+            <sys_id>59588b4fdb9a8700e7bbdbbb5e961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="ca861520db0032003f4dd79b5e961980">d1588b4fdb9a8700e7bbdbbb5e961970</sys_ui_section>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-12 20:52:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>item_classification</element>
+            <position>4</position>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-12 20:52:10</sys_created_on>
+            <sys_id>d9588b4fdb9a8700e7bbdbbb5e961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="ca861520db0032003f4dd79b5e961980">d1588b4fdb9a8700e7bbdbbb5e961970</sys_ui_section>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-12 20:52:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-12 20:52:10</sys_created_on>
+            <sys_id>5d588b4fdb9a8700e7bbdbbb5e961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="ca861520db0032003f4dd79b5e961980">d1588b4fdb9a8700e7bbdbbb5e961970</sys_ui_section>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-12 20:52:10</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_at</element>
+            <position>6</position>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-12 20:52:10</sys_created_on>
+            <sys_id>dd588b4fdb9a8700e7bbdbbb5e961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="ca861520db0032003f4dd79b5e961980">d1588b4fdb9a8700e7bbdbbb5e961970</sys_ui_section>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-12 20:52:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>finance_date</element>
+            <position>7</position>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-12 20:52:10</sys_created_on>
+            <sys_id>51588b4fdb9a8700e7bbdbbb5e961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="ca861520db0032003f4dd79b5e961980">d1588b4fdb9a8700e7bbdbbb5e961970</sys_ui_section>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-12 20:52:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>8</position>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-12 20:52:10</sys_created_on>
+            <sys_id>d1588b4fdb9a8700e7bbdbbb5e961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="ca861520db0032003f4dd79b5e961980">d1588b4fdb9a8700e7bbdbbb5e961970</sys_ui_section>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-12 20:52:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>9</position>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-12 20:52:10</sys_created_on>
+            <sys_id>55588b4fdb9a8700e7bbdbbb5e961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="ca861520db0032003f4dd79b5e961980">d1588b4fdb9a8700e7bbdbbb5e961970</sys_ui_section>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-12 20:52:10</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>10</position>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-12 20:52:10</sys_created_on>
+            <sys_id>d5588b4fdb9a8700e7bbdbbb5e961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="ca861520db0032003f4dd79b5e961980">d1588b4fdb9a8700e7bbdbbb5e961970</sys_ui_section>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-12 20:52:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>11</position>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-12 20:52:10</sys_created_on>
+            <sys_id>59588b4fdb9a8700e7bbdbbb5e961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="ca861520db0032003f4dd79b5e961980">d1588b4fdb9a8700e7bbdbbb5e961970</sys_ui_section>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-12 20:52:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>12</position>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-12 20:52:10</sys_created_on>
+            <sys_id>d9588b4fdb9a8700e7bbdbbb5e961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="ca861520db0032003f4dd79b5e961980">d1588b4fdb9a8700e7bbdbbb5e961970</sys_ui_section>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-12 20:52:10</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>initial_amount</element>
+            <position>13</position>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-12 20:52:10</sys_created_on>
+            <sys_id>5d588b4fdb9a8700e7bbdbbb5e961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="ca861520db0032003f4dd79b5e961980">d1588b4fdb9a8700e7bbdbbb5e961970</sys_ui_section>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-12 20:52:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>14</position>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-12 20:52:10</sys_created_on>
+            <sys_id>dd588b4fdb9a8700e7bbdbbb5e961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="ca861520db0032003f4dd79b5e961980">d1588b4fdb9a8700e7bbdbbb5e961970</sys_ui_section>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-12 20:52:10</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_currency_6</element>
+            <position>15</position>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-12 20:52:10</sys_created_on>
+            <sys_id>51588b4fdb9a8700e7bbdbbb5e961974</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="ca861520db0032003f4dd79b5e961980">d1588b4fdb9a8700e7bbdbbb5e961970</sys_ui_section>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-12 20:52:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_attme_engr_strat_purchase_requisition</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-12 20:52:10</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d1588b4fdb9a8700e7bbdbbb5e961970</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_attme_engr_strat_purchase_requisition</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
+            <sys_update_name>sys_ui_section_d1588b4fdb9a8700e7bbdbbb5e961970</sys_update_name>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-12 20:52:10</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Self Service" name="ess">ca861520db0032003f4dd79b5e961980</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_attme_engr_strat_capex_opex_request" label="Dispatch request" max_length="40" name="x_attme_engr_strat_dispatch_request" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Associated PO" max_length="40" name="associated_po" type="string"/>
+        <element attributes="omit_sys_original=true" label="Dispatch amount" max_length="15" name="dispatch_amount" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Dispatch number" max_length="40" name="dispatch_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Dispatch type" max_length="40" name="dispatch_type" type="string">
+            <choice>
+                <element label="Choice 1" sequence="0" value="Choice 1"/>
+                <element label="Choice 2" sequence="1" value="Choice 2"/>
+                <element label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element label="Finance area date" max_length="40" name="finance_area_date" type="glide_date"/>
+        <element label="Finance area request date" max_length="40" name="finance_area_request_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Paid segment" max_length="40" name="paid_segment" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Payment period" max_length="40" name="payment_period" type="string">
+            <choice>
+                <element label="Choice 1" sequence="0" value="Choice 1"/>
+                <element label="Choice 2" sequence="1" value="Choice 2"/>
+                <element label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Reception number / GR" max_length="40" name="reception_number" type="string"/>
+        <element label="Vendor date" max_length="40" name="vendor_date" type="glide_date"/>
+    </element>
+</database>

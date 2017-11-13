@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Dispatch tracking information" section_id="2c165783dbda8700e7bbdbbb5e9619fc" sys_domain="global" table="x_attme_engr_strat_dispatch_request" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>finance_area_date</element>
+            <position>0</position>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-12 21:53:04</sys_created_on>
+            <sys_id>2946d783dbda8700e7bbdbbb5e961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Dispatch tracking information" display_value="Dispatch tracking information" name="x_attme_engr_strat_dispatch_request" sys_domain="global" view="Default view">2c165783dbda8700e7bbdbbb5e9619fc</sys_ui_section>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-12 21:53:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>finance_area_request date</element>
+            <position>1</position>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-12 21:53:04</sys_created_on>
+            <sys_id>a946d783dbda8700e7bbdbbb5e961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Dispatch tracking information" display_value="Dispatch tracking information" name="x_attme_engr_strat_dispatch_request" sys_domain="global" view="Default view">2c165783dbda8700e7bbdbbb5e9619fc</sys_ui_section>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-12 21:53:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vendor_date</element>
+            <position>2</position>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-12 21:53:04</sys_created_on>
+            <sys_id>2d46d783dbda8700e7bbdbbb5e961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Dispatch tracking information" display_value="Dispatch tracking information" name="x_attme_engr_strat_dispatch_request" sys_domain="global" view="Default view">2c165783dbda8700e7bbdbbb5e9619fc</sys_ui_section>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-12 21:53:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Dispatch tracking information</caption>
+            <header>false</header>
+            <name>x_attme_engr_strat_dispatch_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-12 21:52:11</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2c165783dbda8700e7bbdbbb5e9619fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Dispatch tracking information</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
+            <sys_update_name>sys_ui_section_2c165783dbda8700e7bbdbbb5e9619fc</sys_update_name>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-12 21:52:11</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
