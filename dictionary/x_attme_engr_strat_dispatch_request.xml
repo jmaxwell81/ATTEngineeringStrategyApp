@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="x_attme_engr_strat_capex_opex_request" label="Dispatch request" max_length="40" name="x_attme_engr_strat_dispatch_request" type="collection">
+    <element extends="x_attme_engr_strat_capex_opex_request" label="Dispatch request" max_length="40" name="x_attme_engr_strat_dispatch_request" sizeclass="1" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Associated PO" max_length="40" name="associated_po" type="string"/>
         <element attributes="omit_sys_original=true" label="Dispatch amount" max_length="15" name="dispatch_amount" type="currency"/>
         <element attributes="edge_encryption_enabled=true" label="Dispatch number" max_length="40" name="dispatch_number" type="string"/>

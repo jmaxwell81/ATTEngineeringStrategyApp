@@ -23,7 +23,7 @@
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_attme_engr_strat.user</roles>
+        <roles>x_attme_engr_strat.capacity_management_user</roles>
         <survey/>
         <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
@@ -33,7 +33,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>30ec9fe0db8e034028f3d5ab5e96191e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>My groups work</sys_name>
         <sys_overrides/>
         <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
@@ -42,7 +42,7 @@
         <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
         <sys_update_name>sys_app_module_30ec9fe0db8e034028f3d5ab5e96191e</sys_update_name>
         <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-10-23 17:44:10</sys_updated_on>
+        <sys_updated_on>2017-11-15 16:18:09</sys_updated_on>
         <timeline_page/>
         <title>My groups work</title>
         <uncancelable>false</uncancelable>
