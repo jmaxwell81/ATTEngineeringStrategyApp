@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="report_category_1" table="x_attme_engr_strat_engineering_strategy_request">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="report_start_date" table="x_attme_engr_strat_core_capacity_request">
         <active>true</active>
         <array>false</array>
         <attributes/>
         <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
+        <calculation/>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Report category 1</column_label>
+        <column_label>Report start date</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -27,43 +22,41 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>report_category_1</element>
+        <element>report_start_date</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <internal_type display_value="Reference">reference</internal_type>
+        <internal_type display_value="">glide_date</internal_type>
         <mandatory>false</mandatory>
-        <max_length>32</max_length>
-        <name>x_attme_engr_strat_engineering_strategy_request</name>
+        <max_length>40</max_length>
+        <name>x_attme_engr_strat_core_capacity_request</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_attme_engr_strat_capacity_report_category_1">x_attme_engr_strat_capacity_report_category_1</reference>
+        <reference/>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
-        <reference_qual>category_type=Core category^EQ</reference_qual>
-        <reference_qual_condition table="x_attme_engr_strat_capacity_report_category_1">category_type=Core category^EQ<item endquery="false" field="category_type" goto="false" newquery="false" operator="=" or="false" value="Core category"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </reference_qual_condition>
+        <reference_qual/>
+        <reference_qual_condition/>
         <reference_type/>
         <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>hugo.ruano</sys_created_by>
-        <sys_created_on>2017-11-09 19:06:02</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
-        <sys_id>3e23df8edb52030028f3d5ab5e961938</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>Report category 1</sys_name>
+        <sys_created_on>2017-11-15 15:49:34</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>92dfd54cdba2830028f3d5ab5e9619d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Report start date</sys_name>
         <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
-        <sys_update_name>sys_dictionary_x_attme_engr_strat_engineering_strategy_request_report_category_1</sys_update_name>
+        <sys_update_name>sys_dictionary_x_attme_engr_strat_core_capacity_request_report_start_date</sys_update_name>
         <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-11-15 15:43:42</sys_updated_on>
+        <sys_updated_on>2017-11-15 15:49:34</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

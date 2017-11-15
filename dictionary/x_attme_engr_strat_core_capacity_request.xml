@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="x_attme_engr_strat_engineering_strategy_request" label="Core capacity request" max_length="40" name="x_attme_engr_strat_core_capacity_request" sizeclass="4" type="collection"/>
+    <element audit="true" extends="x_attme_engr_strat_engineering_strategy_request" label="Core capacity request" max_length="40" name="x_attme_engr_strat_core_capacity_request" sizeclass="3" type="collection">
+        <element label="Report end date" max_length="40" name="report_end_date" type="glide_date"/>
+        <element label="Report start date" max_length="40" name="report_start_date" type="glide_date"/>
+    </element>
 </database>
