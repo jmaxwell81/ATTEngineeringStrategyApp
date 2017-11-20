@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element label="Purchase requisition item platform" max_length="40" name="x_attme_engr_strat_platform" type="collection">
-        <element display="true" label="Platform" max_length="100" name="platform" type="string"/>
-    </element>
-</database>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_attme_engr_strat_purchase_requisition</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_attme_engr_strat_purchase_requisition">expense_type=Capex^EQ<item endquery="false" field="expense_type" goto="false" newquery="false" operator="=" or="false" value="Capex"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>PRQ calculate capex aging information</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	var sched = new GlideSchedule('730837a5db2a4b00e7bbdbbb5e96194d');
+	
+	
+	//calculo de la duración de la entrega del NET ID
+	var net_id_request_date_glide = new GlideDateTime(current.net_id_request_date);
+	var net_id_delivery_date_glide = new GlideDateTime(current.net_id_delivery_date);
+		
+	var net_id_dur = sched.duration(net_id_request_date_glide, net_id_delivery_date_glide);
+	current.net_id_requested_to_delivered_duration = net_id_dur.getDurationValue();
+		
+	
+	//calculo de la duración de la entrega del PR
+	var pr_request_date_glide = new GlideDateTime(current.pr_request_date);
+	var pr_delivery_date_glide = new GlideDateTime(current.pr_delivery_date);
+		
+	var pr_dur = sched.duration(pr_request_date_glide, pr_delivery_date_glide);
+	current.pr_requested_to_delivered_duration = pr_dur.getDurationValue();
+	
+	
+    //calculo de la duración de la entrega del RFQ
+	var rfq_request_date_glide = new GlideDateTime(current.rfq_request_date);
+	var rfq_delivery_date_glide = new GlideDateTime(current.rfq_delivery_date);
+		
+	var rfq_dur = sched.duration(rfq_request_date_glide, rfq_delivery_date_glide);
+	current.rfq_requested_to_delivered_duration = rfq_dur.getDurationValue();
+	
+	
+	//calculo de la duración de la entrega del Requisition
+	var requisition_request_date_glide = new GlideDateTime(current.requisition_request_date);
+	var requisition_delivery_date_glide = new GlideDateTime(current.requisition_delivery_date);
+		
+	var requisition_dur = sched.duration(requisition_request_date_glide, requisition_delivery_date_glide);
+	current.requisition_requested_to_delivered_duration = requisition_dur.getDurationValue();
+
+	
+	//calculo de la duración de la entrega del PO HW
+	var po_hw_request_date_glide = new GlideDateTime(current.po_hw_request_date);
+	var po_hw_delivery_date_glide = new GlideDateTime(current.po_hw_delivery_date);
+		
+	var po_hw_dur = sched.duration(po_hw_request_date_glide, po_hw_delivery_date_glide);
+	current.po_hw_requested_to_delivered_duration = po_hw_dur.getDurationValue();
+	
+	
+	//calculo de la duración de la entrega del PO SW
+	var po_sw_request_date_glide = new GlideDateTime(current.po_sw_request_date);
+	var po_sw_delivery_date_glide = new GlideDateTime(current.po_sw_delivery_date);
+		
+	var po_sw_dur = sched.duration(po_sw_request_date_glide, po_sw_delivery_date_glide);
+	current.po_sw_requested_to_delivered_duration = po_sw_dur.getDurationValue();
+	
+	
+	//calculo de la duración de la entrega del PO installation service
+	var po_installation_service_request_date_glide = new GlideDateTime(current.po_installation_service_request_date);
+	var po_installation_service_delivery_date_glide = new GlideDateTime(current.po_installation_service_delivery_date);
+		
+	var po_installation_service_dur = sched.duration(po_installation_service_request_date_glide, po_installation_service_delivery_date_glide);
+	current.po_installation_service_requested_to_delivered_duration = po_installation_service_dur.getDurationValue();
+	
+	
+	//calculo de la duración de la entrega del PO config & integration service
+	var po_config_integration_request_date_glide = new GlideDateTime(current.po_config_integration_request_date);
+	var po_config_integration_delivery_date_glide = new GlideDateTime(current.po_config_integration_delivery_date);
+		
+	var po_config_integration_dur = sched.duration(po_config_integration_request_date_glide, po_config_integration_delivery_date_glide);
+	current.po_config_integration_requested_to_delivered_duration = po_config_integration_dur.getDurationValue();
+	
+	
+	//calculo de la duración de la entrega del PO others
+	var po_others_request_date_glide = new GlideDateTime(current.po_others_request_date);
+	var po_others_delivery_date_glide = new GlideDateTime(current.po_others_delivery_date);
+		
+	var po_others_dur = sched.duration(po_others_request_date_glide, po_others_delivery_date_glide);
+	current.po_others_requested_to_delivered_duration = po_others_dur.getDurationValue();
+	
+	
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>hugo.ruano</sys_created_by>
+        <sys_created_on>2017-11-20 19:00:31</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5e4b77e5db2a4b00e7bbdbbb5e96196c</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>PRQ calculate capex aging information</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
+        <sys_update_name>sys_script_5e4b77e5db2a4b00e7bbdbbb5e96196c</sys_update_name>
+        <sys_updated_by>hugo.ruano</sys_updated_by>
+        <sys_updated_on>2017-11-20 19:56:45</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=5e4b77e5db2a4b00e7bbdbbb5e96196c"/>
+</record_update>

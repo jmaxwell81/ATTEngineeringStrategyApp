@@ -46,44 +46,44 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>3</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-12 21:05:45</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>d07b8b8fdb9a8700e7bbdbbb5e9619b7</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_attme_engr_strat_purchase_requisition" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="Default view">ed493c22db1a030028f3d5ab5e96197f</sys_ui_form>
-            <sys_ui_section caption="Capex tracking state information" display_value="Capex tracking state information" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="Default view">5c7b8b8fdb9a8700e7bbdbbb5e9619b6</sys_ui_section>
-            <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-12 21:05:45</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>4</position>
-            <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-12 21:20:20</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>82ce4fcfdb9a8700e7bbdbbb5e96195f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_attme_engr_strat_purchase_requisition" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="Default view">ed493c22db1a030028f3d5ab5e96197f</sys_ui_form>
-            <sys_ui_section caption="Opex tracking state information" display_value="Opex tracking state information" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="Default view">0ece4fcfdb9a8700e7bbdbbb5e96195e</sys_ui_section>
-            <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-12 21:20:20</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>5</position>
-            <sys_created_by>hugo.ruano</sys_created_by>
             <sys_created_on>2017-11-13 17:55:52</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>34996393dbd6430028f3d5ab5e961946</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_attme_engr_strat_purchase_requisition" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="Default view">ed493c22db1a030028f3d5ab5e96197f</sys_ui_form>
             <sys_ui_section caption="Worklog" display_value="Worklog" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="Default view">fc996393dbd6430028f3d5ab5e961945</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-13 17:55:52</sys_updated_on>
+            <sys_updated_on>2017-11-20 17:46:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-20 18:32:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a4257765db2a4b00e7bbdbbb5e961940</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_attme_engr_strat_purchase_requisition" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="Default view">ed493c22db1a030028f3d5ab5e96197f</sys_ui_form>
+            <sys_ui_section caption="Capex aging information" display_value="Capex aging information" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="Default view">10257765db2a4b00e7bbdbbb5e961940</sys_ui_section>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-20 18:32:42</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-20 20:03:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>600acc3ddb2a4b00e7bbdbbb5e9619ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_attme_engr_strat_purchase_requisition" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="Default view">ed493c22db1a030028f3d5ab5e96197f</sys_ui_form>
+            <sys_ui_section caption="Opex aging information" display_value="Opex aging information" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="Default view">e80acc3ddb2a4b00e7bbdbbb5e9619ec</sys_ui_section>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-20 20:03:55</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_attme_engr_strat_purchase_requisition</name>

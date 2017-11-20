@@ -5,25 +5,6 @@
             <dependent_value/>
             <element>item_classification</element>
             <hint/>
-            <inactive>true</inactive>
-            <label>Installation service</label>
-            <language>en</language>
-            <name>x_attme_engr_strat_purchase_requisition</name>
-            <sequence>0</sequence>
-            <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-10 20:59:43</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>bce6b022db1a030028f3d5ab5e961996</sys_id>
-            <sys_mod_count>4</sys_mod_count>
-            <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-12 21:16:26</sys_updated_on>
-            <value>Installation service</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>item_classification</element>
-            <hint/>
             <inactive>false</inactive>
             <label>SW</label>
             <language>en</language>
@@ -34,29 +15,10 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>f0e6b022db1a030028f3d5ab5e961925</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-12 19:41:20</sys_updated_on>
-            <value>SQ</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>item_classification</element>
-            <hint/>
-            <inactive>true</inactive>
-            <label>Config. &amp; integration service</label>
-            <language>en</language>
-            <name>x_attme_engr_strat_purchase_requisition</name>
-            <sequence>1</sequence>
-            <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-12 19:41:09</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>4508fac7db9a8700e7bbdbbb5e961962</sys_id>
-            <sys_mod_count>5</sys_mod_count>
-            <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-12 21:16:26</sys_updated_on>
-            <value>Config. &amp; integration service</value>
+            <sys_updated_on>2017-11-20 18:22:33</sys_updated_on>
+            <value>SW</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -82,38 +44,38 @@
             <element>item_classification</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Serv. instalación</label>
+            <label>Installation service</label>
             <language>en</language>
             <name>x_attme_engr_strat_purchase_requisition</name>
             <sequence>2</sequence>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-12 21:16:26</sys_created_on>
+            <sys_created_on>2017-11-10 20:59:43</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>fced4bcfdb9a8700e7bbdbbb5e961972</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>bce6b022db1a030028f3d5ab5e961996</sys_id>
+            <sys_mod_count>7</sys_mod_count>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-12 21:16:26</sys_updated_on>
-            <value>Serv. instalación</value>
+            <sys_updated_on>2017-11-20 18:22:53</sys_updated_on>
+            <value>Installation service</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>item_classification</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Serv. config. e integración</label>
+            <label>Config. &amp; integration service</label>
             <language>en</language>
             <name>x_attme_engr_strat_purchase_requisition</name>
             <sequence>3</sequence>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-12 21:16:26</sys_created_on>
+            <sys_created_on>2017-11-12 19:41:09</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>3ced4bcfdb9a8700e7bbdbbb5e961973</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>4508fac7db9a8700e7bbdbbb5e961962</sys_id>
+            <sys_mod_count>7</sys_mod_count>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-12 21:16:26</sys_updated_on>
-            <value>Serv. config. e integración</value>
+            <sys_updated_on>2017-11-20 18:22:50</sys_updated_on>
+            <value>Config. &amp; integration service</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>item_classification</element>
@@ -123,7 +85,7 @@
             <sys_created_on>2017-11-10 20:59:43</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_id>bce6b022db1a030028f3d5ab5e961995</sys_id>
-            <sys_mod_count>14</sys_mod_count>
+            <sys_mod_count>22</sys_mod_count>
             <sys_name>item_classification</sys_name>
             <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
             <sys_policy/>
@@ -131,7 +93,7 @@
             <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
             <sys_update_name>sys_choice_x_attme_engr_strat_purchase_requisition_item_classification</sys_update_name>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-12 21:16:26</sys_updated_on>
+            <sys_updated_on>2017-11-20 18:22:53</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>
