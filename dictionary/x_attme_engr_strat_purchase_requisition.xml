@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="x_attme_engr_strat_capex_opex_request" label="Purchase requisition" max_length="40" name="x_attme_engr_strat_purchase_requisition" sizeclass="3" type="collection">
+    <element audit="true" extends="x_attme_engr_strat_capex_opex_request" label="Purchase requisition" max_length="40" name="x_attme_engr_strat_purchase_requisition" sizeclass="1" type="collection">
         <element choice="1" label="Expense type" max_length="40" name="expense_type" type="choice">
             <choice>
                 <element label="Capex" sequence="0" value="Capex"/>
@@ -9,7 +9,7 @@
         </element>
         <element label="Sended to finance dept. date" max_length="40" name="finance_date" type="glide_date"/>
         <element attributes="omit_sys_original=true" label="Initial amount" max_length="15" name="initial_amount" type="currency"/>
-        <element label="Purchase requisition Excel file URL" max_length="1024" name="input_document_url" type="url"/>
+        <element default="&lt;Insert your Ajax URL or TSpace URL where specific files for this request can be found&gt;" label="Purchase requisition Excel file URL" max_length="1024" name="input_document_url" type="url"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Item classification" max_length="40" name="item_classification" type="string">
             <choice>
                 <element label="SW" sequence="0" value="SW"/>
