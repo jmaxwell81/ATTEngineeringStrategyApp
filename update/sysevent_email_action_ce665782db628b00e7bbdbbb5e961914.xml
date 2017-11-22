@@ -26,8 +26,8 @@
         <mandatory>false</mandatory>
         <message/>
         <message_html><![CDATA[<p><span style="font-family: verdana, geneva;"><font face="verdana, geneva">Buen d&iacute;a</font></span></p>
-<p><span style="font-family: verdana, geneva;">Se notifica que la tarea de reporte mensual&nbsp;<em>${number} - ${short_description}</em> ha sido <strong>colocada en estado "Delivered"</strong>.&nbsp;</span>&nbsp;</p>
-<p><span style="font-family: verdana, geneva;"><strong>Si usted se encuentra asignado para conglomerar la informaci&oacute;n del reporte mensual favor de revisar que la presente solicitud haya sido entregada correctamente y cerrarla o reabrirla seg&uacute;n sea el caso.</strong> Puede ver&nbsp;mayor detalle de la solicitud dando click en el siguiente link ${URI}.</span></p>
+<p><span style="font-family: verdana, geneva;">Se notifica que la tarea de reporte mensual&nbsp;<em>${number} - ${short_description}</em> ha sido <strong>colocada en estado "Delivered"</strong>. Esta solicitud fue completada por ${assigned_to}.&nbsp;&nbsp;</span></p>
+<p><span style="font-family: verdana, geneva;"><strong>Si usted se encuentra encargado de conglomerar la informaci&oacute;n del reporte mensual favor de revisar que la presente solicitud haya sido entregada correctamente y seg&uacute;n sea el caso cerrarla o reabrirla.</strong> Puede &nbsp;acceder a la solicitud dando click en el siguiente link ${URI}.</span></p>
 <p><span style="font-family: verdana, geneva;">Saludos</span></p>
 <p><span style="font-family: verdana, geneva;">${mail_script:Capacity mgmt - delivered notification recipients}</span></p>]]></message_html>
         <message_list/>
@@ -43,7 +43,7 @@
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Solicititud entregada: ${number} - ${short_description}</subject>
+        <subject>Solicititud entregada: ${number} - ${short_description} (asignada a: ${assigned_to})</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>hugo.ruano</sys_created_by>
@@ -52,7 +52,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ce665782db628b00e7bbdbbb5e961914</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>CCR delivered</sys_name>
         <sys_overrides/>
         <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
         <sys_update_name>sysevent_email_action_ce665782db628b00e7bbdbbb5e961914</sys_update_name>
         <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-11-22 05:35:25</sys_updated_on>
+        <sys_updated_on>2017-11-22 19:08:37</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
