@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>El presente client script controla el campo "assigned to" por los diferentes estados que pueda estar en una "transport capacity request".</description>
+        <field>active</field>
+        <global>true</global>
+        <messages/>
+        <name>TCR assigned to field control</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	
+	//inicializamos algunas variables
+	var user_id = g_user.userID;
+	var user_group_id = g_form.getValue('assignment_group');
+	
+	// Si el estado es "open" entonces el campo assigned to  no es visible y no obligatorio
+	if(g_form.getValue('state') == 1)
+	{
+		g_form.setDisplay('assigned_to', false);
+		g_form.setMandatory('assigned_to', false);
+	}
+		
+	// Si el estado es "reviewing information" entonces el campo "assigned to" es ocultado
+	if(g_form.getValue('state') == 10)
+	{
+		g_form.setDisplay('assigned_to', false);
+	}
+	
+	// Si el estado es "rejected" entonces el campo "assigned to" es ocultado
+	if(g_form.getValue('state') == 11)
+	{
+		g_form.setDisplay('assigned_to', false);
+	}
+	
+	// Si el estado es "accepted" el campo assigned to es ocultado
+	if(g_form.getValue('state') == 12)
+	{
+		g_form.setDisplay('assigned_to', true);
+		g_form.setMandatory('assigned_to', true);
+		
+	}
+	
+	//  Si el estado es "assigned" entonces el campo "assigned to" es visible
+	if(g_form.getValue('state') == 13)
+	{
+		g_form.setDisplay('assigned_to', true);
+		g_form.setMandatory('assigned_to', true);
+	}
+	
+	//  Si el estado es "work in progress" entonces el campo "assigned to" es visible
+	if(g_form.getValue('state') == 2)
+	{
+		g_form.setDisplay('assigned_to', true);
+		g_form.setMandatory('assigned_to', true);
+		
+	}
+	
+	//  Si el estado es "on hold" entonces el campo "assigned to" es visible
+	if(g_form.getValue('state') == 9)
+	{
+		g_form.setDisplay('assigned_to', true);
+		g_form.setMandatory('assigned_to', true);
+	}
+	
+	
+	//  Si el estado es "closed" entonces el campo "assigned to" es visible
+	if(g_form.getValue('state') == 7)
+	{
+		g_form.setDisplay('assigned_to', true);
+		g_form.setMandatory('assigned_to', true);
+	}
+	
+	// Si el estado es "cancelled" entonces el campo "assigned to" es visible
+	if(g_form.getValue('state') == 8)
+	{
+		g_form.setDisplay('assigned_to', false);
+	}
+}
+
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>hugo.ruano</sys_created_by>
+        <sys_created_on>2017-11-21 23:56:56</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>33e88286dbee4b00e7bbdbbb5e9619cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TCR assigned to field control</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
+        <sys_update_name>sys_script_client_33e88286dbee4b00e7bbdbbb5e9619cd</sys_update_name>
+        <sys_updated_by>hugo.ruano</sys_updated_by>
+        <sys_updated_on>2017-11-21 23:56:56</sys_updated_on>
+        <table>x_attme_engr_strat_transport_capacity_request</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

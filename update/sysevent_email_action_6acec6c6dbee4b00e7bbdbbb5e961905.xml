@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <collection>x_attme_engr_strat_transport_capacity_request</collection>
+        <condition table="x_attme_engr_strat_transport_capacity_request">sys_class_name=x_attme_engr_strat_transport_capacity_request^EQ<item endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="false" value="x_attme_engr_strat_transport_capacity_request"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>multipart/mixed</content_type>
+        <description>Esta notificación es enviada al solicitante cuando en el registro de petición esta es rechazada.</description>
+        <event_name>x_attme_engr_strat.rejected_request</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><span style="font-family: verdana, geneva;"><font face="verdana,geneva">Estimado(a) ${requested_for}</font></span></p>
+<p><span style="font-family: verdana, geneva;"><font face="verdana,geneva">Le informamos que su solicitud <em>${number} - ${short_description}</em> ha sido <strong>rechazada</strong>.</font></span></p>
+<p><span style="font-family: verdana, geneva;"><font face="verdana,geneva"><strong>Detalle de rechazo: </strong>${reject_reason}</font></span></p>
+<p><span style="font-family: verdana, geneva;"><font face="verdana,geneva">Favor de corregir la informaci&oacute;n proporcionada en la solicitud, puede acceder a esta a trav&eacute;s de la siguiente liga: ${URI}</font></span></p>
+<p><span style="font-family: verdana, geneva;"><font face="verdana,geneva">Saludos</font></span></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>TCR rejected request</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Solicitud rechazada: ${number} - ${short_description} </subject>
+        <subscribable>true</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>hugo.ruano</sys_created_by>
+        <sys_created_on>2017-11-22 00:22:32</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6acec6c6dbee4b00e7bbdbbb5e961905</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TCR rejected request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
+        <sys_update_name>sysevent_email_action_6acec6c6dbee4b00e7bbdbbb5e961905</sys_update_name>
+        <sys_updated_by>hugo.ruano</sys_updated_by>
+        <sys_updated_on>2017-11-22 00:22:32</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>
