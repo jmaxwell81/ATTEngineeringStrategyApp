@@ -24,7 +24,8 @@ function createMonthlyReportTasks()
 	var core_team = gs.getProperty('x_attme_engr_strat.SysIdTeamCoreTeam');
 	var transport_assigned_to = [];
 	var core_assigned_to = [];
-	
+	var current_month = getCurrentMonth();
+	var current_year = getCurrentYear();
 	
 	//determinamos la cantidad de personas para las cuales se les debe de crear una tarea de reporte mensual para el equipo de transporte
 	
@@ -57,14 +58,14 @@ function createMonthlyReportTasks()
 	{
 		var monthly_task_1 = new GlideRecord('x_attme_engr_strat_transport_capacity_request');
 	    monthly_task_1.request_type = 'Monthly report';
-	    monthly_task_1.short_description = 'Solicitud de reporte mensual';
-	    monthly_task_1.description = 'Solicitud de reporte mensual. Tarea creada de manera automática';
+	    monthly_task_1.short_description = 'Solicitud de reporte mensual ' + current_month + "/" + current_year;
+	    monthly_task_1.description =  'Solicitud de reporte mensual ' + current_month + "/" + current_year + '. Tarea creada de manera automática';
 		monthly_task_1.work_notes = 'Solicitud creada de manera automática';
 		monthly_task_1.state = 13; //estado assigned
 		monthly_task_1.assigment_group = transport_team;
 	    monthly_task_1.assigned_to = transport_assigned_to[i];
 		monthly_task_1.insert();
-		gs.info("Tarea creada: " + monthly_task_1.number);
+		
 	}
 	
 	//creamos las tareas para el equipo de capacidad core
@@ -73,23 +74,94 @@ function createMonthlyReportTasks()
 	{
 		var monthly_task_2 = new GlideRecord('x_attme_engr_strat_core_capacity_request');
 	    monthly_task_2.request_type = 'Monthly report';
-	    monthly_task_2.short_description = 'Solicitud de reporte mensual';
-	    monthly_task_2.description = 'Solicitud de reporte mensual. Tarea creada de manera automática';
+	    monthly_task_2.short_description = 'Solicitud de reporte mensual ' + current_month + "/" + current_year;
+	    monthly_task_2.description =  'Solicitud de reporte mensual ' + current_month + "/" + current_year + '. Tarea creada de manera automática';
 		monthly_task_2.work_notes = 'Solicitud creada de manera automática.';
 		monthly_task_2.state = 13; //estado assigned
 		monthly_task_2.assignment_group = core_team;
 	    monthly_task_2.assigned_to = core_assigned_to[j];
 		monthly_task_2.insert();
-		gs.info("Tarea creada: " + monthly_task_2.number);
+		
 	}
 		
-}]]></script>
+}
+
+
+//la siguiente función devuelve el nombre del mes en curso
+function getCurrentMonth()
+{
+	var now = new GlideDateTime();
+    var now_month_name;
+	
+	now = now.toString();
+    var now_split_1 = now.split(" ");
+
+    //para obtener año, mes y dia
+    var now_split_2 = now_split_1[0].split("-");
+    var now_month = now_split_2[1];
+    
+    if(now_month == '01')
+    { now_month_name = 'Enero';}
+
+    if(now_month == '02')
+    { now_month_name = 'Febrero';}
+
+    if(now_month == '03')
+    { now_month_name = 'Marzo';}
+
+    if(now_month == '04')
+    { now_month_name = 'Abril';}
+
+    if(now_month == '05')
+    { now_month_name = 'Mayo';}
+
+    if(now_month == '06')
+    { now_month_name = 'Junio';}
+
+    if(now_month == '07')
+    { now_month_name = 'Julio';}
+
+    if(now_month == '08')
+    { now_month_name = 'Agosto';}
+
+    if(now_month == '09')
+    { now_month_name = 'Septiembre';}
+
+    if(now_month == '10')
+    { now_month_name = 'Octubre';}
+
+    if(now_month == '11')
+    { now_month_name = 'Noviembre';}
+
+    if(now_month == '12')
+    { now_month_name = 'Diciembre';}
+
+    return now_month_name;
+}
+
+
+//la siguiente función devuelve el año en curso
+function getCurrentYear()
+{
+	var now = new GlideDateTime();
+    var now_year;
+	
+	now = now.toString();
+    var now_split_1 = now.split(" ");
+
+    //para obtener año, mes y dia
+    var now_split_2 = now_split_1[0].split("-");
+    now_year = now_split_2[0];
+	
+	return now_year;
+}
+]]></script>
         <sys_class_name>sysauto_script</sys_class_name>
         <sys_created_by>hugo.ruano</sys_created_by>
         <sys_created_on>2017-11-09 22:34:08</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>67f5f3cadb92030028f3d5ab5e9619f6</sys_id>
-        <sys_mod_count>33</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_name>Capacity management  - Monthly report</sys_name>
         <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
         <sys_policy/>
@@ -97,7 +169,7 @@ function createMonthlyReportTasks()
         <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
         <sys_update_name>sysauto_script_67f5f3cadb92030028f3d5ab5e9619f6</sys_update_name>
         <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-11-22 01:16:56</sys_updated_on>
+        <sys_updated_on>2017-11-22 06:17:39</sys_updated_on>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_script>
 </record_update>

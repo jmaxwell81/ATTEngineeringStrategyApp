@@ -8,10 +8,10 @@
                 <element label="Other" sequence="2" value="Other"/>
             </choice>
         </element>
-        <element label="Problemt ticket" max_length="40" name="problemt_ticket" type="string"/>
+        <element label="Problem ticket" max_length="40" name="problemt_ticket" type="string"/>
         <element default="0" label="Reject count" max_length="40" name="reject_count" read_only="true" type="integer"/>
         <element label="Reject reason" max_length="1000" name="reject_reason" type="string"/>
-        <element label="Report category 1" max_length="32" name="report_category_1" reference="x_attme_engr_strat_capacity_report_category_1" reference_qual="category_type=Core category^EQ" reference_qual_condition="category_type=Core category^EQ" type="reference"/>
+        <element label="Report category 1" max_length="32" name="report_category_1" reference="x_attme_engr_strat_capacity_report_category_1" type="reference"/>
         <element dependent="report_category_1" dependent_on_field="report_category_1" label="Report category 2" max_length="32" name="report_category_2" reference="x_attme_engr_strat_capacity_report_category_2" reference_qual="javascript:&quot;parent_category_1=&quot; + current.report_category_1;" type="reference" use_dependent_field="true" use_reference_qualifier="advanced"/>
         <element dependent="report_category_2" dependent_on_field="report_category_2" label="Report category 3" max_length="32" name="report_category_3" reference="x_attme_engr_strat_capacity_report_category_3" reference_qual="javascript:&quot;parent_category_2=&quot; + current.report_category_2;" type="reference" use_dependent_field="true" use_reference_qualifier="advanced"/>
         <element label="Report end date" max_length="40" name="report_end_date" type="glide_date"/>
