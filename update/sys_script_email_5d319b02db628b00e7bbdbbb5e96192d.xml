@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name/>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+/* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+/* Optional GlideRecord */ event) {
+	
+	var delivered_request = current.sys_id;
+	var transport_team = gs.getProperty('x_attme_engr_strat.SysIdTeamTransportTeam') ; 
+	var core_team = gs.getProperty('x_attme_engr_strat.SysIdTeamCoreTeam');
+	var transport_team_emails = [];
+	var core_team_emails = [];
+	var transport_team_names = [];
+	var core_team_names = [];
+	
+	//determinamos las personas que pertenecen al grupo de Transport capacity management
+	
+	var transport_group_member = new GlideRecord('sys_user_grmember');
+	transport_group_member.addQuery('group', transport_team);
+	transport_group_member.query();
+	
+	while(transport_group_member.next())
+	{   
+		transport_team_emails.push(transport_group_member.user.email); 
+		transport_team_names.push(transport_group_member.user.name);
+	}
+	
+		
+	//determinamos las personas que pertenecen al grupo de Core capacity management
+	
+	var core_group_member = new GlideRecord('sys_user_grmember');
+	core_group_member.addQuery('group', core_team);
+	core_group_member.query();
+	
+	while(core_group_member.next())
+	{   
+		core_team_emails.push(core_group_member.user.email); 
+		core_team_names.push(core_group_member.user.name);
+	}
+
+		
+	//agregamos el contenido de los registros de los arreglos en los "recipients"
+	
+	for(var i=0; i<transport_team_emails.length; i++)
+	{		
+		email.addAddress("cc", transport_team_emails[i].toString(), transport_team_names[i].toString());
+	}
+	
+	for(var j=0; j<transport_team_emails.length; j++)
+	{		
+		email.addAddress("cc", core_team_emails[j].toString(), core_team_names[i].toString());
+	}
+		
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>hugo.ruano</sys_created_by>
+        <sys_created_on>2017-11-22 05:12:47</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>5d319b02db628b00e7bbdbbb5e96192d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
+        <sys_update_name>sys_script_email_5d319b02db628b00e7bbdbbb5e96192d</sys_update_name>
+        <sys_updated_by>hugo.ruano</sys_updated_by>
+        <sys_updated_on>2017-11-22 05:12:47</sys_updated_on>
+    </sys_script_email>
+</record_update>

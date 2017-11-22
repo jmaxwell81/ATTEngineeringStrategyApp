@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="contract_sla">
+    <contract_sla action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <cancel_condition table="x_attme_engr_strat_transport_capacity_request">state=8^request_type=On demand report^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="8"/>
+            <item endquery="false" field="request_type" goto="false" newquery="false" operator="=" or="false" value="On demand report"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </cancel_condition>
+        <collection>x_attme_engr_strat_transport_capacity_request</collection>
+        <condition_class/>
+        <duration>1970-01-02 16:00:00</duration>
+        <duration_type/>
+        <enable_logging>false</enable_logging>
+        <name>Transport capacity on demand report SLA</name>
+        <pause_condition table="x_attme_engr_strat_transport_capacity_request">state=9^ORstate=6^request_type=On demand report^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="9"/>
+            <item endquery="false" field="state" goto="false" newquery="false" operator="=" or="true" value="6"/>
+            <item endquery="false" field="request_type" goto="false" newquery="false" operator="=" or="false" value="On demand report"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </pause_condition>
+        <relative_duration_works_on>Task record</relative_duration_works_on>
+        <reset_condition/>
+        <resume_condition/>
+        <retroactive>true</retroactive>
+        <retroactive_pause>true</retroactive_pause>
+        <schedule display_value="AT&amp;T L-V 09 a 18 hrs">9d40fa68db4dbe0028f3d5ab5e9619da</schedule>
+        <schedule_source>sla_definition</schedule_source>
+        <schedule_source_field/>
+        <set_start_to>work_start</set_start_to>
+        <start_condition table="x_attme_engr_strat_transport_capacity_request">stateIN12,13,2,9^request_type=On demand report^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="12,13,2,9"/>
+            <item endquery="false" field="request_type" goto="false" newquery="false" operator="=" or="false" value="On demand report"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </start_condition>
+        <stop_condition table="x_attme_engr_strat_transport_capacity_request">state=7^request_type=On demand report^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="7"/>
+            <item endquery="false" field="request_type" goto="false" newquery="false" operator="=" or="false" value="On demand report"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </stop_condition>
+        <sys_class_name>contract_sla</sys_class_name>
+        <sys_created_by>hugo.ruano</sys_created_by>
+        <sys_created_on>2017-11-22 02:16:26</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4bd826c2db228b00e7bbdbbb5e9619c4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Transport capacity on demand report SLA</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
+        <sys_update_name>contract_sla_4bd826c2db228b00e7bbdbbb5e9619c4</sys_update_name>
+        <sys_updated_by>hugo.ruano</sys_updated_by>
+        <sys_updated_on>2017-11-22 05:49:56</sys_updated_on>
+        <timezone/>
+        <timezone_source>sla.timezone</timezone_source>
+        <type>SLA</type>
+        <when_to_cancel>on_condition</when_to_cancel>
+        <when_to_resume>on_condition</when_to_resume>
+        <workflow display_value="CR Solution SLA Workflow">a7ff8a4adbee4b00e7bbdbbb5e961975</workflow>
+    </contract_sla>
+</record_update>

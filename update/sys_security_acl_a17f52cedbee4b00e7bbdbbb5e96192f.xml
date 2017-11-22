@@ -4,25 +4,26 @@
         <active>true</active>
         <admin_overrides>true</admin_overrides>
         <advanced>false</advanced>
-        <condition/>
-        <description>Default access control on x_attme_engr_strat_transport_capacity_request</description>
-        <name>x_attme_engr_strat_transport_capacity_request</name>
-        <operation display_value="delete">delete</operation>
+        <condition table="x_attme_engr_strat_core_capacity_request.description">stateIN1,10,11^requested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description>Solo el solicitante puede modificar la información del campo "description"</description>
+        <name>x_attme_engr_strat_core_capacity_request.description</name>
+        <operation display_value="write">write</operation>
         <script/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>hugo.ruano</sys_created_by>
-        <sys_created_on>2017-11-05 16:50:17</sys_created_on>
+        <sys_created_on>2017-11-22 01:35:22</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>06dd8230db9ec30028f3d5ab5e9619a7</sys_id>
+        <sys_id>a17f52cedbee4b00e7bbdbbb5e96192f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_attme_engr_strat_transport_capacity_request</sys_name>
+        <sys_name>x_attme_engr_strat_core_capacity_request.description</sys_name>
         <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
-        <sys_update_name>sys_security_acl_06dd8230db9ec30028f3d5ab5e9619a7</sys_update_name>
+        <sys_update_name>sys_security_acl_a17f52cedbee4b00e7bbdbbb5e96192f</sys_update_name>
         <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-11-05 16:50:17</sys_updated_on>
+        <sys_updated_on>2017-11-22 01:35:22</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>

@@ -62,6 +62,12 @@
 		g_form.setMandatory('assignment_group', true);
 	}
 	
+	// If the state is delivered then the assignment group is visible and mandatory
+	if(g_form.getValue('state') == 6)
+	{
+		g_form.setDisplay('assignment_group', true);
+		g_form.setMandatory('assignment_group', true);
+	}
 	
 	// If the state is closed then assignment group is visible and mandatory
 	if(g_form.getValue('state') == 7)
@@ -84,7 +90,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>77674286dbee4b00e7bbdbbb5e9619e6</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>CCR assigment group field control</sys_name>
         <sys_overrides/>
         <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
@@ -93,7 +99,7 @@
         <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
         <sys_update_name>sys_script_client_77674286dbee4b00e7bbdbbb5e9619e6</sys_update_name>
         <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-11-21 23:52:41</sys_updated_on>
+        <sys_updated_on>2017-11-22 02:45:27</sys_updated_on>
         <table>x_attme_engr_strat_core_capacity_request</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>
