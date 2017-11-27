@@ -1,16 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="x_attme_engr_strat_capex_opex_request" label="Purchase requisition" max_length="40" name="x_attme_engr_strat_purchase_requisition" sizeclass="2" type="collection">
+    <element audit="true" extends="x_attme_engr_strat_capex_opex_request" label="Purchase requisition" max_length="40" name="x_attme_engr_strat_purchase_requisition" sizeclass="4" type="collection">
+        <element label="Amount derived in Opex" max_length="40" name="amount_derived_in_opex" type="float"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="MXN" label="Opex amount currency" max_length="40" name="amount_derived_in_opex_currency" type="string">
+            <choice>
+                <element label="MXN" sequence="0" value="MXN"/>
+                <element label="USD" sequence="1" value="USD"/>
+            </choice>
+        </element>
+        <element label="Awarded amount" max_length="40" name="awarded_amount" type="float"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="MXN" label="Awarded amount currency" max_length="40" name="awarded_amount_currency" type="string">
+            <choice>
+                <element label="MXN" sequence="0" value="MXN"/>
+                <element label="USD" sequence="1" value="USD"/>
+            </choice>
+        </element>
         <element choice="1" label="Expense type" max_length="40" name="expense_type" type="choice">
             <choice>
                 <element label="Capex" sequence="0" value="Capex"/>
                 <element label="Opex" sequence="1" value="Opex"/>
             </choice>
         </element>
-        <element label="Sended to finance dept. date" max_length="40" name="finance_date" type="glide_date"/>
-        <element attributes="omit_sys_original=true" label="Initial amount" max_length="15" name="initial_amount" type="currency"/>
-        <element default="&lt;Insert your Ajax URL or TSpace URL where specific files for this request can be found&gt;" label="Purchase requisition Excel file URL" max_length="1024" name="input_document_url" type="url"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Item classification" max_length="40" name="item_classification" type="string">
+        <element label="Sent to finance dept. date" max_length="40" name="finance_date" type="glide_date"/>
+        <element label="Initial amount" max_length="40" name="initial_amount" type="float"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="MXN" label="Initial amount currency" max_length="40" name="initial_amount_currency" type="string">
+            <choice>
+                <element label="MXN" sequence="0" value="MXN"/>
+                <element label="USD" sequence="1" value="USD"/>
+            </choice>
+        </element>
+        <element default="&lt;Insert your Ajax URL or TSpace URL where specific files for this request can be found&gt;" label="Purchase requisition Excel file URL" mandatory="true" max_length="1024" name="input_document_url" type="url"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Item classification" mandatory="true" max_length="40" name="item_classification" type="string">
             <choice>
                 <element label="SW" sequence="0" value="SW"/>
                 <element label="HW" sequence="1" value="HW"/>
@@ -108,6 +128,7 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="PO SW status observations" max_length="255" name="po_sw_status_observations" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="PR" max_length="40" name="pr" type="string"/>
+        <element label="Project" mandatory="true" max_length="32" name="project" reference="x_attme_engr_strat_project" type="reference"/>
         <element label="PR delivery date" max_length="40" name="pr_delivery_date" type="glide_date"/>
         <element label="PR requested to delivered duration" max_length="40" name="pr_requested_to_delivered_duration" read_only="true" type="glide_duration"/>
         <element label="PR request date" max_length="40" name="pr_request_date" type="glide_date"/>
@@ -118,7 +139,7 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="PR status observations" max_length="255" name="pr_status_observations" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Purchase type" max_length="40" name="purchase_type" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Purchase type" mandatory="true" max_length="40" name="purchase_type" type="string">
             <choice>
                 <element label="Bidding" sequence="0" value="Bidding"/>
                 <element label="Direct assignment" sequence="1" value="Direct assignment"/>
@@ -135,7 +156,7 @@
                 <element label="Fnished" sequence="2" value="Finished"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Requisition status observations" max_length="255" name="requisition_status_observations" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Req. status observations" max_length="255" name="requisition_status_observations" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="RFQ" max_length="40" name="rfq" type="string"/>
         <element label="RFQ delivery date" max_length="40" name="rfq_delivery_date" type="glide_date"/>
         <element label="RFQ requested to delivered duration" max_length="40" name="rfq_requested_to_delivered_duration" read_only="true" type="glide_duration"/>
@@ -162,7 +183,6 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="SOCA status observations" max_length="255" name="soca_status_observations" type="string"/>
-        <element attributes="omit_sys_original=true" label="Awarded amount" max_length="15" name="u_currency_6" type="currency"/>
-        <element attributes="edge_encryption_enabled=true" label="Vendor" max_length="40" name="vendor" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vendor" max_length="40" name="vendor" reference="x_attme_engr_strat_vendor" type="reference"/>
     </element>
 </database>

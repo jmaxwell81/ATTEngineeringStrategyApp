@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Capex aging information" section_id="770e966bdbeacb00e7bbdbbb5e961975" sys_domain="global" table="x_attme_engr_strat_purchase_requisition" version="3" view="Capex_expense">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>net_id_requested_to_delivered_duration</element>
+            <position>0</position>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-26 17:20:08</sys_created_on>
+            <sys_id>401e966bdbeacb00e7bbdbbb5e96199c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Capex aging information" display_value="Capex aging information" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">770e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-26 17:20:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pr_requested_to_delivered_duration</element>
+            <position>1</position>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-26 17:20:08</sys_created_on>
+            <sys_id>c01e966bdbeacb00e7bbdbbb5e96199c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Capex aging information" display_value="Capex aging information" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">770e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-26 17:20:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rfq_requested_to_delivered_duration</element>
+            <position>2</position>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-26 17:20:08</sys_created_on>
+            <sys_id>441e966bdbeacb00e7bbdbbb5e96199c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Capex aging information" display_value="Capex aging information" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">770e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-26 17:20:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requisition_requested_to_delivered_duration</element>
+            <position>3</position>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-26 17:20:08</sys_created_on>
+            <sys_id>c41e966bdbeacb00e7bbdbbb5e96199c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Capex aging information" display_value="Capex aging information" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">770e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-26 17:20:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>po_hw_requested_to_delivered_duration</element>
+            <position>4</position>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-26 17:20:08</sys_created_on>
+            <sys_id>481e966bdbeacb00e7bbdbbb5e96199c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Capex aging information" display_value="Capex aging information" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">770e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-26 17:20:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>po_sw_requested_to_delivered_duration</element>
+            <position>5</position>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-26 17:20:08</sys_created_on>
+            <sys_id>c81e966bdbeacb00e7bbdbbb5e96199c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Capex aging information" display_value="Capex aging information" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">770e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-26 17:20:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>po_installation_service_requested_to_delivered_duration</element>
+            <position>6</position>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-26 17:20:08</sys_created_on>
+            <sys_id>4c1e966bdbeacb00e7bbdbbb5e96199c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Capex aging information" display_value="Capex aging information" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">770e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-26 17:20:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>po_config_integration_requested_to_delivered_duration</element>
+            <position>7</position>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-26 17:20:08</sys_created_on>
+            <sys_id>cc1e966bdbeacb00e7bbdbbb5e96199c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Capex aging information" display_value="Capex aging information" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">770e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-26 17:20:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>po_others_requested_to_delivered_duration</element>
+            <position>8</position>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-26 17:20:08</sys_created_on>
+            <sys_id>401e966bdbeacb00e7bbdbbb5e96199d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Capex aging information" display_value="Capex aging information" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">770e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-26 17:20:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Capex aging information</caption>
+            <header>false</header>
+            <name>x_attme_engr_strat_purchase_requisition</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-26 17:20:07</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>770e966bdbeacb00e7bbdbbb5e961975</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Capex aging information</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
+            <sys_update_name>sys_ui_section_770e966bdbeacb00e7bbdbbb5e961975</sys_update_name>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-26 17:20:07</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Capex expense" name="Capex_expense">730e966bdbeacb00e7bbdbbb5e961974</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

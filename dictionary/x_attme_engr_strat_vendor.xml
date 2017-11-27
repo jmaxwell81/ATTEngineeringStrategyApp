@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Vendor" max_length="40" name="x_attme_engr_strat_vendor" type="collection">
+        <element display="true" label="Vendor name" mandatory="true" max_length="200" name="vendor_name" type="string"/>
+    </element>
+</database>

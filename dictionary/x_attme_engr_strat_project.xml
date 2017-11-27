@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="Project" max_length="40" name="x_attme_engr_strat_project" type="collection"/>
+    <element label="Project" max_length="40" name="x_attme_engr_strat_project" type="collection">
+        <element label="Account number" max_length="40" name="account_number" type="string"/>
+        <element label="Budget amount" max_length="40" name="budget_amount" type="float"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="MXN" label="Budget amount currency" max_length="40" name="budget_amount_currency" type="string">
+            <choice>
+                <element label="MXN" sequence="0" value="MXN"/>
+                <element label="USD" sequence="1" value="USD"/>
+            </choice>
+        </element>
+        <element display="true" label="Project name" mandatory="true" max_length="200" name="project_name" type="string"/>
+        <element label="Project's responsible" max_length="32" name="project_responsible" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="project_responsible"/>
+        </index>
+    </element>
 </database>

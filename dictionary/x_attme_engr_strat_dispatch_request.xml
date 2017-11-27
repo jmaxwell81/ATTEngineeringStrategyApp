@@ -2,7 +2,13 @@
 <database>
     <element audit="true" extends="x_attme_engr_strat_capex_opex_request" label="Dispatch request" max_length="40" name="x_attme_engr_strat_dispatch_request" sizeclass="1" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Associated PO" max_length="40" name="associated_po" type="string"/>
-        <element attributes="omit_sys_original=true" label="Dispatch amount" max_length="15" name="dispatch_amount" type="currency"/>
+        <element label="Dispatch amount" max_length="40" name="dispatch_amount" type="float"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="MXN" label="Dispatch amount currency" max_length="40" name="dispatch_amount_currency" type="string">
+            <choice>
+                <element label="MXN" sequence="0" value="MXN"/>
+                <element label="USD" sequence="1" value="USD"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Dispatch number" max_length="40" name="dispatch_number" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Dispatch type" max_length="40" name="dispatch_type" type="string">
             <choice>
@@ -14,7 +20,6 @@
         </element>
         <element label="Finance area date" max_length="40" name="finance_area_date" type="glide_date"/>
         <element label="Finance area request date" max_length="40" name="finance_area_request_date" type="glide_date"/>
-        <element attributes="edge_encryption_enabled=true" label="Paid segment" max_length="40" name="paid_segment" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Payment period" max_length="40" name="payment_period" type="string">
             <choice>
                 <element label="January" sequence="1" value="January"/>

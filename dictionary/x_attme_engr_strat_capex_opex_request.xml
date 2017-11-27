@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element extends="task" label="Capex/Opex request" max_length="40" name="x_attme_engr_strat_capex_opex_request" sizeclass="1" type="collection">
-        <element default="javascript: gs.getUserID()" label="Requested for" mandatory="true" max_length="32" name="requested_for" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Requested for" mandatory="true" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
     </element>
 </database>

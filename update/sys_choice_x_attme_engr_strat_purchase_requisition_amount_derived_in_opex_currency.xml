@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="amount_derived_in_opex_currency" table="x_attme_engr_strat_purchase_requisition" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>amount_derived_in_opex_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MXN</label>
+            <language>en</language>
+            <name>x_attme_engr_strat_purchase_requisition</name>
+            <sequence>0</sequence>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-26 16:38:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cc94de67dbeacb00e7bbdbbb5e961933</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-26 16:41:54</sys_updated_on>
+            <value>MXN</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>amount_derived_in_opex_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>USD</label>
+            <language>en</language>
+            <name>x_attme_engr_strat_purchase_requisition</name>
+            <sequence>1</sequence>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-26 16:38:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8c94de67dbeacb00e7bbdbbb5e961934</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-26 16:42:01</sys_updated_on>
+            <value>USD</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>amount_derived_in_opex_currency</element>
+            <name>x_attme_engr_strat_purchase_requisition</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-26 16:38:38</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>c894de67dbeacb00e7bbdbbb5e961934</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_name>amount_derived_in_opex_currency</sys_name>
+            <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
+            <sys_update_name>sys_choice_x_attme_engr_strat_purchase_requisition_amount_derived_in_opex_currency</sys_update_name>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-26 16:42:01</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
