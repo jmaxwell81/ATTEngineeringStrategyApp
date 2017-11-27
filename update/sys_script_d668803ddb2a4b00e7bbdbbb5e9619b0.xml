@@ -21,8 +21,8 @@
         </filter_condition>
         <is_rest>false</is_rest>
         <message/>
-        <name>PRQ calculate opex aging information</name>
-        <order>100</order>
+        <name>PRQ calculate aging information (Opex)</name>
+        <order>110</order>
         <priority>100</priority>
         <rest_method/>
         <rest_method_text/>
@@ -31,50 +31,60 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
-	var sched = new GlideSchedule('730837a5db2a4b00e7bbdbbb5e96194d');
 	
-	
+	var schedule = gs.getProperty('x_attme_engr_strat.scheduleCapexOpexMgmtMonFri24Hours');
+	var sched = new GlideSchedule(schedule, 'Mexico/General');
+		
 	//calculo de la duración de la entrega del OP
-	var op_request_date_glide = new GlideDateTime(current.op_request_date);
-	var op_delivery_date_glide = new GlideDateTime(current.op_delivery_date);
+	var op_request_date = current.op_request_date + " 12:00:00";
+	var op_delivery_date = current.op_delivery_date + " 12:00:00";
+	var op_request_date_glide = new GlideDateTime(op_request_date);
+	var op_delivery_date_glide = new GlideDateTime(op_delivery_date);
 		
 	var op_dur = sched.duration(op_request_date_glide, op_delivery_date_glide);
 	current.op_requested_to_delivered_duration = op_dur.getDurationValue();
 		
 	
 	//calculo de la duración de la entrega del PR
-	var pr_request_date_glide = new GlideDateTime(current.pr_request_date);
-	var pr_delivery_date_glide = new GlideDateTime(current.pr_delivery_date);
+	var pr_request_date = current.pr_request_date + " 12:00:00";
+	var pr_delivery_date = current.pr_delivery_date + " 12:00:00";
+	var pr_request_date_glide = new GlideDateTime(pr_request_date);
+	var pr_delivery_date_glide = new GlideDateTime(pr_delivery_date);
 		
 	var pr_dur = sched.duration(pr_request_date_glide, pr_delivery_date_glide);
 	current.pr_requested_to_delivered_duration = pr_dur.getDurationValue();
 	
 	
     //calculo de la duración de la entrega del RFQ
-	var rfq_request_date_glide = new GlideDateTime(current.rfq_request_date);
-	var rfq_delivery_date_glide = new GlideDateTime(current.rfq_delivery_date);
+	var rfq_request_date = current.rfq_request_date + " 12:00:00";
+	var rfq_delivery_date = current.rfq_delivery_date + " 12:00:00";
+	var rfq_request_date_glide = new GlideDateTime(rfq_request_date);
+	var rfq_delivery_date_glide = new GlideDateTime(rfq_delivery_date);
 		
 	var rfq_dur = sched.duration(rfq_request_date_glide, rfq_delivery_date_glide);
 	current.rfq_requested_to_delivered_duration = rfq_dur.getDurationValue();
 	
 	
 	//calculo de la duración de la entrega del SOCA
-	var soca_request_date_glide = new GlideDateTime(current.soca_request_date);
-	var soca_delivery_date_glide = new GlideDateTime(current.soca_delivery_date);
+	var soca_request_date = current.soca_request_date + " 12:00:00";
+	var soca_delivery_date = current.soca_delivery_date + " 12:00:00";
+	var soca_request_date_glide = new GlideDateTime(soca_request_date);
+	var soca_delivery_date_glide = new GlideDateTime(soca_delivery_date);
 		
 	var soca_dur = sched.duration(soca_request_date_glide, soca_delivery_date_glide);
 	current.soca_requested_to_delivered_duration = soca_dur.getDurationValue();
 
 	
 	//calculo de la duración de la entrega del OCA
-	var oca_request_date_glide = new GlideDateTime(current.oca_request_date);
-	var oca_delivery_date_glide = new GlideDateTime(current.oca_delivery_date);
+	var oca_request_date = current.oca_request_date + " 12:00:00";
+	var oca_delivery_date = current.oca_delivery_date + " 12:00:00";
+	var oca_request_date_glide = new GlideDateTime(oca_request_date);
+	var oca_delivery_date_glide = new GlideDateTime(oca_delivery_date);
 		
 	var oca_dur = sched.duration(oca_request_date_glide, oca_delivery_date_glide);
 	current.oca_requested_to_delivered_duration = oca_dur.getDurationValue();
 	
 
-	
 	
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -84,8 +94,8 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d668803ddb2a4b00e7bbdbbb5e9619b0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>PRQ calculate opex aging information</sys_name>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>PRQ calculate aging information (Opex)</sys_name>
         <sys_overrides/>
         <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
         <sys_policy/>
@@ -93,7 +103,7 @@
         <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
         <sys_update_name>sys_script_d668803ddb2a4b00e7bbdbbb5e9619b0</sys_update_name>
         <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-11-20 20:08:25</sys_updated_on>
+        <sys_updated_on>2017-11-27 06:29:57</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

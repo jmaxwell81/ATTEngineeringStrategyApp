@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="x_attme_engr_strat_capex_opex_request" label="Purchase requisition" max_length="40" name="x_attme_engr_strat_purchase_requisition" sizeclass="4" type="collection">
+    <element audit="true" extends="x_attme_engr_strat_capex_opex_request" label="Purchase requisition" max_length="40" name="x_attme_engr_strat_purchase_requisition" sizeclass="5" type="collection">
         <element label="Amount derived in Opex" max_length="40" name="amount_derived_in_opex" type="float"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="MXN" label="Opex amount currency" max_length="40" name="amount_derived_in_opex_currency" type="string">
             <choice>
@@ -22,7 +22,7 @@
             </choice>
         </element>
         <element label="Sent to finance dept. date" max_length="40" name="finance_date" type="glide_date"/>
-        <element label="Initial amount" max_length="40" name="initial_amount" type="float"/>
+        <element label="Initial amount" mandatory="true" max_length="40" name="initial_amount" type="float"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="MXN" label="Initial amount currency" max_length="40" name="initial_amount_currency" type="string">
             <choice>
                 <element label="MXN" sequence="0" value="MXN"/>
@@ -44,7 +44,7 @@
         <element label="NET ID request date" max_length="40" name="net_id_request_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="NET ID status" max_length="40" name="net_id_status" type="string">
             <choice>
-                <element label="Sended to finance dept." sequence="0" value="Sended to finance dept."/>
+                <element label="Sent to finance dept." sequence="0" value="Sent to finance dept."/>
                 <element label="Finished" sequence="1" value="Finished"/>
             </choice>
         </element>
@@ -55,7 +55,7 @@
         <element label="OCA request date" max_length="40" name="oca_request_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="OCA status" max_length="40" name="oca_status" type="string">
             <choice>
-                <element label="Sended to finance dept." sequence="0" value="Sended to finance dept."/>
+                <element label="Sent to purchase dept." sequence="0" value="Sent to purchase dept."/>
                 <element label="Finished" sequence="1" value="Finished"/>
             </choice>
         </element>
@@ -66,7 +66,7 @@
         <element label="OP request date" max_length="40" name="op_request_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="OP status" max_length="40" name="op_status" type="string">
             <choice>
-                <element label="Sended to finance dept." sequence="0" value="Sended to finance dept."/>
+                <element label="Sent to finance dept." sequence="0" value="Sent to finance dept."/>
                 <element label="Finished" sequence="1" value="Finished"/>
             </choice>
         </element>
@@ -77,7 +77,7 @@
         <element label="PO config &amp; integration request date" max_length="40" name="po_config_integration_request_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="PO config. &amp; integration status" max_length="40" name="po_config_integration_status" type="string">
             <choice>
-                <element label="Sended to purchase dept." sequence="0" value="Sended to purchase dept."/>
+                <element label="Sent to purchase dept." sequence="0" value="Sent to purchase dept."/>
                 <element label="Finished" sequence="1" value="Finished"/>
             </choice>
         </element>
@@ -88,7 +88,7 @@
         <element label="PO HW request date" max_length="40" name="po_hw_request_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="PO HW status" max_length="40" name="po_hw_status" type="string">
             <choice>
-                <element label="Sended to purchase dept." sequence="0" value="Sended to purchase dept."/>
+                <element label="Sent to purchase dept." sequence="0" value="Sent to purchase dept."/>
                 <element label="Finished" sequence="1" value="Finished"/>
             </choice>
         </element>
@@ -99,7 +99,7 @@
         <element label="PO installation service request date" max_length="40" name="po_installation_service_request_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="PO Installation service status" max_length="40" name="po_installation_service_status" type="string">
             <choice>
-                <element label="Sended to purchase dept." sequence="0" value="Sended to purchase dept."/>
+                <element label="Sent to purchase dept." sequence="0" value="Sent to purchase dept."/>
                 <element label="Finished" sequence="1" value="Finished"/>
             </choice>
         </element>
@@ -110,9 +110,8 @@
         <element label="PO others request date" max_length="40" name="po_others_request_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="PO others status" max_length="40" name="po_others_status" type="string">
             <choice>
-                <element label="Choice 1" sequence="0" value="Choice 1"/>
-                <element label="Choice 2" sequence="1" value="Choice 2"/>
-                <element label="Choice 3" sequence="2" value="Choice 3"/>
+                <element label="Sent to purchase dept." sequence="0" value="Sent to purchase dept."/>
+                <element label="Finished" sequence="1" value="Finished"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="PO others status observations" max_length="255" name="po_others_status_observations" type="string"/>
@@ -122,7 +121,7 @@
         <element label="PO SW request date" max_length="40" name="po_sw_request_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="PO SW status" max_length="40" name="po_sw_status" type="string">
             <choice>
-                <element label="Sended to purchase dept." sequence="0" value="Sended to purchase dept."/>
+                <element label="Sent to purchase dept." sequence="0" value="Sent to purchase dept."/>
                 <element label="Finished" sequence="1" value="Finished"/>
             </choice>
         </element>
@@ -134,7 +133,7 @@
         <element label="PR request date" max_length="40" name="pr_request_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="PR status" max_length="40" name="pr_status" type="string">
             <choice>
-                <element label="Sended to finance dept." sequence="0" value="Sended to finance dept."/>
+                <element label="Sent to finance dept." sequence="0" value="Sent to finance dept."/>
                 <element label="Finished" sequence="1" value="Finished"/>
             </choice>
         </element>
@@ -151,8 +150,8 @@
         <element label="Req. request date" max_length="40" name="requisition_request_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Requisition status" max_length="40" name="requisition_status" type="string">
             <choice>
-                <element label="Sended to purchase dept." sequence="0" value="Sended to purchase dept."/>
-                <element label="Sended to finance dept." sequence="1" value="Sended to finance dept."/>
+                <element label="Sent to purchase dept." sequence="0" value="Sent to purchase dept."/>
+                <element label="Sent to finance dept." sequence="1" value="Sent to finance dept."/>
                 <element label="Fnished" sequence="2" value="Finished"/>
             </choice>
         </element>
@@ -163,7 +162,7 @@
         <element label="RFQ request date" max_length="40" name="rfq_request_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="RFQ status" max_length="40" name="rfq_status" type="string">
             <choice>
-                <element label="Sended to purchase dept." sequence="0" value="Sended to purchase dept."/>
+                <element label="Sent to purchase dept." sequence="0" value="Sent to purchase dept."/>
                 <element label="Vendor negotiation" sequence="1" value="Vendor negotiation"/>
                 <element label="User's review" sequence="2" value="User's review"/>
                 <element label="Rejected" sequence="3" value="Rejected"/>
@@ -177,8 +176,8 @@
         <element label="SOCA request date" max_length="40" name="soca_request_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="SOCA status" max_length="40" name="soca_status" type="string">
             <choice>
-                <element label="Sended to purchase dept." sequence="0" value="Sended to purchase dept."/>
-                <element label="Sended to finance dept." sequence="1" value="Sended to finance dept."/>
+                <element label="Sent to purchase dept." sequence="0" value="Sent to purchase dept."/>
+                <element label="Sent to finance dept." sequence="1" value="Sent to finance dept."/>
                 <element label="Finished" sequence="2" value="Finished"/>
             </choice>
         </element>

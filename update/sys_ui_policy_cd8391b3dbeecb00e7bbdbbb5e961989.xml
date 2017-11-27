@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_attme_engr_strat_purchase_requisition">expense_type=Capex^EQ<item endquery="false" field="expense_type" goto="false" newquery="false" operator="=" or="false" value="Capex"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	
+	if(g_form.getValue('net_id_status') == 'Finished')
+	{
+	    g_form.setMandatory('net_id', true);
+	    g_form.setMandatory('net_id_request_date', true);
+		g_form.setMandatory('net_id_delivery_date', true);
+	}
+	
+	if(g_form.getValue('pr_status') == 'Finished')
+	{
+	    g_form.setMandatory('pr', true);
+	    g_form.setMandatory('pr_request_date', true);
+		g_form.setMandatory('pr_delivery_date', true);
+	}
+	
+	if(g_form.getValue('rfq_status') == 'Finished')
+	{
+	    g_form.setMandatory('rfq', true);
+	    g_form.setMandatory('rfq_request_date', true);
+		g_form.setMandatory('rfq_delivery_date', true);
+	}
+	
+	if(g_form.getValue('requisition_status') == 'Finished')
+	{
+	    g_form.setMandatory('requisition', true);
+	    g_form.setMandatory('requisition_request_date', true);
+		g_form.setMandatory('requisition_delivery_date', true);
+	}
+	
+	if(g_form.getValue('po_sw_status') == 'Finished')
+	{
+	    g_form.setMandatory('po_software', true);
+	    g_form.setMandatory('po_sw_request_date', true);
+		g_form.setMandatory('po_sw_delivery_date', true);
+	}
+	
+	if(g_form.getValue('po_hw_status') == 'Finished')
+	{
+	    g_form.setMandatory('po_hardware', true);
+	    g_form.setMandatory('po_hw_request_date', true);
+		g_form.setMandatory('po_hw_delivery_date', true);
+	}
+	
+	if(g_form.getValue('po_installation_service_status') == 'Finished')
+	{
+	    g_form.setMandatory('po_installation_service', true);
+	    g_form.setMandatory('po_installation_service_request_date', true);
+		g_form.setMandatory('po_installation_service_delivery_date', true);
+	}
+	
+	if(g_form.getValue('po_config_integration_status') == 'Finished')
+	{
+	    g_form.setMandatory('po_configuration_integration_service', true);
+	    g_form.setMandatory('po_config_integration_request_date', true);
+		g_form.setMandatory('po_config_integration_delivery_date', true);
+	}
+	
+	if(g_form.getValue('po_others_status') == 'Finished')
+	{
+	    g_form.setMandatory('po_others', true);
+	    g_form.setMandatory('po_others_request_date', true);
+		g_form.setMandatory('po_others_delivery_date', true);
+	}
+}]]></script_true>
+        <set_values/>
+        <short_description>PRQ finished document mandatory fields (Capex)</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>hugo.ruano</sys_created_by>
+        <sys_created_on>2017-11-27 06:33:26</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cd8391b3dbeecb00e7bbdbbb5e961989</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>PRQ finished document mandatory fields (Capex)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
+        <sys_update_name>sys_ui_policy_cd8391b3dbeecb00e7bbdbbb5e961989</sys_update_name>
+        <sys_updated_by>hugo.ruano</sys_updated_by>
+        <sys_updated_on>2017-11-27 06:45:55</sys_updated_on>
+        <table>x_attme_engr_strat_purchase_requisition</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

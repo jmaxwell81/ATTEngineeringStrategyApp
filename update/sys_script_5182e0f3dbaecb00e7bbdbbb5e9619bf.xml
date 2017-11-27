@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_attme_engr_strat_purchase_requisition</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_attme_engr_strat_purchase_requisition">expense_type=Opex^EQ<item endquery="false" field="expense_type" goto="false" newquery="false" operator="=" or="false" value="Opex"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>PRQ document dates control (Opex)</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	  
+	//la presente business rule sirve para el control de las fechas de los documentos requeridos para las compras OPEX, se evalua para cada documento que la fecha de solicitud no sea mayor a la fecha de entrega, y se evalua para cada documento que la fecha de solicitud sea mayor a la fecha de entrega del documento anterior
+	
+	//Se define que la OP precede al PR, el PR precede al RFQ, el RFQ precede una SOCA o una OC
+	
+	
+	//declaramos variables
+	var op_request_date = current.op_request_date + " 12:00:00";
+	var op_delivery_date = current.op_delivery_date + " 12:00:00";
+	var op_request_date_glide = new GlideDateTime(op_request_date);
+	var op_delivery_date_glide = new GlideDateTime(op_delivery_date);
+	
+	var pr_request_date = current.pr_request_date + " 12:00:00";
+	var pr_delivery_date = current.pr_delivery_date + " 12:00:00";
+	var pr_request_date_glide = new GlideDateTime(pr_request_date);
+	var pr_delivery_date_glide = new GlideDateTime(pr_delivery_date);
+	
+	var rfq_request_date = current.rfq_request_date + " 12:00:00";
+	var rfq_delivery_date = current.rfq_delivery_date + " 12:00:00";
+	var rfq_request_date_glide = new GlideDateTime(rfq_request_date);
+	var rfq_delivery_date_glide = new GlideDateTime(rfq_delivery_date);
+	
+	var soca_request_date = current.soca_request_date + " 12:00:00";
+	var soca_delivery_date = current.soca_delivery_date + " 12:00:00";
+	var soca_request_date_glide = new GlideDateTime(soca_request_date);
+	var soca_delivery_date_glide = new GlideDateTime(soca_delivery_date);
+	
+	var oca_request_date = current.oca_request_date + " 12:00:00";
+	var oca_delivery_date = current.oca_delivery_date + " 12:00:00";
+	var oca_request_date_glide = new GlideDateTime(oca_request_date);
+	var oca_delivery_date_glide = new GlideDateTime(oca_delivery_date);
+	
+	
+	//****************************************************************************
+	//A continuación se presenta las condiciones que se deben de cumplir para las fechas de los documentos requeridos en una compra de OPEX
+	
+	
+    //Fecha de solicitud de OP no puede ser menor a la fecha de entrega de OP
+	if((op_request_date_glide.compareTo(op_delivery_date_glide) == 1) && !current.op_delivery_date.nil())
+	{
+		gs.addErrorMessage("OP request date cannot be after delivery date");
+		current.setAbortAction(true);
+	}
+		
+
+	//Fecha de solicitud de PR no puede ser menor a la fecha de entrega de PR
+	if((pr_request_date_glide.compareTo(pr_delivery_date_glide) == 1) && !current.pr_delivery_date.nil())
+	{
+		gs.addErrorMessage("PR request date cannot be after delivery date");
+		current.setAbortAction(true);
+	}
+	
+	
+	//Fecha de solicitud del PR no puede ser menor a la fecha de entrega de la OP
+	if((op_delivery_date_glide.compareTo(pr_request_date_glide) == 1) && !current.pr_request_date.nil() )
+	{
+		gs.addErrorMessage("PR request date cannot be before OP delivery date");
+		current.setAbortAction(true);
+	}
+	
+	
+    //Fecha de solicitud de RFQ no puede ser menor a la fecha de entrega de RFQ
+	if((rfq_request_date_glide.compareTo(rfq_delivery_date_glide) == 1) && !current.rfq_delivery_date.nil())
+	{
+		gs.addErrorMessage("RFQ request date cannot be after delivery date");
+		current.setAbortAction(true);
+	}
+	
+	
+	//Fecha de solicitud del RFQ no puede ser menor a la fecha de entrega del PR 
+	if((pr_delivery_date_glide.compareTo(rfq_request_date_glide) == 1) && !current.rfq_request_date.nil())
+	{
+		gs.addErrorMessage("RFQ request date cannot be before PR delivery date");
+		current.setAbortAction(true);
+	}
+	
+	
+	//Fecha de solicitud de SOCA no puede ser menor a la fecha de entrega de SOCA
+	if((soca_request_date_glide.compareTo(soca_delivery_date_glide) == 1) && !current.soca_delivery_date.nil())
+	{
+		gs.addErrorMessage("SOCA request date cannot be after delivery date");
+		current.setAbortAction(true);
+	}
+	
+	
+	//Fecha de solicitud de SOCA no puede ser menor a la fecha de entrega del RFQ 
+	if((rfq_delivery_date_glide.compareTo(soca_request_date_glide) == 1) && !current.soca_request_date.nil())
+	{
+		gs.addErrorMessage("SOCA request date cannot be before RFQ delivery date");
+		current.setAbortAction(true);
+	}
+
+	
+	//Fecha de solicitud de OCA no puede ser menor a la fecha de entrega de OCA
+	if((oca_request_date_glide.compareTo(oca_delivery_date_glide) == 1) && !current.oca_delivery_date.nil())
+	{
+		gs.addErrorMessage("OCA Hardware request date cannot be after delivery date");
+		current.setAbortAction(true);
+	}
+	
+	
+	//Fecha de solicitud de OCA no puede ser menor a la fecha de entrega del RFQ 
+	if((rfq_delivery_date_glide.compareTo(oca_request_date_glide) == 1) && !current.oca_request_date.nil())
+	{
+		gs.addErrorMessage("OCA request date cannot be before RFQ delivery date");
+		current.setAbortAction(true);
+	}
+	
+	
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>hugo.ruano</sys_created_by>
+        <sys_created_on>2017-11-27 03:02:01</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5182e0f3dbaecb00e7bbdbbb5e9619bf</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>PRQ document dates control (Opex)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
+        <sys_update_name>sys_script_5182e0f3dbaecb00e7bbdbbb5e9619bf</sys_update_name>
+        <sys_updated_by>hugo.ruano</sys_updated_by>
+        <sys_updated_on>2017-11-27 05:42:30</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=5182e0f3dbaecb00e7bbdbbb5e9619bf"/>
+</record_update>
