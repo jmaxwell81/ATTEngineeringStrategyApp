@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="document" table="x_attme_engr_strat_purchase_requisiton_document_estimated_time" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>document</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>NET ID</label>
+            <language>en</language>
+            <name>x_attme_engr_strat_purchase_requisiton_document_estimated_time</name>
+            <sequence>0</sequence>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-28 19:37:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>89a0551cdb3a0f00e7bbdbbb5e9619ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-28 19:37:19</sys_updated_on>
+            <value>NET ID</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>document</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PR</label>
+            <language>en</language>
+            <name>x_attme_engr_strat_purchase_requisiton_document_estimated_time</name>
+            <sequence>1</sequence>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-28 19:37:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>41a0551cdb3a0f00e7bbdbbb5e9619bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-28 19:37:19</sys_updated_on>
+            <value>PR</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>document</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RFQ</label>
+            <language>en</language>
+            <name>x_attme_engr_strat_purchase_requisiton_document_estimated_time</name>
+            <sequence>2</sequence>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-28 19:37:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>85a0551cdb3a0f00e7bbdbbb5e9619bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-28 19:37:19</sys_updated_on>
+            <value>RFQ</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>document</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Requisition</label>
+            <language>en</language>
+            <name>x_attme_engr_strat_purchase_requisiton_document_estimated_time</name>
+            <sequence>3</sequence>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-28 19:37:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c9a0551cdb3a0f00e7bbdbbb5e9619bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-28 19:37:19</sys_updated_on>
+            <value>Requisition</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>document</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PO</label>
+            <language>en</language>
+            <name>x_attme_engr_strat_purchase_requisiton_document_estimated_time</name>
+            <sequence>4</sequence>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-28 19:37:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>01a0551cdb3a0f00e7bbdbbb5e9619bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-28 19:37:19</sys_updated_on>
+            <value>PO</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>document</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OP</label>
+            <language>en</language>
+            <name>x_attme_engr_strat_purchase_requisiton_document_estimated_time</name>
+            <sequence>5</sequence>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-28 19:37:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>45a0551cdb3a0f00e7bbdbbb5e9619bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-28 19:37:19</sys_updated_on>
+            <value>OP</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>document</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SOCA/OCA</label>
+            <language>en</language>
+            <name>x_attme_engr_strat_purchase_requisiton_document_estimated_time</name>
+            <sequence>6</sequence>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-28 19:37:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>89a0551cdb3a0f00e7bbdbbb5e9619bc</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-28 19:56:16</sys_updated_on>
+            <value>SOCA/OCA</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>document</element>
+            <name>x_attme_engr_strat_purchase_requisiton_document_estimated_time</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-28 19:37:19</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>8da0551cdb3a0f00e7bbdbbb5e9619ba</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_name>document</sys_name>
+            <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
+            <sys_update_name>sys_choice_x_attme_engr_strat_purchase_requisiton_document_estimated_time_document</sys_update_name>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-28 19:56:16</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

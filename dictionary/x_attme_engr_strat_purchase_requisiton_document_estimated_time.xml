@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Purchase requisition document estimated time" max_length="40" name="x_attme_engr_strat_purchase_requisiton_document_estimated_time" type="collection">
+        <element choice="1" label="Document" mandatory="true" max_length="40" name="document" type="choice">
+            <choice>
+                <element label="NET ID" sequence="0" value="NET ID"/>
+                <element label="PR" sequence="1" value="PR"/>
+                <element label="RFQ" sequence="2" value="RFQ"/>
+                <element label="Requisition" sequence="3" value="Requisition"/>
+                <element label="PO" sequence="4" value="PO"/>
+                <element label="OP" sequence="5" value="OP"/>
+                <element label="SOCA/OCA" sequence="6" value="SOCA/OCA"/>
+            </choice>
+        </element>
+        <element label="Estimated delivery time" mandatory="true" max_length="40" name="estimated_delivery_time" type="glide_duration"/>
+        <element choice="1" label="For expense type" mandatory="true" max_length="40" name="for_expense_type" type="choice">
+            <choice>
+                <element label="Capex" sequence="0" value="Capex"/>
+                <element label="Opex" sequence="1" value="Opex"/>
+            </choice>
+        </element>
+        <element label="Order" mandatory="true" max_length="40" name="order" type="integer"/>
+    </element>
+</database>

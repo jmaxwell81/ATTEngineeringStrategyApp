@@ -138,6 +138,7 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="PR status observations" max_length="255" name="pr_status_observations" type="string"/>
+        <element label="Purchase req. age" max_length="40" name="purchase_requisition_age" read_only="true" type="glide_duration"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Purchase type" mandatory="true" max_length="40" name="purchase_type" type="string">
             <choice>
                 <element label="Bidding" sequence="0" value="Bidding"/>
