@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Capex/Opex mgmt - Warn delayed purchase requisition </name>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2017-11-28 20:48:31</run_start>
+        <run_time>1970-01-01 06:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[//Por medio del presente scheduled script execution se advierte si una purchase requisition se encuentra retrasada.
+
+warnDelayedPurchaseRequisition();
+
+function warnDelayedPurchaseRequisition()
+{
+	
+	//buscamos primeramente todas las purchase requisitions que se encuentran activas
+	var prq = new GlideRecord('x_attme_engr_strat_purchase_requisition');
+	prq.addQuery('sys_id', '7e95fbb3dba20f00e7bbdbbb5e961941');
+	prq.query();
+	
+	while(prq.next())
+	{
+		//Primero buscamos cual es el último documento entregado y cual es el siguiente documento a entregar
+		var actual_last_delivered_document;
+		
+		if(prq.expense_type == 'Capex')
+		{
+		    actual_last_delivered_document = getActualLastDeliveredDocumentCapex(prq.net_id, prq.pr, prq.rfq, prq.requisition, prq.po_software, prq.po_hardware, prq.po_installation_service, prq.po_configuration_integration_service, prq.po_others);
+		}
+		   
+		if(prq.expense_type == 'Opex')
+		{
+		   actual_last_delivered_document = getActualLastDeliveredDocumentOpex(prq.op, prq.pr, prq.rfq, prq.soca, prq.oca);
+		}  
+		
+		gs.info("ultimo de verdad:" + actual_last_delivered_document);
+		
+		//Buscamos cual es el siguiente documento que se debería de entregar de acuerdo con los días que tiene la purchase requisition
+	    var estimated_next_delivered_document = getEstimatedNextDocument(prq.expense_type, prq.purchase_requisition_age);
+		
+		gs.info("ultimo estimado: " + estimated_next_delivered_document);
+			
+	}
+		
+	
+}
+
+function getActualLastDeliveredDocumentCapex(net_id, pr, rfq, requisition, po_software, po_hardware, po_installation_service, po_configuration_integration_service, po_others)
+{
+	var actual_last_delivered_document = 0;
+	
+	if(net_id != '')
+	{	actual_last_delivered_document = 1;   }
+	
+	if(pr != '')
+	{	actual_last_delivered_document = 2;   }
+	
+	if(rfq != '')
+	{	actual_last_delivered_document = 3;   }
+	
+	if(requisition != '')
+	{	actual_last_delivered_document = 4;   }
+	
+	if(po_software != '' || po_hardware != '' || po_installation_service != '' || po_configuration_integration_service != '' || po_others != '')
+	{	actual_last_delivered_document = 5;   }
+	   
+	
+	return actual_last_delivered_document;
+}
+
+function getActualLastDeliveredDocumentOpex(op, pr, rfq, soca, oca)
+{
+	
+}
+
+function getEstimatedNextDocument(purchase_requisition_expense_type, purchase_requisition_age)
+{
+
+	//Para determinar el status estimado debemos de comparar la edad (en días) de la solicitud de compra contra lo definido en la tabla.
+	
+	//Obtenemos el entero de los días que tiene la solicitud de compra
+	var purchase_age_split = purchase_requisition_age.split(' ');
+    var purchase_age_split_2 = purchase_age_split[0].split('-');
+    var actual_purchase_age_str = purchase_age_split_2[2];
+    //var actual_purchase_age = parseInt(actual_purchase_age_str)-1;
+	var actual_purchase_age = 1;
+	
+	//Con la edad en días de la solicitud de compra  
+	var estimated_time_counter = 0;
+	var estimated_next_delivered_document; //siguiente documento estimado a entregar
+	var estimated_delivered_document; //ultimo documento estimado ya entregado
+	
+	var purchase_step = new GlideRecord('x_attme_engr_strat_purchase_requisiton_document_estimated_time');
+	purchase_step.addQuery('for_expense_type', purchase_requisition_expense_type);
+	purchase_step.orderBy('order');
+	purchase_step.query();
+		
+	while(purchase_step.next())
+	{
+        var purchase_time_split = purchase_step.estimated_delivery_time.split(' ');
+        var purchase_time_split_2 = purchase_time_split[0].split('-');
+        var estimated_time_str = purchase_time_split_2[2];
+        var estimated_time = parseInt(estimated_time_str)-1;
+        estimated_time_counter = estimated_time_counter + estimated_time;
+		
+		if(estimated_time_counter > actual_purchase_age)
+		{
+			estimated_next_delivered_document = purchase_step.order;
+			break;
+		}
+	}
+	
+	return estimated_next_delivered_document;
+	
+}
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>hugo.ruano</sys_created_by>
+        <sys_created_on>2017-11-28 21:02:45</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>00f0ad10db7a0f00e7bbdbbb5e96190f</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>Capex/Opex mgmt - Warn delayed purchase requisition </sys_name>
+        <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
+        <sys_update_name>sysauto_script_00f0ad10db7a0f00e7bbdbbb5e96190f</sys_update_name>
+        <sys_updated_by>hugo.ruano</sys_updated_by>
+        <sys_updated_on>2017-11-28 23:27:49</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

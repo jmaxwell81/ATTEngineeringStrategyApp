@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <conditions table="x_attme_engr_strat_purchase_requisition">expense_type=Capex^EQ<item endquery="false" field="expense_type" goto="false" newquery="false" operator="=" or="false" value="Capex"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
@@ -91,7 +91,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cd8391b3dbeecb00e7bbdbbb5e961989</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>PRQ finished document mandatory fields (Capex)</sys_name>
         <sys_overrides/>
         <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
@@ -100,7 +100,7 @@
         <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
         <sys_update_name>sys_ui_policy_cd8391b3dbeecb00e7bbdbbb5e961989</sys_update_name>
         <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-11-27 06:45:55</sys_updated_on>
+        <sys_updated_on>2017-11-28 22:37:39</sys_updated_on>
         <table>x_attme_engr_strat_purchase_requisition</table>
         <ui_type>0</ui_type>
         <view/>
