@@ -36,35 +36,102 @@
 	var schedule = gs.getProperty('x_attme_engr_strat.scheduleCapexOpexMgmtMonFri24Hours');
 	var sched = new GlideSchedule(schedule, 'Mexico/General');
 	
-	
+	var offset_6_hours = new GlideTime();
+    offset_6_hours.setValue("06:00:00");
+	var offset_24_hours = new GlideTime();
+    offset_24_hours.setValue("24:00:00");
+		
 	//calculo de la duración de la entrega del NET ID
 	var net_id_request_date = current.net_id_request_date.toString() + " 12:00:00";
 	var net_id_delivery_date = current.net_id_delivery_date.toString() + " 12:00:00";
 	var net_id_request_date_glide = new GlideDateTime(net_id_request_date);
 	var net_id_delivery_date_glide = new GlideDateTime(net_id_delivery_date);
+	var net_id_request_day_week = net_id_request_date_glide.getDayOfWeekUTC();
+	var net_id_delivery_day_week = net_id_delivery_date_glide.getDayOfWeekUTC();
+	var net_id_dur = new GlideDuration();
 		
-	var net_id_dur = sched.duration(net_id_request_date_glide, net_id_delivery_date_glide);
-	current.net_id_requested_to_delivered_duration = net_id_dur;
-
+	if(net_id_request_day_week == 6 || net_id_request_day_week == 7)
+	{
+	    net_id_delivery_date_glide.subtract(offset_6_hours);
+		net_id_dur = sched.duration(net_id_request_date_glide, net_id_delivery_date_glide);
+		current.net_id_requested_to_delivered_duration = net_id_dur;
+	}
+	
+	if(net_id_delivery_day_week == 6 || net_id_delivery_day_week == 7)
+	{
+		net_id_delivery_date_glide.subtract(offset_24_hours);
+		net_id_dur = sched.duration(net_id_request_date_glide, net_id_delivery_date_glide);
+	    current.net_id_requested_to_delivered_duration = net_id_dur;
+	}
+	
+	else
+	{
+		net_id_dur = sched.duration(net_id_request_date_glide, net_id_delivery_date_glide);
+	    current.net_id_requested_to_delivered_duration = net_id_dur;
+	}
+	
+	
 	
 	//calculo de la duración de la entrega del PR
 	var pr_request_date = current.pr_request_date + " 12:00:00";
 	var pr_delivery_date = current.pr_delivery_date + " 12:00:00";
-		var pr_request_date_glide = new GlideDateTime(pr_request_date);
+	var pr_request_date_glide = new GlideDateTime(pr_request_date);
 	var pr_delivery_date_glide = new GlideDateTime(pr_delivery_date);
-		
-	var pr_dur = sched.duration(pr_request_date_glide, pr_delivery_date_glide);
-	current.pr_requested_to_delivered_duration = pr_dur.getDurationValue();
+	var pr_request_day_week = pr_request_date_glide.getDayOfWeekUTC();
+	var pr_delivery_day_week = pr_delivery_date_glide.getDayOfWeekUTC();
+	var pr_dur = new GlideDuration();
+	
+	if(pr_request_day_week == 6 || pr_request_day_week == 7)
+	{
+	    pr_delivery_date_glide.subtract(offset_6_hours);
+		pr_dur = sched.duration(pr_request_date_glide, pr_delivery_date_glide);
+	    current.pr_requested_to_delivered_duration = pr_dur.getDurationValue();
+	}
+	
+	if(pr_delivery_day_week == 6 || pr_delivery_day_week == 7)
+	{
+		pr_delivery_date_glide.subtract(offset_24_hours);
+		pr_dur = sched.duration(pr_request_date_glide, pr_delivery_date_glide);
+	    current.pr_requested_to_delivered_duration = pr_dur.getDurationValue();
+	}
+	
+	else
+	{
+		pr_dur = sched.duration(pr_request_date_glide, pr_delivery_date_glide);
+	    current.pr_requested_to_delivered_duration = pr_dur.getDurationValue();
+	}
 	
 	
-    //calculo de la duración de la entrega del RFQ
+	
+	//calculo de la duración de la entrega del RFQ
 	var rfq_request_date = current.rfq_request_date + " 12:00:00";
 	var rfq_delivery_date = current.rfq_delivery_date + " 12:00:00";
 	var rfq_request_date_glide = new GlideDateTime(rfq_request_date);
 	var rfq_delivery_date_glide = new GlideDateTime(rfq_delivery_date);
-		
-	var rfq_dur = sched.duration(rfq_request_date_glide, rfq_delivery_date_glide);
-	current.rfq_requested_to_delivered_duration = rfq_dur.getDurationValue();
+	var rfq_request_day_week = rfq_request_date_glide.getDayOfWeekUTC();
+	var rfq_delivery_day_week = rfq_delivery_date_glide.getDayOfWeekUTC();
+	var rfq_dur = new GlideDuration();
+	
+	if(rfq_request_day_week == 6 || rfq_request_day_week == 7)
+	{
+	    rfq_delivery_date_glide.subtract(offset_6_hours);
+		rfq_dur = sched.duration(rfq_request_date_glide, rfq_delivery_date_glide);
+	    current.rfq_requested_to_delivered_duration = rfq_dur.getDurationValue();
+	}
+	
+	if(rfq_delivery_day_week == 6 || rfq_delivery_day_week == 7)
+	{
+		rfq_delivery_date_glide.subtract(offset_24_hours);
+		rfq_dur = sched.duration(rfq_request_date_glide, rfq_delivery_date_glide);
+	    current.rfq_requested_to_delivered_duration = rfq_dur.getDurationValue();
+	}
+	
+	else
+	{
+		rfq_dur = sched.duration(rfq_request_date_glide, rfq_delivery_date_glide);
+	    current.rfq_requested_to_delivered_duration = rfq_dur.getDurationValue();
+	}
+	
 	
 	
 	//calculo de la duración de la entrega del Requisition
@@ -72,9 +139,31 @@
 	var requisition_delivery_date = current.requisition_delivery_date + " 12:00:00";
 	var requisition_request_date_glide = new GlideDateTime(requisition_request_date);
 	var requisition_delivery_date_glide = new GlideDateTime(requisition_delivery_date);
+	var requisition_request_day_week = requisition_request_date_glide.getDayOfWeekUTC();
+	var requisition_delivery_day_week = requisition_delivery_date_glide.getDayOfWeekUTC();
+	var requisition_dur = new GlideDuration();
+	
+	if(requisition_request_day_week == 6 || requisition_request_day_week == 7)
+	{
+	    requisition_delivery_date_glide.subtract(offset_6_hours);
+		requisition_dur = sched.duration(requisition_request_date_glide, requisition_delivery_date_glide);
+	    current.requisition_requested_to_delivered_duration = requisition_dur.getDurationValue();
 		
-	var requisition_dur = sched.duration(requisition_request_date_glide, requisition_delivery_date_glide);
-	current.requisition_requested_to_delivered_duration = requisition_dur.getDurationValue();
+	}
+	
+	if(requisition_delivery_day_week == 6 || requisition_delivery_day_week == 7)
+	{
+		requisition_delivery_date_glide.subtract(offset_24_hours);
+		requisition_dur = sched.duration(requisition_request_date_glide, requisition_delivery_date_glide);
+	    current.requisition_requested_to_delivered_duration = requisition_dur.getDurationValue();
+	}
+	
+	else
+	{
+		requisition_dur = sched.duration(requisition_request_date_glide, requisition_delivery_date_glide);
+	    current.requisition_requested_to_delivered_duration = requisition_dur.getDurationValue();
+	}
+	
 
 	
 	//calculo de la duración de la entrega del PO HW
@@ -82,9 +171,31 @@
 	var po_hw_delivery_date = current.po_hw_delivery_date + " 12:00:00";
 	var po_hw_request_date_glide = new GlideDateTime(po_hw_request_date);
 	var po_hw_delivery_date_glide = new GlideDateTime(po_hw_delivery_date);
+	var po_hw_request_day_week = po_hw_request_date_glide.getDayOfWeekUTC();
+	var po_hw_delivery_day_week = po_hw_delivery_date_glide.getDayOfWeekUTC();
+	var po_hw_dur = new GlideDuration();
+	
+	if(po_hw_request_day_week == 6 || po_hw_request_day_week == 7)
+	{
+	    po_hw_delivery_date_glide.subtract(offset_6_hours);
+		po_hw_dur = sched.duration(po_hw_request_date_glide, po_hw_delivery_date_glide);
+	    current.po_hw_requested_to_delivered_duration = po_hw_dur.getDurationValue();
 		
-	var po_hw_dur = sched.duration(po_hw_request_date_glide, po_hw_delivery_date_glide);
-	current.po_hw_requested_to_delivered_duration = po_hw_dur.getDurationValue();
+	}
+	
+	if(po_hw_delivery_day_week == 6 || po_hw_delivery_day_week == 7)
+	{
+		po_hw_delivery_date_glide.subtract(offset_24_hours);
+		po_hw_dur = sched.duration(po_hw_request_date_glide, po_hw_delivery_date_glide);
+	    current.po_hw_requested_to_delivered_duration = po_hw_dur.getDurationValue();
+	}
+	
+	else
+	{
+		po_hw_dur = sched.duration(po_hw_request_date_glide, po_hw_delivery_date_glide);
+	    current.po_hw_requested_to_delivered_duration = po_hw_dur.getDurationValue();
+	}
+	
 	
 	
 	//calculo de la duración de la entrega del PO SW
@@ -92,9 +203,32 @@
 	var po_sw_delivery_date = current.po_sw_delivery_date + " 12:00:00";
 	var po_sw_request_date_glide = new GlideDateTime(po_sw_request_date);
 	var po_sw_delivery_date_glide = new GlideDateTime(po_sw_delivery_date);
+	var po_sw_request_day_week = po_sw_request_date_glide.getDayOfWeekUTC();
+	var po_sw_delivery_day_week = po_sw_delivery_date_glide.getDayOfWeekUTC();
+	var po_sw_dur = new GlideDuration();
+	
+	if(po_sw_request_day_week == 6 || po_sw_request_day_week == 7)
+	{
+	    po_sw_delivery_date_glide.subtract(offset_6_hours);
+		po_sw_dur = sched.duration(po_sw_request_date_glide, po_sw_delivery_date_glide);
+	    current.po_sw_requested_to_delivered_duration = po_sw_dur.getDurationValue();
 		
-	var po_sw_dur = sched.duration(po_sw_request_date_glide, po_sw_delivery_date_glide);
-	current.po_sw_requested_to_delivered_duration = po_sw_dur.getDurationValue();
+	}
+	
+	if(po_sw_delivery_day_week == 6 || po_sw_delivery_day_week == 7)
+	{
+		po_sw_delivery_date_glide.subtract(offset_24_hours);
+		po_sw_dur = sched.duration(po_sw_request_date_glide, po_sw_delivery_date_glide);
+	    current.po_sw_requested_to_delivered_duration = po_sw_dur.getDurationValue();
+	}
+	
+	else
+	{
+		po_sw_dur = sched.duration(po_sw_request_date_glide, po_sw_delivery_date_glide);
+	    current.po_sw_requested_to_delivered_duration = po_sw_dur.getDurationValue();
+	}
+	
+	
 	
 	
 	//calculo de la duración de la entrega del PO installation service
@@ -102,9 +236,31 @@
 	var po_installation_service_delivery_date =	current.po_installation_service_delivery_date + " 12:00:00";
 	var po_installation_service_request_date_glide = new GlideDateTime(po_installation_service_request_date);
 	var po_installation_service_delivery_date_glide = new GlideDateTime(po_installation_service_delivery_date);
+	var po_installation_service_request_day_week = po_installation_service_request_date_glide.getDayOfWeekUTC();
+	var po_installation_service_delivery_day_week = po_installation_service_delivery_date_glide.getDayOfWeekUTC();
+	var po_installation_service_dur = new GlideDuration();
 		
-	var po_installation_service_dur = sched.duration(po_installation_service_request_date_glide, po_installation_service_delivery_date_glide);
-	current.po_installation_service_requested_to_delivered_duration = po_installation_service_dur.getDurationValue();
+	if(po_installation_service_request_day_week == 6 || po_installation_service_request_day_week == 7)
+	{
+	    po_installation_service_delivery_date_glide.subtract(offset_6_hours);
+		po_installation_service_dur = sched.duration(po_installation_service_request_date_glide, po_installation_service_delivery_date_glide);
+	    current.po_installation_service_requested_to_delivered_duration = po_installation_service_dur.getDurationValue();
+		
+	}
+	
+	if(po_installation_service_delivery_day_week == 6 || po_installation_service_delivery_day_week == 7)
+	{
+		po_installation_service_delivery_date_glide.subtract(offset_24_hours);
+		po_installation_service_dur = sched.duration(po_installation_service_request_date_glide, po_installation_service_delivery_date_glide);
+	    current.po_installation_service_requested_to_delivered_duration = po_installation_service_dur.getDurationValue();
+	}
+	
+	else
+	{
+		po_installation_service_dur = sched.duration(po_installation_service_request_date_glide, po_installation_service_delivery_date_glide);
+	    current.po_installation_service_requested_to_delivered_duration = po_installation_service_dur.getDurationValue();
+	}
+	
 	
 	
 	//calculo de la duración de la entrega del PO config & integration service
@@ -112,9 +268,31 @@
 	var po_config_integration_delivery_date = current.po_config_integration_delivery_date + " 12:00:00";
 	var po_config_integration_request_date_glide = new GlideDateTime(po_config_integration_request_date);
 	var po_config_integration_delivery_date_glide = new GlideDateTime(po_config_integration_delivery_date);
+	var po_config_integration_request_day_week = po_config_integration_request_date_glide.getDayOfWeekUTC();
+	var po_config_integration_delivery_day_week = po_config_integration_delivery_date_glide.getDayOfWeekUTC();
+	var po_config_integration_dur = new GlideDuration();
+	
+	if(po_config_integration_request_day_week == 6 || po_config_integration_request_day_week == 7)
+	{
+	    po_config_integration_delivery_date_glide.subtract(offset_6_hours);
+		po_config_integration_dur = sched.duration(po_config_integration_request_date_glide, po_config_integration_delivery_date_glide);
+	    current.po_config_integration_requested_to_delivered_duration = po_config_integration_dur.getDurationValue();
 		
-	var po_config_integration_dur = sched.duration(po_config_integration_request_date_glide, po_config_integration_delivery_date_glide);
-	current.po_config_integration_requested_to_delivered_duration = po_config_integration_dur.getDurationValue();
+	}
+	
+	if(po_config_integration_delivery_day_week == 6 || po_config_integration_delivery_day_week == 7)
+	{
+		po_config_integration_delivery_date_glide.subtract(offset_24_hours);
+		po_config_integration_dur = sched.duration(po_config_integration_request_date_glide, po_config_integration_delivery_date_glide);
+	    current.po_config_integration_requested_to_delivered_duration = po_config_integration_dur.getDurationValue();
+	}
+	
+	else
+	{
+		po_config_integration_dur = sched.duration(po_config_integration_request_date_glide, po_config_integration_delivery_date_glide);
+	    current.po_config_integration_requested_to_delivered_duration = po_config_integration_dur.getDurationValue();
+	}
+	
 	
 	
 	//calculo de la duración de la entrega del PO others
@@ -122,9 +300,31 @@
 	var po_others_delivery_date = current.po_others_delivery_date + " 12:00:00";
 	var po_others_request_date_glide = new GlideDateTime(po_others_request_date);
 	var po_others_delivery_date_glide = new GlideDateTime(po_others_delivery_date);
+	var po_others_request_day_week = po_others_request_date_glide.getDayOfWeekUTC();
+	var po_others_delivery_day_week = po_others_delivery_date_glide.getDayOfWeekUTC();
+	var po_others_dur = new GlideDuration();
+	
+	if(po_others_request_day_week == 6 || po_others_request_day_week == 7)
+	{
+	    po_others_delivery_date_glide.subtract(offset_6_hours);
+		po_others_dur = sched.duration(po_others_request_date_glide, po_others_delivery_date_glide);
+	    current.po_others_requested_to_delivered_duration = po_others_dur.getDurationValue();
 		
-	var po_others_dur = sched.duration(po_others_request_date_glide, po_others_delivery_date_glide);
-	current.po_others_requested_to_delivered_duration = po_others_dur.getDurationValue();
+	}
+	
+	if(po_others_delivery_day_week == 6 || po_others_delivery_day_week == 7)
+	{
+		po_others_delivery_date_glide.subtract(offset_24_hours);
+		po_others_dur = sched.duration(po_others_request_date_glide, po_others_delivery_date_glide);
+	    current.po_others_requested_to_delivered_duration = po_others_dur.getDurationValue();
+	}
+	
+	else
+	{
+		po_others_dur = sched.duration(po_others_request_date_glide, po_others_delivery_date_glide);
+	    current.po_others_requested_to_delivered_duration = po_others_dur.getDurationValue();
+	}	
+	
 	
 	
 })(current, previous);]]></script>
@@ -135,7 +335,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5e4b77e5db2a4b00e7bbdbbb5e96196c</sys_id>
-        <sys_mod_count>31</sys_mod_count>
+        <sys_mod_count>60</sys_mod_count>
         <sys_name>PRQ calculate aging information (Capex)</sys_name>
         <sys_overrides/>
         <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
@@ -144,7 +344,7 @@
         <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
         <sys_update_name>sys_script_5e4b77e5db2a4b00e7bbdbbb5e96196c</sys_update_name>
         <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-11-27 06:29:44</sys_updated_on>
+        <sys_updated_on>2017-11-28 19:11:42</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
