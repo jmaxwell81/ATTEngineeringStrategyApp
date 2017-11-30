@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="x_attme_engr_strat_capex_opex_request" label="Purchase requisition" max_length="40" name="x_attme_engr_strat_purchase_requisition" sizeclass="5" type="collection">
+    <element attributes="email_client=true" audit="true" extends="x_attme_engr_strat_capex_opex_request" label="Purchase requisition" max_length="40" name="x_attme_engr_strat_purchase_requisition" sizeclass="5" type="collection">
         <element label="Amount derived in Opex" max_length="40" name="amount_derived_in_opex" type="float"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="MXN" label="Opex amount currency" max_length="40" name="amount_derived_in_opex_currency" type="string">
             <choice>
@@ -38,6 +38,17 @@
                 <element label="Config. &amp; integration service" sequence="3" value="Config. &amp; integration service"/>
             </choice>
         </element>
+        <element choice="1" choice_field="document" choice_table="x_attme_engr_strat_purchase_requisiton_document_estimated_time" label="Last delivered document" max_length="40" name="last_delivered_document" read_only="true" type="choice">
+            <choice>
+                <element label="NET ID" sequence="0" value="NET ID"/>
+                <element label="PR" sequence="1" value="PR"/>
+                <element label="RFQ" sequence="2" value="RFQ"/>
+                <element label="Requisition" sequence="3" value="Requisition"/>
+                <element label="PO" sequence="4" value="PO"/>
+                <element label="OP" sequence="5" value="OP"/>
+                <element label="SOCA/OCA" sequence="6" value="SOCA/OCA"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="NET ID" max_length="40" name="net_id" type="string"/>
         <element label="NET ID delivery date" max_length="40" name="net_id_delivery_date" type="glide_date"/>
         <element label="NET ID requested to delivered duration" max_length="40" name="net_id_requested_to_delivered_duration" read_only="true" type="glide_duration"/>
@@ -49,6 +60,17 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="NET ID observations" max_length="255" name="net_id_status_observations" type="string"/>
+        <element choice="1" choice_field="document" choice_table="x_attme_engr_strat_purchase_requisiton_document_estimated_time" label="Next document to deliver" max_length="40" name="next_document_to_deliver" read_only="true" type="choice">
+            <choice>
+                <element label="NET ID" sequence="0" value="NET ID"/>
+                <element label="PR" sequence="1" value="PR"/>
+                <element label="RFQ" sequence="2" value="RFQ"/>
+                <element label="Requisition" sequence="3" value="Requisition"/>
+                <element label="PO" sequence="4" value="PO"/>
+                <element label="OP" sequence="5" value="OP"/>
+                <element label="SOCA/OCA" sequence="6" value="SOCA/OCA"/>
+            </choice>
+        </element>
         <element label="OCA delivery date" max_length="40" name="oca_delivery_date" type="glide_date"/>
         <element label="OCA" max_length="40" name="oca_number" type="string"/>
         <element label="OCA requested to delivered duration" max_length="40" name="oca_requested_to_delivered_duration" read_only="true" type="glide_duration"/>
@@ -138,7 +160,7 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="PR status observations" max_length="255" name="pr_status_observations" type="string"/>
-        <element label="Purchase req. age" max_length="40" name="purchase_requisition_age" read_only="true" type="glide_duration"/>
+        <element hint="Este campo muestra la edad de solicitud de compra en días hábiles" label="Purchase req. age" max_length="40" name="purchase_requisition_age" read_only="true" type="glide_duration"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Purchase type" mandatory="true" max_length="40" name="purchase_type" type="string">
             <choice>
                 <element label="Bidding" sequence="0" value="Bidding"/>
@@ -153,7 +175,7 @@
             <choice>
                 <element label="Sent to purchase dept." sequence="0" value="Sent to purchase dept."/>
                 <element label="Sent to finance dept." sequence="1" value="Sent to finance dept."/>
-                <element label="Fnished" sequence="2" value="Finished"/>
+                <element label="Finished" sequence="2" value="Finished"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Req. status observations" max_length="255" name="requisition_status_observations" type="string"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="Capacity request" max_length="40" name="x_attme_engr_strat_engineering_strategy_request" type="collection">
+    <element attributes="email_client=true" audit="true" extends="task" label="Capacity request" max_length="40" name="x_attme_engr_strat_engineering_strategy_request" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="1" label="On hold reason" max_length="40" name="on_hold_reason" type="string">
             <choice>
                 <element label="Awaiting user information" sequence="0" value="Awaiting user information"/>

@@ -4,489 +4,517 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-28 20:02:18</sys_created_on>
-            <sys_id>fa56599cdb3a0f00e7bbdbbb5e9619f4</sys_id>
+            <sys_created_on>2017-11-29 16:16:50</sys_created_on>
+            <sys_id>355c29a0dbbe0f00e7bbdbbb5e961955</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-28 20:02:18</sys_updated_on>
-            <text/>
-            <type/>
+            <sys_updated_on>2017-11-29 16:16:50</sys_updated_on>
+            <text>OP tracking</text>
+            <type display_value="Bold text">d85bc5a6db1a030028f3d5ab5e961974</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-28 20:02:18</sys_created_on>
-            <sys_id>7e56599cdb3a0f00e7bbdbbb5e9619f4</sys_id>
+            <sys_created_on>2017-11-29 16:16:50</sys_created_on>
+            <sys_id>b55c29a0dbbe0f00e7bbdbbb5e961955</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-28 20:02:18</sys_updated_on>
-            <text/>
-            <type/>
+            <sys_updated_on>2017-11-29 16:16:50</sys_updated_on>
+            <text>RFQ tracking</text>
+            <type display_value="Bold text">d85bc5a6db1a030028f3d5ab5e961974</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-28 20:02:18</sys_created_on>
-            <sys_id>fe56599cdb3a0f00e7bbdbbb5e9619f4</sys_id>
+            <sys_created_on>2017-11-29 16:16:50</sys_created_on>
+            <sys_id>395c29a0dbbe0f00e7bbdbbb5e961955</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-28 20:02:18</sys_updated_on>
-            <text/>
-            <type/>
+            <sys_updated_on>2017-11-29 16:16:50</sys_updated_on>
+            <text>OCA tracking</text>
+            <type display_value="Bold text">d85bc5a6db1a030028f3d5ab5e961974</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-28 20:02:18</sys_created_on>
-            <sys_id>7256599cdb3a0f00e7bbdbbb5e9619f5</sys_id>
+            <sys_created_on>2017-11-29 16:16:50</sys_created_on>
+            <sys_id>b95c29a0dbbe0f00e7bbdbbb5e961955</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-28 20:02:18</sys_updated_on>
-            <text/>
-            <type/>
+            <sys_updated_on>2017-11-29 16:16:50</sys_updated_on>
+            <text>PR tracking</text>
+            <type display_value="Bold text">d85bc5a6db1a030028f3d5ab5e961974</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-28 20:02:18</sys_created_on>
-            <sys_id>f256599cdb3a0f00e7bbdbbb5e9619f5</sys_id>
+            <sys_created_on>2017-11-29 16:16:50</sys_created_on>
+            <sys_id>3d5c29a0dbbe0f00e7bbdbbb5e961955</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-28 20:02:18</sys_updated_on>
-            <text/>
-            <type/>
+            <sys_updated_on>2017-11-29 16:16:50</sys_updated_on>
+            <text>SOCA tracking</text>
+            <type display_value="Bold text">d85bc5a6db1a030028f3d5ab5e961974</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>fa56599cdb3a0f00e7bbdbbb5e9619f4</element>
+            <element>last_delivered_document</element>
             <position>0</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-28 20:02:18</sys_created_on>
-            <sys_id>7656599cdb3a0f00e7bbdbbb5e9619f5</sys_id>
+            <sys_created_on>2017-11-29 16:16:50</sys_created_on>
+            <sys_id>bd5c29a0dbbe0f00e7bbdbbb5e961955</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Opex document tracking" display_value="Opex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="a14ed66bdbeacb00e7bbdbbb5e961992">614ed66bdbeacb00e7bbdbbb5e961993</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-28 20:02:18</sys_updated_on>
+            <sys_updated_on>2017-11-29 16:16:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>355c29a0dbbe0f00e7bbdbbb5e961955</element>
+            <position>1</position>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-29 16:16:50</sys_created_on>
+            <sys_id>315c29a0dbbe0f00e7bbdbbb5e961956</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Opex document tracking" display_value="Opex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="a14ed66bdbeacb00e7bbdbbb5e961992">614ed66bdbeacb00e7bbdbbb5e961993</sys_ui_section>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-29 16:16:50</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>op</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-28 20:02:18</sys_created_on>
-            <sys_id>f656599cdb3a0f00e7bbdbbb5e9619f5</sys_id>
+            <sys_created_on>2017-11-29 16:16:50</sys_created_on>
+            <sys_id>b15c29a0dbbe0f00e7bbdbbb5e961956</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Opex document tracking" display_value="Opex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="a14ed66bdbeacb00e7bbdbbb5e961992">614ed66bdbeacb00e7bbdbbb5e961993</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-28 20:02:18</sys_updated_on>
+            <sys_updated_on>2017-11-29 16:16:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>op_request_date</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-28 20:02:18</sys_created_on>
-            <sys_id>7a56599cdb3a0f00e7bbdbbb5e9619f5</sys_id>
+            <sys_created_on>2017-11-29 16:16:50</sys_created_on>
+            <sys_id>355c29a0dbbe0f00e7bbdbbb5e961956</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Opex document tracking" display_value="Opex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="a14ed66bdbeacb00e7bbdbbb5e961992">614ed66bdbeacb00e7bbdbbb5e961993</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-28 20:02:18</sys_updated_on>
+            <sys_updated_on>2017-11-29 16:16:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>op_delivery_date</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-28 20:02:18</sys_created_on>
-            <sys_id>fa56599cdb3a0f00e7bbdbbb5e9619f5</sys_id>
+            <sys_created_on>2017-11-29 16:16:50</sys_created_on>
+            <sys_id>b55c29a0dbbe0f00e7bbdbbb5e961956</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Opex document tracking" display_value="Opex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="a14ed66bdbeacb00e7bbdbbb5e961992">614ed66bdbeacb00e7bbdbbb5e961993</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-28 20:02:18</sys_updated_on>
+            <sys_updated_on>2017-11-29 16:16:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>op_status</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-28 20:02:18</sys_created_on>
-            <sys_id>7e56599cdb3a0f00e7bbdbbb5e9619f5</sys_id>
+            <sys_created_on>2017-11-29 16:16:50</sys_created_on>
+            <sys_id>395c29a0dbbe0f00e7bbdbbb5e961956</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Opex document tracking" display_value="Opex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="a14ed66bdbeacb00e7bbdbbb5e961992">614ed66bdbeacb00e7bbdbbb5e961993</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-28 20:02:18</sys_updated_on>
+            <sys_updated_on>2017-11-29 16:16:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>op_status_observations</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-28 20:02:18</sys_created_on>
-            <sys_id>fe56599cdb3a0f00e7bbdbbb5e9619f5</sys_id>
+            <sys_created_on>2017-11-29 16:16:50</sys_created_on>
+            <sys_id>b95c29a0dbbe0f00e7bbdbbb5e961956</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Opex document tracking" display_value="Opex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="a14ed66bdbeacb00e7bbdbbb5e961992">614ed66bdbeacb00e7bbdbbb5e961993</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-28 20:02:18</sys_updated_on>
+            <sys_updated_on>2017-11-29 16:16:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>7e56599cdb3a0f00e7bbdbbb5e9619f4</element>
-            <position>6</position>
+            <element>b55c29a0dbbe0f00e7bbdbbb5e961955</element>
+            <position>7</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-28 20:02:18</sys_created_on>
-            <sys_id>7256599cdb3a0f00e7bbdbbb5e9619f6</sys_id>
+            <sys_created_on>2017-11-29 16:16:50</sys_created_on>
+            <sys_id>3d5c29a0dbbe0f00e7bbdbbb5e961956</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Opex document tracking" display_value="Opex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="a14ed66bdbeacb00e7bbdbbb5e961992">614ed66bdbeacb00e7bbdbbb5e961993</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-28 20:02:18</sys_updated_on>
+            <sys_updated_on>2017-11-29 16:16:50</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>rfq</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-28 20:02:18</sys_created_on>
-            <sys_id>f256599cdb3a0f00e7bbdbbb5e9619f6</sys_id>
+            <sys_created_on>2017-11-29 16:16:50</sys_created_on>
+            <sys_id>bd5c29a0dbbe0f00e7bbdbbb5e961956</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Opex document tracking" display_value="Opex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="a14ed66bdbeacb00e7bbdbbb5e961992">614ed66bdbeacb00e7bbdbbb5e961993</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-28 20:02:18</sys_updated_on>
+            <sys_updated_on>2017-11-29 16:16:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>rfq_request_date</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-28 20:02:18</sys_created_on>
-            <sys_id>7656599cdb3a0f00e7bbdbbb5e9619f6</sys_id>
+            <sys_created_on>2017-11-29 16:16:50</sys_created_on>
+            <sys_id>315c29a0dbbe0f00e7bbdbbb5e961957</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Opex document tracking" display_value="Opex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="a14ed66bdbeacb00e7bbdbbb5e961992">614ed66bdbeacb00e7bbdbbb5e961993</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-28 20:02:18</sys_updated_on>
+            <sys_updated_on>2017-11-29 16:16:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>rfq_delivery_date</element>
-            <position>9</position>
+            <position>10</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-28 20:02:18</sys_created_on>
-            <sys_id>f656599cdb3a0f00e7bbdbbb5e9619f6</sys_id>
+            <sys_created_on>2017-11-29 16:16:50</sys_created_on>
+            <sys_id>b15c29a0dbbe0f00e7bbdbbb5e961957</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Opex document tracking" display_value="Opex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="a14ed66bdbeacb00e7bbdbbb5e961992">614ed66bdbeacb00e7bbdbbb5e961993</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-28 20:02:18</sys_updated_on>
+            <sys_updated_on>2017-11-29 16:16:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>rfq_status</element>
-            <position>10</position>
+            <position>11</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-28 20:02:18</sys_created_on>
-            <sys_id>7a56599cdb3a0f00e7bbdbbb5e9619f6</sys_id>
+            <sys_created_on>2017-11-29 16:16:50</sys_created_on>
+            <sys_id>355c29a0dbbe0f00e7bbdbbb5e961957</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Opex document tracking" display_value="Opex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="a14ed66bdbeacb00e7bbdbbb5e961992">614ed66bdbeacb00e7bbdbbb5e961993</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-28 20:02:18</sys_updated_on>
+            <sys_updated_on>2017-11-29 16:16:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>rfq_status_observations</element>
-            <position>11</position>
+            <position>12</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-28 20:02:18</sys_created_on>
-            <sys_id>fa56599cdb3a0f00e7bbdbbb5e9619f6</sys_id>
+            <sys_created_on>2017-11-29 16:16:50</sys_created_on>
+            <sys_id>b55c29a0dbbe0f00e7bbdbbb5e961957</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Opex document tracking" display_value="Opex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="a14ed66bdbeacb00e7bbdbbb5e961992">614ed66bdbeacb00e7bbdbbb5e961993</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-28 20:02:18</sys_updated_on>
+            <sys_updated_on>2017-11-29 16:16:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>fe56599cdb3a0f00e7bbdbbb5e9619f4</element>
-            <position>12</position>
+            <element>395c29a0dbbe0f00e7bbdbbb5e961955</element>
+            <position>13</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-28 20:02:18</sys_created_on>
-            <sys_id>7e56599cdb3a0f00e7bbdbbb5e9619f6</sys_id>
+            <sys_created_on>2017-11-29 16:16:50</sys_created_on>
+            <sys_id>395c29a0dbbe0f00e7bbdbbb5e961957</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Opex document tracking" display_value="Opex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="a14ed66bdbeacb00e7bbdbbb5e961992">614ed66bdbeacb00e7bbdbbb5e961993</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-28 20:02:18</sys_updated_on>
+            <sys_updated_on>2017-11-29 16:16:50</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>oca_number</element>
-            <position>13</position>
+            <position>14</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-28 20:02:18</sys_created_on>
-            <sys_id>fe56599cdb3a0f00e7bbdbbb5e9619f6</sys_id>
+            <sys_created_on>2017-11-29 16:16:50</sys_created_on>
+            <sys_id>b95c29a0dbbe0f00e7bbdbbb5e961957</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Opex document tracking" display_value="Opex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="a14ed66bdbeacb00e7bbdbbb5e961992">614ed66bdbeacb00e7bbdbbb5e961993</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-28 20:02:18</sys_updated_on>
+            <sys_updated_on>2017-11-29 16:16:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>oca_request_date</element>
-            <position>14</position>
+            <position>15</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-28 20:02:18</sys_created_on>
-            <sys_id>7256599cdb3a0f00e7bbdbbb5e9619f7</sys_id>
+            <sys_created_on>2017-11-29 16:16:50</sys_created_on>
+            <sys_id>3d5c29a0dbbe0f00e7bbdbbb5e961957</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Opex document tracking" display_value="Opex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="a14ed66bdbeacb00e7bbdbbb5e961992">614ed66bdbeacb00e7bbdbbb5e961993</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-28 20:02:18</sys_updated_on>
+            <sys_updated_on>2017-11-29 16:16:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>oca_delivery_date</element>
-            <position>15</position>
+            <position>16</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-28 20:02:18</sys_created_on>
-            <sys_id>f256599cdb3a0f00e7bbdbbb5e9619f7</sys_id>
+            <sys_created_on>2017-11-29 16:16:50</sys_created_on>
+            <sys_id>bd5c29a0dbbe0f00e7bbdbbb5e961957</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Opex document tracking" display_value="Opex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="a14ed66bdbeacb00e7bbdbbb5e961992">614ed66bdbeacb00e7bbdbbb5e961993</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-28 20:02:18</sys_updated_on>
+            <sys_updated_on>2017-11-29 16:16:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>oca_status</element>
-            <position>16</position>
+            <position>17</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-28 20:02:18</sys_created_on>
-            <sys_id>7656599cdb3a0f00e7bbdbbb5e9619f7</sys_id>
+            <sys_created_on>2017-11-29 16:16:50</sys_created_on>
+            <sys_id>315c29a0dbbe0f00e7bbdbbb5e961958</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Opex document tracking" display_value="Opex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="a14ed66bdbeacb00e7bbdbbb5e961992">614ed66bdbeacb00e7bbdbbb5e961993</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-28 20:02:18</sys_updated_on>
+            <sys_updated_on>2017-11-29 16:16:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>oca_status_observations</element>
-            <position>17</position>
+            <position>18</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-28 20:02:18</sys_created_on>
-            <sys_id>f656599cdb3a0f00e7bbdbbb5e9619f7</sys_id>
+            <sys_created_on>2017-11-29 16:16:50</sys_created_on>
+            <sys_id>b15c29a0dbbe0f00e7bbdbbb5e961958</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Opex document tracking" display_value="Opex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="a14ed66bdbeacb00e7bbdbbb5e961992">614ed66bdbeacb00e7bbdbbb5e961993</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-28 20:02:18</sys_updated_on>
+            <sys_updated_on>2017-11-29 16:16:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>18</position>
+            <position>19</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-28 20:02:18</sys_created_on>
-            <sys_id>7a56599cdb3a0f00e7bbdbbb5e9619f7</sys_id>
+            <sys_created_on>2017-11-29 16:16:50</sys_created_on>
+            <sys_id>355c29a0dbbe0f00e7bbdbbb5e961958</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Opex document tracking" display_value="Opex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="a14ed66bdbeacb00e7bbdbbb5e961992">614ed66bdbeacb00e7bbdbbb5e961993</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-28 20:02:18</sys_updated_on>
+            <sys_updated_on>2017-11-29 16:16:50</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>7256599cdb3a0f00e7bbdbbb5e9619f5</element>
-            <position>19</position>
+            <element>next_document_to_deliver</element>
+            <position>20</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-28 20:02:18</sys_created_on>
-            <sys_id>fa56599cdb3a0f00e7bbdbbb5e9619f7</sys_id>
+            <sys_created_on>2017-11-29 16:16:50</sys_created_on>
+            <sys_id>7d5c29a0dbbe0f00e7bbdbbb5e961964</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Opex document tracking" display_value="Opex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="a14ed66bdbeacb00e7bbdbbb5e961992">614ed66bdbeacb00e7bbdbbb5e961993</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-28 20:02:18</sys_updated_on>
+            <sys_updated_on>2017-11-29 16:16:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>b95c29a0dbbe0f00e7bbdbbb5e961955</element>
+            <position>21</position>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-29 16:16:50</sys_created_on>
+            <sys_id>fd5c29a0dbbe0f00e7bbdbbb5e961964</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Opex document tracking" display_value="Opex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="a14ed66bdbeacb00e7bbdbbb5e961992">614ed66bdbeacb00e7bbdbbb5e961993</sys_ui_section>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-29 16:16:50</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>pr</element>
-            <position>20</position>
+            <position>22</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-28 20:02:18</sys_created_on>
-            <sys_id>7e56599cdb3a0f00e7bbdbbb5e9619f7</sys_id>
+            <sys_created_on>2017-11-29 16:16:50</sys_created_on>
+            <sys_id>715c29a0dbbe0f00e7bbdbbb5e961965</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Opex document tracking" display_value="Opex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="a14ed66bdbeacb00e7bbdbbb5e961992">614ed66bdbeacb00e7bbdbbb5e961993</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-28 20:02:18</sys_updated_on>
+            <sys_updated_on>2017-11-29 16:16:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>pr_request_date</element>
-            <position>21</position>
+            <position>23</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-28 20:02:18</sys_created_on>
-            <sys_id>fe56599cdb3a0f00e7bbdbbb5e9619f7</sys_id>
+            <sys_created_on>2017-11-29 16:16:50</sys_created_on>
+            <sys_id>f15c29a0dbbe0f00e7bbdbbb5e961965</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Opex document tracking" display_value="Opex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="a14ed66bdbeacb00e7bbdbbb5e961992">614ed66bdbeacb00e7bbdbbb5e961993</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-28 20:02:18</sys_updated_on>
+            <sys_updated_on>2017-11-29 16:16:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>pr_delivery_date</element>
-            <position>22</position>
+            <position>24</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-28 20:02:18</sys_created_on>
-            <sys_id>7256599cdb3a0f00e7bbdbbb5e9619f8</sys_id>
+            <sys_created_on>2017-11-29 16:16:50</sys_created_on>
+            <sys_id>755c29a0dbbe0f00e7bbdbbb5e961965</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Opex document tracking" display_value="Opex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="a14ed66bdbeacb00e7bbdbbb5e961992">614ed66bdbeacb00e7bbdbbb5e961993</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-28 20:02:18</sys_updated_on>
+            <sys_updated_on>2017-11-29 16:16:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>pr_status</element>
-            <position>23</position>
+            <position>25</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-28 20:02:18</sys_created_on>
-            <sys_id>f256599cdb3a0f00e7bbdbbb5e9619f8</sys_id>
+            <sys_created_on>2017-11-29 16:16:50</sys_created_on>
+            <sys_id>f55c29a0dbbe0f00e7bbdbbb5e961965</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Opex document tracking" display_value="Opex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="a14ed66bdbeacb00e7bbdbbb5e961992">614ed66bdbeacb00e7bbdbbb5e961993</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-28 20:02:18</sys_updated_on>
+            <sys_updated_on>2017-11-29 16:16:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>pr_status_observations</element>
-            <position>24</position>
+            <position>26</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-28 20:02:18</sys_created_on>
-            <sys_id>7656599cdb3a0f00e7bbdbbb5e9619f8</sys_id>
+            <sys_created_on>2017-11-29 16:16:50</sys_created_on>
+            <sys_id>795c29a0dbbe0f00e7bbdbbb5e961965</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Opex document tracking" display_value="Opex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="a14ed66bdbeacb00e7bbdbbb5e961992">614ed66bdbeacb00e7bbdbbb5e961993</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-28 20:02:18</sys_updated_on>
+            <sys_updated_on>2017-11-29 16:16:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>f256599cdb3a0f00e7bbdbbb5e9619f5</element>
-            <position>25</position>
+            <element>3d5c29a0dbbe0f00e7bbdbbb5e961955</element>
+            <position>27</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-28 20:02:18</sys_created_on>
-            <sys_id>f656599cdb3a0f00e7bbdbbb5e9619f8</sys_id>
+            <sys_created_on>2017-11-29 16:16:50</sys_created_on>
+            <sys_id>f95c29a0dbbe0f00e7bbdbbb5e961965</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Opex document tracking" display_value="Opex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="a14ed66bdbeacb00e7bbdbbb5e961992">614ed66bdbeacb00e7bbdbbb5e961993</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-28 20:02:18</sys_updated_on>
+            <sys_updated_on>2017-11-29 16:16:50</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>soca</element>
-            <position>26</position>
+            <position>28</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-28 20:02:18</sys_created_on>
-            <sys_id>7a56599cdb3a0f00e7bbdbbb5e9619f8</sys_id>
+            <sys_created_on>2017-11-29 16:16:50</sys_created_on>
+            <sys_id>7d5c29a0dbbe0f00e7bbdbbb5e961965</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Opex document tracking" display_value="Opex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="a14ed66bdbeacb00e7bbdbbb5e961992">614ed66bdbeacb00e7bbdbbb5e961993</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-28 20:02:18</sys_updated_on>
+            <sys_updated_on>2017-11-29 16:16:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>soca_request_date</element>
-            <position>27</position>
+            <position>29</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-28 20:02:18</sys_created_on>
-            <sys_id>fa56599cdb3a0f00e7bbdbbb5e9619f8</sys_id>
+            <sys_created_on>2017-11-29 16:16:50</sys_created_on>
+            <sys_id>fd5c29a0dbbe0f00e7bbdbbb5e961965</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Opex document tracking" display_value="Opex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="a14ed66bdbeacb00e7bbdbbb5e961992">614ed66bdbeacb00e7bbdbbb5e961993</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-28 20:02:18</sys_updated_on>
+            <sys_updated_on>2017-11-29 16:16:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>soca_delivery_date</element>
-            <position>28</position>
+            <position>30</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-28 20:02:18</sys_created_on>
-            <sys_id>7e56599cdb3a0f00e7bbdbbb5e9619f8</sys_id>
+            <sys_created_on>2017-11-29 16:16:50</sys_created_on>
+            <sys_id>715c29a0dbbe0f00e7bbdbbb5e961966</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Opex document tracking" display_value="Opex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="a14ed66bdbeacb00e7bbdbbb5e961992">614ed66bdbeacb00e7bbdbbb5e961993</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-28 20:02:18</sys_updated_on>
+            <sys_updated_on>2017-11-29 16:16:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>soca_status</element>
-            <position>29</position>
+            <position>31</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-28 20:02:18</sys_created_on>
-            <sys_id>fe56599cdb3a0f00e7bbdbbb5e9619f8</sys_id>
+            <sys_created_on>2017-11-29 16:16:50</sys_created_on>
+            <sys_id>f15c29a0dbbe0f00e7bbdbbb5e961966</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Opex document tracking" display_value="Opex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="a14ed66bdbeacb00e7bbdbbb5e961992">614ed66bdbeacb00e7bbdbbb5e961993</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-28 20:02:18</sys_updated_on>
+            <sys_updated_on>2017-11-29 16:16:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>soca_status_observations</element>
-            <position>30</position>
+            <position>32</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-28 20:02:18</sys_created_on>
-            <sys_id>7256599cdb3a0f00e7bbdbbb5e9619f9</sys_id>
+            <sys_created_on>2017-11-29 16:16:50</sys_created_on>
+            <sys_id>755c29a0dbbe0f00e7bbdbbb5e961966</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Opex document tracking" display_value="Opex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="a14ed66bdbeacb00e7bbdbbb5e961992">614ed66bdbeacb00e7bbdbbb5e961993</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-28 20:02:18</sys_updated_on>
+            <sys_updated_on>2017-11-29 16:16:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

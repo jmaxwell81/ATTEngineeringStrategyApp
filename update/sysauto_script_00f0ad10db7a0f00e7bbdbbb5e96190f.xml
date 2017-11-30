@@ -40,12 +40,12 @@ function warnDelayedPurchaseRequisition()
 		   actual_last_delivered_document = getActualLastDeliveredDocumentOpex(prq.op, prq.pr, prq.rfq, prq.soca, prq.oca);
 		}  
 		
-		gs.info("ultimo de verdad:" + actual_last_delivered_document);
+		gs.info("Ultimo documento entregado (real):" + actual_last_delivered_document);
 		
 		//Buscamos cual es el siguiente documento que se debería de entregar de acuerdo con los días que tiene la purchase requisition
 	    var estimated_next_delivered_document = getEstimatedNextDocument(prq.expense_type, prq.purchase_requisition_age);
 		
-		gs.info("ultimo estimado: " + estimated_next_delivered_document);
+		gs.info("Siguiente documento a entregar  (estimado): " + estimated_next_delivered_document);
 			
 	}
 		
@@ -89,12 +89,12 @@ function getEstimatedNextDocument(purchase_requisition_expense_type, purchase_re
 	var purchase_age_split = purchase_requisition_age.split(' ');
     var purchase_age_split_2 = purchase_age_split[0].split('-');
     var actual_purchase_age_str = purchase_age_split_2[2];
-    //var actual_purchase_age = parseInt(actual_purchase_age_str)-1;
-	var actual_purchase_age = 1;
+    var actual_purchase_age = parseInt(actual_purchase_age_str)-1;
+	
 	
 	//Con la edad en días de la solicitud de compra  
 	var estimated_time_counter = 0;
-	var estimated_next_delivered_document; //siguiente documento estimado a entregar
+	var estimated_next_step = 0; //siguiente documento estimado a entregar
 	var estimated_delivered_document; //ultimo documento estimado ya entregado
 	
 	var purchase_step = new GlideRecord('x_attme_engr_strat_purchase_requisiton_document_estimated_time');
@@ -112,12 +112,12 @@ function getEstimatedNextDocument(purchase_requisition_expense_type, purchase_re
 		
 		if(estimated_time_counter > actual_purchase_age)
 		{
-			estimated_next_delivered_document = purchase_step.order;
+			estimated_next_step = purchase_step.order;
 			break;
 		}
 	}
 	
-	return estimated_next_delivered_document;
+	return estimated_next_step;
 	
 }
 ]]></script>
@@ -126,7 +126,7 @@ function getEstimatedNextDocument(purchase_requisition_expense_type, purchase_re
         <sys_created_on>2017-11-28 21:02:45</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>00f0ad10db7a0f00e7bbdbbb5e96190f</sys_id>
-        <sys_mod_count>27</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_name>Capex/Opex mgmt - Warn delayed purchase requisition </sys_name>
         <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
         <sys_policy/>
@@ -134,7 +134,7 @@ function getEstimatedNextDocument(purchase_requisition_expense_type, purchase_re
         <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
         <sys_update_name>sysauto_script_00f0ad10db7a0f00e7bbdbbb5e96190f</sys_update_name>
         <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-11-28 23:27:49</sys_updated_on>
+        <sys_updated_on>2017-11-29 15:51:24</sys_updated_on>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_script>
 </record_update>
