@@ -37,6 +37,7 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Reception number / GR" max_length="40" name="reception_number" type="string"/>
+        <element label="Sites detail" max_length="1000" name="sites_detail" type="string"/>
         <element label="Vendor date" max_length="40" name="vendor_date" type="glide_date"/>
     </element>
 </database>

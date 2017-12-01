@@ -4,291 +4,333 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-26 17:03:00</sys_created_on>
-            <sys_id>812ad22bdbeacb00e7bbdbbb5e96192e</sys_id>
+            <sys_created_on>2017-11-30 16:34:03</sys_created_on>
+            <sys_id>08e93ef4db364f00e7bbdbbb5e96193d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-26 17:03:00</sys_updated_on>
+            <sys_updated_on>2017-11-30 16:34:03</sys_updated_on>
             <text>Dispatch details</text>
             <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>number</element>
+            <element>process_flow.xml</element>
             <position>0</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-26 17:03:00</sys_created_on>
-            <sys_id>052ad22bdbeacb00e7bbdbbb5e96192e</sys_id>
+            <sys_created_on>2017-11-30 16:34:03</sys_created_on>
+            <sys_id>88e93ef4db364f00e7bbdbbb5e96193d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Process Flow">9739f2f4db364f00e7bbdbbb5e9619a8</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_dispatch_request" sys_domain="global" view="Default view">48639743dbda8700e7bbdbbb5e961989</sys_ui_section>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-30 16:34:03</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-30 16:34:03</sys_created_on>
+            <sys_id>0ce93ef4db364f00e7bbdbbb5e96193d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_dispatch_request" sys_domain="global" view="Default view">48639743dbda8700e7bbdbbb5e961989</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-26 17:03:00</sys_updated_on>
+            <sys_updated_on>2017-11-30 16:34:03</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>2</position>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-30 16:34:03</sys_created_on>
+            <sys_id>8ce93ef4db364f00e7bbdbbb5e96193d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_dispatch_request" sys_domain="global" view="Default view">48639743dbda8700e7bbdbbb5e961989</sys_ui_section>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-30 16:34:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>requested_for</element>
-            <position>1</position>
+            <position>3</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-26 17:03:00</sys_created_on>
-            <sys_id>852ad22bdbeacb00e7bbdbbb5e96192e</sys_id>
+            <sys_created_on>2017-11-30 16:34:03</sys_created_on>
+            <sys_id>00e93ef4db364f00e7bbdbbb5e96193e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_dispatch_request" sys_domain="global" view="Default view">48639743dbda8700e7bbdbbb5e961989</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-26 17:03:00</sys_updated_on>
+            <sys_updated_on>2017-11-30 16:34:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>associated_po</element>
-            <position>2</position>
+            <position>4</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-26 17:03:00</sys_created_on>
-            <sys_id>092ad22bdbeacb00e7bbdbbb5e96192e</sys_id>
+            <sys_created_on>2017-11-30 16:34:03</sys_created_on>
+            <sys_id>80e93ef4db364f00e7bbdbbb5e96193e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_dispatch_request" sys_domain="global" view="Default view">48639743dbda8700e7bbdbbb5e961989</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-26 17:03:00</sys_updated_on>
+            <sys_updated_on>2017-11-30 16:34:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>dispatch_number</element>
-            <position>3</position>
+            <position>5</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-26 17:03:00</sys_created_on>
-            <sys_id>892ad22bdbeacb00e7bbdbbb5e96192e</sys_id>
+            <sys_created_on>2017-11-30 16:34:03</sys_created_on>
+            <sys_id>04e93ef4db364f00e7bbdbbb5e96193e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_dispatch_request" sys_domain="global" view="Default view">48639743dbda8700e7bbdbbb5e961989</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-26 17:03:00</sys_updated_on>
+            <sys_updated_on>2017-11-30 16:34:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>dispatch_type</element>
-            <position>4</position>
+            <position>6</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-26 17:03:00</sys_created_on>
-            <sys_id>0d2ad22bdbeacb00e7bbdbbb5e96192e</sys_id>
+            <sys_created_on>2017-11-30 16:34:03</sys_created_on>
+            <sys_id>84e93ef4db364f00e7bbdbbb5e96193e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_dispatch_request" sys_domain="global" view="Default view">48639743dbda8700e7bbdbbb5e961989</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-26 17:03:00</sys_updated_on>
+            <sys_updated_on>2017-11-30 16:34:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>5</position>
+            <position>7</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-26 17:03:00</sys_created_on>
-            <sys_id>8d2ad22bdbeacb00e7bbdbbb5e96192e</sys_id>
+            <sys_created_on>2017-11-30 16:34:03</sys_created_on>
+            <sys_id>08e93ef4db364f00e7bbdbbb5e96193e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_dispatch_request" sys_domain="global" view="Default view">48639743dbda8700e7bbdbbb5e961989</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-26 17:03:00</sys_updated_on>
+            <sys_updated_on>2017-11-30 16:34:03</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>opened_at</element>
-            <position>6</position>
+            <position>8</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-26 17:03:00</sys_created_on>
-            <sys_id>012ad22bdbeacb00e7bbdbbb5e96192f</sys_id>
+            <sys_created_on>2017-11-30 16:34:03</sys_created_on>
+            <sys_id>88e93ef4db364f00e7bbdbbb5e96193e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_dispatch_request" sys_domain="global" view="Default view">48639743dbda8700e7bbdbbb5e961989</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-26 17:03:00</sys_updated_on>
+            <sys_updated_on>2017-11-30 16:34:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
-            <position>7</position>
+            <position>9</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-26 17:03:00</sys_created_on>
-            <sys_id>812ad22bdbeacb00e7bbdbbb5e96192f</sys_id>
+            <sys_created_on>2017-11-30 16:34:03</sys_created_on>
+            <sys_id>0ce93ef4db364f00e7bbdbbb5e96193e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_dispatch_request" sys_domain="global" view="Default view">48639743dbda8700e7bbdbbb5e961989</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-26 17:03:00</sys_updated_on>
+            <sys_updated_on>2017-11-30 16:34:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assignment_group</element>
-            <position>8</position>
+            <position>10</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-26 17:03:00</sys_created_on>
-            <sys_id>052ad22bdbeacb00e7bbdbbb5e96192f</sys_id>
+            <sys_created_on>2017-11-30 16:34:03</sys_created_on>
+            <sys_id>8ce93ef4db364f00e7bbdbbb5e96193e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_dispatch_request" sys_domain="global" view="Default view">48639743dbda8700e7bbdbbb5e961989</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-26 17:03:00</sys_updated_on>
+            <sys_updated_on>2017-11-30 16:34:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assigned_to</element>
-            <position>9</position>
+            <position>11</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-26 17:03:00</sys_created_on>
-            <sys_id>852ad22bdbeacb00e7bbdbbb5e96192f</sys_id>
+            <sys_created_on>2017-11-30 16:34:03</sys_created_on>
+            <sys_id>00e93ef4db364f00e7bbdbbb5e96193f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_dispatch_request" sys_domain="global" view="Default view">48639743dbda8700e7bbdbbb5e961989</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-26 17:03:00</sys_updated_on>
+            <sys_updated_on>2017-11-30 16:34:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>10</position>
+            <position>12</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-26 17:03:00</sys_created_on>
-            <sys_id>092ad22bdbeacb00e7bbdbbb5e96192f</sys_id>
+            <sys_created_on>2017-11-30 16:34:03</sys_created_on>
+            <sys_id>80e93ef4db364f00e7bbdbbb5e96193f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_dispatch_request" sys_domain="global" view="Default view">48639743dbda8700e7bbdbbb5e961989</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-26 17:03:00</sys_updated_on>
+            <sys_updated_on>2017-11-30 16:34:03</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>812ad22bdbeacb00e7bbdbbb5e96192e</element>
-            <position>11</position>
+            <element>08e93ef4db364f00e7bbdbbb5e96193d</element>
+            <position>13</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-26 17:03:00</sys_created_on>
-            <sys_id>892ad22bdbeacb00e7bbdbbb5e96192f</sys_id>
+            <sys_created_on>2017-11-30 16:34:03</sys_created_on>
+            <sys_id>04e93ef4db364f00e7bbdbbb5e96193f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_dispatch_request" sys_domain="global" view="Default view">48639743dbda8700e7bbdbbb5e961989</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-26 17:03:00</sys_updated_on>
+            <sys_updated_on>2017-11-30 16:34:03</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>short_description</element>
-            <position>12</position>
+            <position>14</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-26 17:03:00</sys_created_on>
-            <sys_id>0d2ad22bdbeacb00e7bbdbbb5e96192f</sys_id>
+            <sys_created_on>2017-11-30 16:34:03</sys_created_on>
+            <sys_id>84e93ef4db364f00e7bbdbbb5e96193f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_dispatch_request" sys_domain="global" view="Default view">48639743dbda8700e7bbdbbb5e961989</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-26 17:03:00</sys_updated_on>
+            <sys_updated_on>2017-11-30 16:34:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>description</element>
-            <position>13</position>
+            <position>15</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-26 17:03:00</sys_created_on>
-            <sys_id>8d2ad22bdbeacb00e7bbdbbb5e96192f</sys_id>
+            <sys_created_on>2017-11-30 16:34:03</sys_created_on>
+            <sys_id>08e93ef4db364f00e7bbdbbb5e96193f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_dispatch_request" sys_domain="global" view="Default view">48639743dbda8700e7bbdbbb5e961989</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-26 17:03:00</sys_updated_on>
+            <sys_updated_on>2017-11-30 16:34:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
-            <position>14</position>
+            <position>16</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-26 17:03:00</sys_created_on>
-            <sys_id>012ad22bdbeacb00e7bbdbbb5e961930</sys_id>
+            <sys_created_on>2017-11-30 16:34:03</sys_created_on>
+            <sys_id>88e93ef4db364f00e7bbdbbb5e96193f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_dispatch_request" sys_domain="global" view="Default view">48639743dbda8700e7bbdbbb5e961989</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-26 17:03:00</sys_updated_on>
+            <sys_updated_on>2017-11-30 16:34:03</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>reception_number</element>
-            <position>15</position>
+            <position>17</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-26 17:03:00</sys_created_on>
-            <sys_id>812ad22bdbeacb00e7bbdbbb5e961930</sys_id>
+            <sys_created_on>2017-11-30 16:34:03</sys_created_on>
+            <sys_id>0ce93ef4db364f00e7bbdbbb5e96193f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_dispatch_request" sys_domain="global" view="Default view">48639743dbda8700e7bbdbbb5e961989</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-26 17:03:00</sys_updated_on>
+            <sys_updated_on>2017-11-30 16:34:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>payment_period</element>
-            <position>16</position>
+            <position>18</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-26 17:03:00</sys_created_on>
-            <sys_id>052ad22bdbeacb00e7bbdbbb5e961930</sys_id>
+            <sys_created_on>2017-11-30 16:34:03</sys_created_on>
+            <sys_id>8ce93ef4db364f00e7bbdbbb5e96193f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_dispatch_request" sys_domain="global" view="Default view">48639743dbda8700e7bbdbbb5e961989</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-26 17:03:00</sys_updated_on>
+            <sys_updated_on>2017-11-30 16:34:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>17</position>
+            <position>19</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-26 17:03:00</sys_created_on>
-            <sys_id>852ad22bdbeacb00e7bbdbbb5e961930</sys_id>
+            <sys_created_on>2017-11-30 16:34:03</sys_created_on>
+            <sys_id>00e93ef4db364f00e7bbdbbb5e961940</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_dispatch_request" sys_domain="global" view="Default view">48639743dbda8700e7bbdbbb5e961989</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-26 17:03:00</sys_updated_on>
+            <sys_updated_on>2017-11-30 16:34:03</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>dispatch_amount</element>
-            <position>18</position>
+            <position>20</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-26 17:03:00</sys_created_on>
-            <sys_id>092ad22bdbeacb00e7bbdbbb5e961930</sys_id>
+            <sys_created_on>2017-11-30 16:34:03</sys_created_on>
+            <sys_id>80e93ef4db364f00e7bbdbbb5e961940</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_dispatch_request" sys_domain="global" view="Default view">48639743dbda8700e7bbdbbb5e961989</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-26 17:03:00</sys_updated_on>
+            <sys_updated_on>2017-11-30 16:34:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>dispatch_amount_currency</element>
-            <position>19</position>
+            <position>21</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-26 17:03:00</sys_created_on>
-            <sys_id>892ad22bdbeacb00e7bbdbbb5e961930</sys_id>
+            <sys_created_on>2017-11-30 16:34:03</sys_created_on>
+            <sys_id>04e93ef4db364f00e7bbdbbb5e961940</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_dispatch_request" sys_domain="global" view="Default view">48639743dbda8700e7bbdbbb5e961989</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-26 17:03:00</sys_updated_on>
+            <sys_updated_on>2017-11-30 16:34:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sites_detail</element>
+            <position>22</position>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-11-30 17:00:51</sys_created_on>
+            <sys_id>64000bb8db364f00e7bbdbbb5e9619ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_dispatch_request" sys_domain="global" view="Default view">48639743dbda8700e7bbdbbb5e961989</sys_ui_section>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-11-30 17:00:51</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
