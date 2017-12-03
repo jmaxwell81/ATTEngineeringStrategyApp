@@ -5,41 +5,27 @@
             <element>finance_area_date</element>
             <position>0</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-12 21:53:04</sys_created_on>
-            <sys_id>2946d783dbda8700e7bbdbbb5e961904</sys_id>
+            <sys_created_on>2017-12-01 18:00:02</sys_created_on>
+            <sys_id>9d27d0d9db720300e7bbdbbb5e96193d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Dispatch tracking information" display_value="Dispatch tracking information" name="x_attme_engr_strat_dispatch_request" sys_domain="global" view="Default view">2c165783dbda8700e7bbdbbb5e9619fc</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-12 21:53:04</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>finance_area_request date</element>
-            <position>1</position>
-            <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-12 21:53:04</sys_created_on>
-            <sys_id>a946d783dbda8700e7bbdbbb5e961904</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Dispatch tracking information" display_value="Dispatch tracking information" name="x_attme_engr_strat_dispatch_request" sys_domain="global" view="Default view">2c165783dbda8700e7bbdbbb5e9619fc</sys_ui_section>
-            <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-12 21:53:04</sys_updated_on>
+            <sys_updated_on>2017-12-01 18:00:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>vendor_date</element>
-            <position>2</position>
+            <position>1</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-12 21:53:04</sys_created_on>
-            <sys_id>2d46d783dbda8700e7bbdbbb5e961904</sys_id>
+            <sys_created_on>2017-12-01 18:00:02</sys_created_on>
+            <sys_id>1127d0d9db720300e7bbdbbb5e96193e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Dispatch tracking information" display_value="Dispatch tracking information" name="x_attme_engr_strat_dispatch_request" sys_domain="global" view="Default view">2c165783dbda8700e7bbdbbb5e9619fc</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-12 21:53:04</sys_updated_on>
+            <sys_updated_on>2017-12-01 18:00:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

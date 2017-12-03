@@ -2,24 +2,24 @@
 <record_update table="sys_ui_policy_action">
     <sys_ui_policy_action action="INSERT_OR_UPDATE">
         <disabled>ignore</disabled>
-        <field>assigned_to</field>
+        <field>reception_number</field>
         <mandatory>true</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>hugo.ruano</sys_created_by>
-        <sys_created_on>2017-11-30 16:44:19</sys_created_on>
+        <sys_created_on>2017-12-01 17:06:53</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>3c3c3e38db364f00e7bbdbbb5e961908</sys_id>
+        <sys_id>90da84d5db720300e7bbdbbb5e9619c8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>assigned_to</sys_name>
+        <sys_name>reception_number</sys_name>
         <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
-        <sys_update_name>sys_ui_policy_action_3c3c3e38db364f00e7bbdbbb5e961908</sys_update_name>
+        <sys_update_name>sys_ui_policy_action_90da84d5db720300e7bbdbbb5e9619c8</sys_update_name>
         <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-11-30 16:44:19</sys_updated_on>
+        <sys_updated_on>2017-12-01 17:06:53</sys_updated_on>
         <table>x_attme_engr_strat_dispatch_request</table>
-        <ui_policy display_value="DSP assigned to field control">d51cfa38db364f00e7bbdbbb5e96193e</ui_policy>
+        <ui_policy display_value="DSP mandatory fields on finished">9628c895db720300e7bbdbbb5e96194c</ui_policy>
         <visible>ignore</visible>
     </sys_ui_policy_action>
 </record_update>
