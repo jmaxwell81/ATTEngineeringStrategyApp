@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>El presente client script sirve para controlar la entrega de información de fechas, números y status de los diferentes documentos de generados para una solicitud de compra.</description>
+        <field>active</field>
+        <global>true</global>
+        <messages/>
+        <name>PRQ documents mandatory fields (Capex)</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+	
+g_form.clearMessages();
+	
+//Si es una compra tipo CAPEX
+if(g_form.getValue('expense_type') == 'Capex')
+{
+	
+	//NET ID
+	//si ya contamos con un NET ID definido, revisamos que ambos campos de fecha tengan información.
+	if(g_form.getValue('net_id') != '' )
+	{
+		if(g_form.getValue('net_id_request_date') == '' || g_form.getValue('net_id_delivery_date') == '')
+		{
+			g_form.addErrorMessage('You need to provide "NET ID request date" and "NET ID delivery date');
+			g_form.setMandatory('net_id_request_date', true);
+			g_form.setMandatory('net_id_delivery_date', true);
+			return false;
+		}
+		
+	}
+	
+	//si no tenemos un ID definido pero ambos campos de fecha ya poseen información
+	else
+	{
+		if(g_form.getValue('net_id_request_date') != '' && g_form.getValue('net_id_delivery_date') != '')
+		{
+			g_form.addErrorMessage('You need to provide a "NET ID number"');
+			g_form.setMandatory('net_id', true);
+			return false;			
+		}
+	}
+	
+	
+	
+	
+	//PR
+	//si ya contamos con un PR definido, revisamos que ambos campos de fecha tengan información.
+	if(g_form.getValue('pr') != '' )
+	{
+		if(g_form.getValue('pr_request_date') == '' || g_form.getValue('pr_delivery_date') == '')
+		{
+			g_form.addErrorMessage('You need to provide "PR request date" and "PR delivery date');
+			g_form.setMandatory('pr_request_date', true);
+			g_form.setMandatory('pr_delivery_date', true);
+			return false;
+		}
+		
+	}
+	
+	//si no tenemos un ID definido pero ambos campos de fecha ya poseen información
+	else
+	{
+		if(g_form.getValue('pr_request_date') != '' && g_form.getValue('pr_delivery_date') != '')
+		{
+			g_form.addErrorMessage('You need to provide a "PR number"');
+			g_form.setMandatory('pr', true);
+			return false;			
+		}
+	}
+	
+	
+	
+	
+	//RFQ
+	//si ya contamos con un PR definido, revisamos que ambos campos de fecha tengan información.
+	if(g_form.getValue('rfq') != '' )
+	{
+		if(g_form.getValue('rfq_request_date') == '' || g_form.getValue('rfq_delivery_date') == '')
+		{
+			g_form.addErrorMessage('You need to provide "RFQ request date" and "RFQ delivery date');
+			g_form.setMandatory('rfq_request_date', true);
+			g_form.setMandatory('rfq_delivery_date', true);
+			return false;
+		}
+		
+	}
+	
+	//si no tenemos un ID definido pero ambos campos de fecha ya poseen información
+	else
+	{
+		if(g_form.getValue('rfq_request_date') != '' && g_form.getValue('rfq_delivery_date') != '')
+		{
+			g_form.addErrorMessage('You need to provide a "RFQ number"');
+			g_form.setMandatory('rfq', true);
+			return false;			
+		}
+	}
+	
+	
+	//Requisition
+	//si ya contamos con una Requisición definidoa, revisamos que ambos campos de fecha tengan información.
+	if(g_form.getValue('requisition') != '' )
+	{
+		if(g_form.getValue('requisition_request_date') == '' || g_form.getValue('requisition_delivery_date') == '')
+		{
+			g_form.addErrorMessage('You need to provide "Requisition request date" and "Requisition delivery date');
+			g_form.setMandatory('requisition_request_date', true);
+			g_form.setMandatory('requisition_delivery_date', true);
+			return false;
+		}
+		
+	}
+	
+	//si no tenemos un ID definido pero ambos campos de fecha ya poseen información
+	else
+	{
+		if(g_form.getValue('requisition_request_date') != '' && g_form.getValue('requisition_delivery_date') != '')
+		{
+			g_form.addErrorMessage('You need to provide a "Requisition number"');
+			g_form.setMandatory('requisition', true);
+			return false;			
+		}
+	}
+		
+
+
+	
+	
+	
+	//PO Software
+	//si ya contamos con una PO software definida, revisamos que ambos campos de fecha tengan información.
+	if(g_form.getValue('po_software') != '' )
+	{
+		if(g_form.getValue('po_sw_request_date') == '' || g_form.getValue('po_sw_delivery_date') == '')
+		{
+			g_form.addErrorMessage('You need to provide "PO SW request date" and "PO SW delivery date');
+			g_form.setMandatory('po_sw_request_date', true);
+			g_form.setMandatory('po_sw_delivery_date', true);
+			return false;
+		}
+		
+	}
+	
+	//si no tenemos un ID definido pero ambos campos de fecha ya poseen información
+	else
+	{
+		if(g_form.getValue('po_sw_request_date') != '' && g_form.getValue('po_sw_delivery_date') != '')
+		{
+			g_form.addErrorMessage('You need to provide a "PO SW number"');
+			g_form.setMandatory('po_software', true);
+			return false;			
+		}
+	}
+	
+	
+	
+	
+	//PO Hardware
+	//si ya contamos con una PO hardware definida, revisamos que ambos campos de fecha tengan información.
+	if(g_form.getValue('po_hardware') != '' )
+	{
+		if(g_form.getValue('po_hw_request_date') == '' || g_form.getValue('po_hw_delivery_date') == '')
+		{
+			g_form.addErrorMessage('You need to provide "PO HW request date" and "PO HW delivery date');
+			g_form.setMandatory('po_hw_request_date', true);
+			g_form.setMandatory('po_hw_delivery_date', true);
+			return false;
+		}
+		
+	}
+	
+	//si no tenemos un ID definido pero ambos campos de fecha ya poseen información
+	else
+	{
+		if(g_form.getValue('po_hw_request_date') != '' && g_form.getValue('po_hw_delivery_date') != '')
+		{
+			g_form.addErrorMessage('You need to provide a "PO HW number"');
+			g_form.setMandatory('po_hardware', true);
+			return false;			
+		}
+	}
+	
+	
+	
+	//PO installation service
+	//si ya contamos con una PO hardware definida, revisamos que ambos campos de fecha tengan información.
+	if(g_form.getValue('po_installation_service') != '' )
+	{
+		if(g_form.getValue('po_installation_service_request_date') == '' || g_form.getValue('po_installation_service_delivery_date') == '')
+		{
+			g_form.addErrorMessage('You need to provide "PO installation service request date" and "PO installation service delivery date');
+			g_form.setMandatory('po_installation_service_request_date', true);
+			g_form.setMandatory('po_installation_service_date', true);
+			return false;
+		}
+		
+	}
+	
+	//si no tenemos un ID definido pero ambos campos de fecha ya poseen información
+	else
+	{
+		if(g_form.getValue('po_installation_service_request_date') != '' && g_form.getValue('po_installation_service_delivery_date') != '')
+		{
+			g_form.addErrorMessage('You need to provide a "PO installation service number"');
+			g_form.setMandatory('po_installation_service', true);
+			return false;			
+		}
+	}
+	
+	
+	
+	//PO configuration & integration service
+	//si ya contamos con una PO configuration & integration service definida, revisamos que ambos campos de fecha tengan información.
+	if(g_form.getValue('po_configuration_integration_service') != '' )
+	{
+		if(g_form.getValue('po_config_integration_request_date') == '' || g_form.getValue('po_config_integration_delivery_date') == '')
+		{
+			g_form.addErrorMessage('You need to provide "PO configuration & integration service request date" and "PO configuration & integration service delivery date');
+			g_form.setMandatory('po_config_integration_request_date', true);
+			g_form.setMandatory('po_config_integration_delivery_date', true);
+			return false;
+		}
+		
+	}
+	
+	//si no tenemos un ID definido pero ambos campos de fecha ya poseen información
+	else
+	{
+		if(g_form.getValue('po_config_integration_request_date') != '' && g_form.getValue('po_config_integration_delivery_date') != '')
+		{
+			g_form.addErrorMessage('You need to provide a "PO configuration & integration service number"');
+			g_form.setMandatory('po_configuration_integration_service', true);
+			return false;			
+		}
+	}
+	
+	
+	
+	//PO Others
+	//si ya contamos con una PO others definida, revisamos que ambos campos de fecha tengan información.
+	if(g_form.getValue('po_others') != '' )
+	{
+		if(g_form.getValue('po_others_request_date') == '' || g_form.getValue('po_others_delivery_date') == '')
+		{
+			g_form.addErrorMessage('You need to provide "PO others request date" and "PO others delivery date');
+			g_form.setMandatory('po_others_request_date', true);
+			g_form.setMandatory('po_others_delivery_date', true);
+			return false;
+		}
+		
+	}
+	
+	//si no tenemos un ID definido pero ambos campos de fecha ya poseen información
+	else
+	{
+		if(g_form.getValue('po_others_request_date') != '' && g_form.getValue('po_others_delivery_date') != '')
+		{
+			g_form.addErrorMessage('You need to provide a "PO others number"');
+			g_form.setMandatory('po_others', true);
+			return false;			
+		}
+	}
+	
+	
+}
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>hugo.ruano</sys_created_by>
+        <sys_created_on>2017-12-04 17:39:10</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>59fe670edbb6030028f3d5ab5e9619ec</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>PRQ documents mandatory fields (Capex)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
+        <sys_update_name>sys_script_client_59fe670edbb6030028f3d5ab5e9619ec</sys_update_name>
+        <sys_updated_by>hugo.ruano</sys_updated_by>
+        <sys_updated_on>2017-12-04 18:22:18</sys_updated_on>
+        <table>x_attme_engr_strat_purchase_requisition</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

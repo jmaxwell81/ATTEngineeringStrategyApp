@@ -4,99 +4,99 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>443a2960dbbe0f00e7bbdbbb5e96194e</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>2adbbb42dbf6030028f3d5ab5e96194c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <text>NET ID tracking</text>
             <type display_value="Bold text">d85bc5a6db1a030028f3d5ab5e961974</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>c43a2960dbbe0f00e7bbdbbb5e96194e</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>aadbbb42dbf6030028f3d5ab5e96194c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <text>RFQ tracking</text>
             <type display_value="Bold text">d85bc5a6db1a030028f3d5ab5e961974</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>483a2960dbbe0f00e7bbdbbb5e96194e</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>2edbbb42dbf6030028f3d5ab5e96194c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <text>PO SW tracking</text>
             <type display_value="Bold text">d85bc5a6db1a030028f3d5ab5e961974</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>c83a2960dbbe0f00e7bbdbbb5e96194e</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>aedbbb42dbf6030028f3d5ab5e96194c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <text>PO installation service tracking</text>
             <type display_value="Bold text">d85bc5a6db1a030028f3d5ab5e961974</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>4c3a2960dbbe0f00e7bbdbbb5e96194e</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>22dbbb42dbf6030028f3d5ab5e96194d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <text>PO others tracking</text>
             <type display_value="Bold text">d85bc5a6db1a030028f3d5ab5e961974</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>cc3a2960dbbe0f00e7bbdbbb5e96194e</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>a2dbbb42dbf6030028f3d5ab5e96194d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <text>PR tracking</text>
             <type display_value="Bold text">d85bc5a6db1a030028f3d5ab5e961974</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>403a2960dbbe0f00e7bbdbbb5e96194f</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>26dbbb42dbf6030028f3d5ab5e96194d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <text>Requisition tracking</text>
             <type display_value="Bold text">d85bc5a6db1a030028f3d5ab5e961974</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>c03a2960dbbe0f00e7bbdbbb5e96194f</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>a6dbbb42dbf6030028f3d5ab5e96194d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <text>PO HW tracking</text>
             <type display_value="Bold text">d85bc5a6db1a030028f3d5ab5e961974</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>443a2960dbbe0f00e7bbdbbb5e96194f</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>2adbbb42dbf6030028f3d5ab5e96194d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <text>PO installation &amp; integration service tracking</text>
             <type display_value="Bold text">d85bc5a6db1a030028f3d5ab5e961974</type>
         </sys_ui_annotation>
@@ -104,27 +104,27 @@
             <element>last_delivered_document</element>
             <position>0</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>c43a2960dbbe0f00e7bbdbbb5e96194f</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>aadbbb42dbf6030028f3d5ab5e96194d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>443a2960dbbe0f00e7bbdbbb5e96194e</element>
+            <element>2adbbb42dbf6030028f3d5ab5e96194c</element>
             <position>1</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>483a2960dbbe0f00e7bbdbbb5e96194f</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>2edbbb42dbf6030028f3d5ab5e96194d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -132,13 +132,13 @@
             <element>net_id</element>
             <position>2</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>c83a2960dbbe0f00e7bbdbbb5e96194f</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>66dbbb42dbf6030028f3d5ab5e96195a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -146,13 +146,13 @@
             <element>net_id_request_date</element>
             <position>3</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>4c3a2960dbbe0f00e7bbdbbb5e96194f</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>e6dbbb42dbf6030028f3d5ab5e96195a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -160,13 +160,13 @@
             <element>net_id_delivery_date</element>
             <position>4</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>cc3a2960dbbe0f00e7bbdbbb5e96194f</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>6adbbb42dbf6030028f3d5ab5e96195a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -174,13 +174,13 @@
             <element>net_id_status</element>
             <position>5</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>403a2960dbbe0f00e7bbdbbb5e961950</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>eadbbb42dbf6030028f3d5ab5e96195a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -188,27 +188,27 @@
             <element>net_id_status_observations</element>
             <position>6</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>c03a2960dbbe0f00e7bbdbbb5e961950</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>6edbbb42dbf6030028f3d5ab5e96195a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>c43a2960dbbe0f00e7bbdbbb5e96194e</element>
+            <element>aadbbb42dbf6030028f3d5ab5e96194c</element>
             <position>7</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>443a2960dbbe0f00e7bbdbbb5e961950</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>eedbbb42dbf6030028f3d5ab5e96195a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -216,13 +216,13 @@
             <element>rfq</element>
             <position>8</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>c43a2960dbbe0f00e7bbdbbb5e961950</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>62dbbb42dbf6030028f3d5ab5e96195b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -230,13 +230,13 @@
             <element>rfq_request_date</element>
             <position>9</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>483a2960dbbe0f00e7bbdbbb5e961950</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>e2dbbb42dbf6030028f3d5ab5e96195b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -244,13 +244,13 @@
             <element>rfq_delivery_date</element>
             <position>10</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>c83a2960dbbe0f00e7bbdbbb5e961950</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>66dbbb42dbf6030028f3d5ab5e96195b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -258,13 +258,13 @@
             <element>rfq_status</element>
             <position>11</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>4c3a2960dbbe0f00e7bbdbbb5e961950</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>e6dbbb42dbf6030028f3d5ab5e96195b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -272,27 +272,27 @@
             <element>rfq_status_observations</element>
             <position>12</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>cc3a2960dbbe0f00e7bbdbbb5e961950</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>6adbbb42dbf6030028f3d5ab5e96195b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>483a2960dbbe0f00e7bbdbbb5e96194e</element>
+            <element>2edbbb42dbf6030028f3d5ab5e96194c</element>
             <position>13</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>403a2960dbbe0f00e7bbdbbb5e961951</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>eadbbb42dbf6030028f3d5ab5e96195b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -300,13 +300,13 @@
             <element>po_software</element>
             <position>14</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>c03a2960dbbe0f00e7bbdbbb5e961951</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>6edbbb42dbf6030028f3d5ab5e96195b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -314,13 +314,13 @@
             <element>po_sw_request_date</element>
             <position>15</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>443a2960dbbe0f00e7bbdbbb5e961951</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>eedbbb42dbf6030028f3d5ab5e96195b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -328,13 +328,13 @@
             <element>po_sw_delivery_date</element>
             <position>16</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>c43a2960dbbe0f00e7bbdbbb5e961951</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>62dbbb42dbf6030028f3d5ab5e96195c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -342,13 +342,13 @@
             <element>po_sw_status</element>
             <position>17</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>483a2960dbbe0f00e7bbdbbb5e961951</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>e2dbbb42dbf6030028f3d5ab5e96195c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -356,27 +356,27 @@
             <element>po_sw_status_observations</element>
             <position>18</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>c83a2960dbbe0f00e7bbdbbb5e961951</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>66dbbb42dbf6030028f3d5ab5e96195c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>c83a2960dbbe0f00e7bbdbbb5e96194e</element>
+            <element>aedbbb42dbf6030028f3d5ab5e96194c</element>
             <position>19</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>4c3a2960dbbe0f00e7bbdbbb5e961951</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>e6dbbb42dbf6030028f3d5ab5e96195c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -384,13 +384,13 @@
             <element>po_installation_service</element>
             <position>20</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>cc3a2960dbbe0f00e7bbdbbb5e961951</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>6adbbb42dbf6030028f3d5ab5e96195c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -398,13 +398,13 @@
             <element>po_installation_service_request_date</element>
             <position>21</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>403a2960dbbe0f00e7bbdbbb5e961952</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>eadbbb42dbf6030028f3d5ab5e96195c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -412,13 +412,13 @@
             <element>po_installation_service_delivery_date</element>
             <position>22</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>c03a2960dbbe0f00e7bbdbbb5e961952</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>6edbbb42dbf6030028f3d5ab5e96195c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -426,13 +426,13 @@
             <element>po_installation_service_status</element>
             <position>23</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>443a2960dbbe0f00e7bbdbbb5e961952</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>eedbbb42dbf6030028f3d5ab5e96195c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -440,27 +440,27 @@
             <element>po_instal_serv_status_observations</element>
             <position>24</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>c43a2960dbbe0f00e7bbdbbb5e961952</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>62dbbb42dbf6030028f3d5ab5e96195d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>4c3a2960dbbe0f00e7bbdbbb5e96194e</element>
+            <element>22dbbb42dbf6030028f3d5ab5e96194d</element>
             <position>25</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>483a2960dbbe0f00e7bbdbbb5e961952</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>e2dbbb42dbf6030028f3d5ab5e96195d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -468,13 +468,13 @@
             <element>po_others</element>
             <position>26</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>c83a2960dbbe0f00e7bbdbbb5e961952</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>66dbbb42dbf6030028f3d5ab5e96195d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -482,13 +482,13 @@
             <element>po_others_request_date</element>
             <position>27</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>4c3a2960dbbe0f00e7bbdbbb5e961952</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>e6dbbb42dbf6030028f3d5ab5e96195d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -496,13 +496,13 @@
             <element>po_others_delivery_date</element>
             <position>28</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>cc3a2960dbbe0f00e7bbdbbb5e961952</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>6adbbb42dbf6030028f3d5ab5e96195d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -510,13 +510,13 @@
             <element>po_others_status</element>
             <position>29</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>403a2960dbbe0f00e7bbdbbb5e961953</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>eadbbb42dbf6030028f3d5ab5e96195d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -524,13 +524,13 @@
             <element>po_others_status_observations</element>
             <position>30</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>c03a2960dbbe0f00e7bbdbbb5e961953</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>6edbbb42dbf6030028f3d5ab5e96195d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -538,13 +538,13 @@
             <element>.split</element>
             <position>31</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>443a2960dbbe0f00e7bbdbbb5e961953</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>eedbbb42dbf6030028f3d5ab5e96195d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -552,27 +552,27 @@
             <element>next_document_to_deliver</element>
             <position>32</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>c43a2960dbbe0f00e7bbdbbb5e961953</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>62dbbb42dbf6030028f3d5ab5e96195e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>cc3a2960dbbe0f00e7bbdbbb5e96194e</element>
+            <element>a2dbbb42dbf6030028f3d5ab5e96194d</element>
             <position>33</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>483a2960dbbe0f00e7bbdbbb5e961953</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>e2dbbb42dbf6030028f3d5ab5e96195e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -580,13 +580,13 @@
             <element>pr</element>
             <position>34</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>c83a2960dbbe0f00e7bbdbbb5e961953</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>66dbbb42dbf6030028f3d5ab5e96195e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -594,13 +594,13 @@
             <element>pr_request_date</element>
             <position>35</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>4c3a2960dbbe0f00e7bbdbbb5e961953</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>e6dbbb42dbf6030028f3d5ab5e96195e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -608,13 +608,13 @@
             <element>pr_delivery_date</element>
             <position>36</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>cc3a2960dbbe0f00e7bbdbbb5e961953</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>6adbbb42dbf6030028f3d5ab5e96195e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -622,13 +622,13 @@
             <element>pr_status</element>
             <position>37</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>403a2960dbbe0f00e7bbdbbb5e961954</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>eadbbb42dbf6030028f3d5ab5e96195e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -636,27 +636,27 @@
             <element>pr_status_observations</element>
             <position>38</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>c03a2960dbbe0f00e7bbdbbb5e961954</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>6edbbb42dbf6030028f3d5ab5e96195e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>403a2960dbbe0f00e7bbdbbb5e96194f</element>
+            <element>26dbbb42dbf6030028f3d5ab5e96194d</element>
             <position>39</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>443a2960dbbe0f00e7bbdbbb5e961954</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>eedbbb42dbf6030028f3d5ab5e96195e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -664,13 +664,13 @@
             <element>requisition</element>
             <position>40</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>c43a2960dbbe0f00e7bbdbbb5e961954</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>62dbbb42dbf6030028f3d5ab5e96195f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -678,13 +678,13 @@
             <element>requisition_request_date</element>
             <position>41</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>483a2960dbbe0f00e7bbdbbb5e961954</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>e2dbbb42dbf6030028f3d5ab5e96195f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -692,13 +692,13 @@
             <element>requisition_delivery_date</element>
             <position>42</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>c83a2960dbbe0f00e7bbdbbb5e961954</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>66dbbb42dbf6030028f3d5ab5e96195f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -706,13 +706,13 @@
             <element>requisition_status</element>
             <position>43</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>4c3a2960dbbe0f00e7bbdbbb5e961954</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>e6dbbb42dbf6030028f3d5ab5e96195f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -720,27 +720,27 @@
             <element>requisition_status_observations</element>
             <position>44</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>cc3a2960dbbe0f00e7bbdbbb5e961954</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>6adbbb42dbf6030028f3d5ab5e96195f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>c03a2960dbbe0f00e7bbdbbb5e96194f</element>
+            <element>a6dbbb42dbf6030028f3d5ab5e96194d</element>
             <position>45</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>403a2960dbbe0f00e7bbdbbb5e961955</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>eadbbb42dbf6030028f3d5ab5e96195f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -748,13 +748,13 @@
             <element>po_hardware</element>
             <position>46</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>c03a2960dbbe0f00e7bbdbbb5e961955</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>6edbbb42dbf6030028f3d5ab5e96195f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -762,13 +762,13 @@
             <element>po_hw_request_date</element>
             <position>47</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>443a2960dbbe0f00e7bbdbbb5e961955</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>eedbbb42dbf6030028f3d5ab5e96195f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -776,13 +776,13 @@
             <element>po_hw_delivery_date</element>
             <position>48</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>c43a2960dbbe0f00e7bbdbbb5e961955</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>62dbbb42dbf6030028f3d5ab5e961960</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -790,13 +790,13 @@
             <element>po_hw_status</element>
             <position>49</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>483a2960dbbe0f00e7bbdbbb5e961955</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>e2dbbb42dbf6030028f3d5ab5e961960</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -804,27 +804,27 @@
             <element>po_hw_status_observations</element>
             <position>50</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>c83a2960dbbe0f00e7bbdbbb5e961955</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>66dbbb42dbf6030028f3d5ab5e961960</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>443a2960dbbe0f00e7bbdbbb5e96194f</element>
+            <element>2adbbb42dbf6030028f3d5ab5e96194d</element>
             <position>51</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>4c3a2960dbbe0f00e7bbdbbb5e961955</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>e6dbbb42dbf6030028f3d5ab5e961960</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -832,13 +832,13 @@
             <element>po_configuration_integration_service</element>
             <position>52</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>cc3a2960dbbe0f00e7bbdbbb5e961955</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>6adbbb42dbf6030028f3d5ab5e961960</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -846,13 +846,13 @@
             <element>po_config_integration_request_date</element>
             <position>53</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>403a2960dbbe0f00e7bbdbbb5e961956</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>eadbbb42dbf6030028f3d5ab5e961960</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -860,13 +860,13 @@
             <element>po_config_integration_delivery_date</element>
             <position>54</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>c03a2960dbbe0f00e7bbdbbb5e961956</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>6edbbb42dbf6030028f3d5ab5e961960</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -874,13 +874,13 @@
             <element>po_config_integration_status</element>
             <position>55</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>443a2960dbbe0f00e7bbdbbb5e961956</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>eedbbb42dbf6030028f3d5ab5e961960</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -888,13 +888,13 @@
             <element>po_config_intg_status_observations</element>
             <position>56</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-29 16:07:25</sys_created_on>
-            <sys_id>c43a2960dbbe0f00e7bbdbbb5e961956</sys_id>
+            <sys_created_on>2017-12-04 18:34:43</sys_created_on>
+            <sys_id>62dbbb42dbf6030028f3d5ab5e961961</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Capex document tracking" display_value="Capex document tracking" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="730e966bdbeacb00e7bbdbbb5e961974">330e966bdbeacb00e7bbdbbb5e961975</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-29 16:07:25</sys_updated_on>
+            <sys_updated_on>2017-12-04 18:34:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
