@@ -12,17 +12,17 @@
         <advanced>true</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
-        <collection>x_attme_engr_strat_engineering_strategy_request</collection>
+        <collection>x_attme_engr_strat_purchase_requisition</collection>
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="x_attme_engr_strat_engineering_strategy_request">stateCHANGESTO8^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="8"/>
+        <filter_condition table="x_attme_engr_strat_purchase_requisition">expense_typeVALCHANGES^EQ<item endquery="false" field="expense_type" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>
         <message/>
-        <name>ESR mark cancel</name>
-        <order>200</order>
+        <name>PRQ cancel WF on change in expense type</name>
+        <order>100</order>
         <priority>100</priority>
         <rest_method/>
         <rest_method_text/>
@@ -32,37 +32,32 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
-	//la presente business rule controla las acciones a realizar cuando en una solicitud de estrategia de ingeniería se define el estado "cancelado"
+//Si se modifica el valor del campo "expense type" se cancelan los "workflow context" activos, solo se puede tener un workflow context por cada purchase requisition
 	
-	var now = new GlideDateTime();
-	current.closed = now; //fecha y hora actual
-	current.closed_by = gs.getUserID(); //usuario loggeado
-	current.approval = "cancelled";
-	//new Workflow().cancel(current);
-	gs.addInfoMessage(gs.getMessage("Workflows for {0} have been cancelled", current.getDisplayValue()));
-	current.active = false;
+	var table = current.getTableName();
+	var id = current.sys_id;
+	global.cancelWorkflowFromScopedApp(table, id);
 	
-
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>hugo.ruano</sys_created_by>
-        <sys_created_on>2017-10-23 17:13:30</sys_created_on>
+        <sys_created_on>2017-12-04 01:06:07</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>b1261f60db8e034028f3d5ab5e9619a7</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>ESR mark cancel</sys_name>
+        <sys_id>0a69cccedbb2030028f3d5ab5e961947</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>PRQ cancel WF on change in expense type</sys_name>
         <sys_overrides/>
         <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
-        <sys_update_name>sys_script_b1261f60db8e034028f3d5ab5e9619a7</sys_update_name>
+        <sys_update_name>sys_script_0a69cccedbb2030028f3d5ab5e961947</sys_update_name>
         <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-12-04 01:36:31</sys_updated_on>
+        <sys_updated_on>2017-12-04 01:40:10</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=b1261f60db8e034028f3d5ab5e9619a7"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=0a69cccedbb2030028f3d5ab5e961947"/>
 </record_update>

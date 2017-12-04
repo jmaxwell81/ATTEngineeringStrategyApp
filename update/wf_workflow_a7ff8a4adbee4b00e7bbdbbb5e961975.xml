@@ -2,7 +2,7 @@
 <record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
         <active>true</active>
-        <activity_stages>{"ends":["afff8a4adbee4b00e7bbdbbb5e961975"],"activities":{},"subflows":[],"stages":{}}</activity_stages>
+        <activity_stages>{"ends":["afff8a4adbee4b00e7bbdbbb5e961975"],"subflows":[],"stages":{},"activities":{}}</activity_stages>
         <after_business_rules>false</after_business_rules>
         <checked_out/>
         <checked_out_by/>
@@ -32,9 +32,9 @@
         <sys_created_by>hugo.ruano</sys_created_by>
         <sys_created_on>2017-11-22 00:27:47</sys_created_on>
         <sys_id>17bf8a4adbee4b00e7bbdbbb5e96192c</sys_id>
-        <sys_mod_count>15</sys_mod_count>
-        <sys_updated_by>eg476c</sys_updated_by>
-        <sys_updated_on>2017-11-22 02:10:55</sys_updated_on>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_updated_by>hugo.ruano</sys_updated_by>
+        <sys_updated_on>2017-12-03 20:08:05</sys_updated_on>
         <table>task_sla</table>
         <timezone/>
         <validated>true</validated>
