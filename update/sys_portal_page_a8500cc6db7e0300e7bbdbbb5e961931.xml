@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record_update node_type="sys_portal_page" unload_date="2017-12-04 18:36:26">
+<record_update node_type="sys_portal_page" unload_date="2017-12-04 19:03:05">
     <sys_portal_page action="INSERT_OR_UPDATE">
         <layout/>
         <order/>
@@ -33,88 +33,190 @@
                 <page display_value="Capex/Opex management overview">a8500cc6db7e0300e7bbdbbb5e961931</page>
                 <summary/>
                 <sys_created_by>hugo.ruano</sys_created_by>
-                <sys_created_on>2017-12-04 00:22:36</sys_created_on>
-                <sys_id>34e1c00adb7e0300e7bbdbbb5e961911</sys_id>
+                <sys_created_on>2017-12-04 18:56:52</sys_created_on>
+                <sys_id>07e0c4d2dbf6030028f3d5ab5e9619f3</sys_id>
                 <sys_mod_count>0</sys_mod_count>
                 <sys_updated_by>hugo.ruano</sys_updated_by>
-                <sys_updated_on>2017-12-04 00:22:36</sys_updated_on>
+                <sys_updated_on>2017-12-04 18:56:52</sys_updated_on>
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>title</name>
-                        <portal_section display_value="Created 2017-12-03 18:22:36">34e1c00adb7e0300e7bbdbbb5e961911</portal_section>
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2017-12-04 12:56:52">07e0c4d2dbf6030028f3d5ab5e9619f3</portal_section>
                         <sys_created_by>hugo.ruano</sys_created_by>
-                        <sys_created_on>2017-12-04 00:22:36</sys_created_on>
-                        <sys_id>34e1c00adb7e0300e7bbdbbb5e961912</sys_id>
+                        <sys_created_on>2017-12-04 18:56:52</sys_created_on>
+                        <sys_id>07e0c4d2dbf6030028f3d5ab5e9619f4</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>hugo.ruano</sys_updated_by>
-                        <sys_updated_on>2017-12-04 00:22:36</sys_updated_on>
-                        <value>Capex/opex mgmt - Delayed purchase requisitions (grouped by delayed document)</value>
+                        <sys_updated_on>2017-12-04 18:56:52</sys_updated_on>
+                        <value>true</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 2017-12-03 18:22:36">34e1c00adb7e0300e7bbdbbb5e961911</portal_section>
+                        <portal_section display_value="Created 2017-12-04 12:56:52">07e0c4d2dbf6030028f3d5ab5e9619f3</portal_section>
                         <sys_created_by>hugo.ruano</sys_created_by>
-                        <sys_created_on>2017-12-04 00:22:36</sys_created_on>
-                        <sys_id>38e1c00adb7e0300e7bbdbbb5e961911</sys_id>
+                        <sys_created_on>2017-12-04 18:56:52</sys_created_on>
+                        <sys_id>0be0c4d2dbf6030028f3d5ab5e9619f3</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>hugo.ruano</sys_updated_by>
-                        <sys_updated_on>2017-12-04 00:22:36</sys_updated_on>
+                        <sys_updated_on>2017-12-04 18:56:52</sys_updated_on>
                         <value>com.glide.ui.portal.RenderReport</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>report_type</name>
-                        <portal_section display_value="Created 2017-12-03 18:22:36">34e1c00adb7e0300e7bbdbbb5e961911</portal_section>
+                        <portal_section display_value="Created 2017-12-04 12:56:52">07e0c4d2dbf6030028f3d5ab5e9619f3</portal_section>
                         <sys_created_by>hugo.ruano</sys_created_by>
-                        <sys_created_on>2017-12-04 00:22:36</sys_created_on>
-                        <sys_id>70e1c00adb7e0300e7bbdbbb5e961912</sys_id>
+                        <sys_created_on>2017-12-04 18:56:52</sys_created_on>
+                        <sys_id>43e0c4d2dbf6030028f3d5ab5e9619f4</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>hugo.ruano</sys_updated_by>
-                        <sys_updated_on>2017-12-04 00:22:36</sys_updated_on>
+                        <sys_updated_on>2017-12-04 18:56:52</sys_updated_on>
                         <value>pie</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 2017-12-03 18:22:36">34e1c00adb7e0300e7bbdbbb5e961911</portal_section>
+                        <portal_section display_value="Created 2017-12-04 12:56:52">07e0c4d2dbf6030028f3d5ab5e9619f3</portal_section>
                         <sys_created_by>hugo.ruano</sys_created_by>
-                        <sys_created_on>2017-12-04 00:22:36</sys_created_on>
-                        <sys_id>74e1c00adb7e0300e7bbdbbb5e961911</sys_id>
+                        <sys_created_on>2017-12-04 18:56:52</sys_created_on>
+                        <sys_id>47e0c4d2dbf6030028f3d5ab5e9619f3</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>hugo.ruano</sys_updated_by>
-                        <sys_updated_on>2017-12-04 00:22:36</sys_updated_on>
+                        <sys_updated_on>2017-12-04 18:56:52</sys_updated_on>
                         <value>97a1404adbb2030028f3d5ab5e9619f5</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>can_subscribe</name>
-                        <portal_section display_value="Created 2017-12-03 18:22:36">34e1c00adb7e0300e7bbdbbb5e961911</portal_section>
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2017-12-04 12:56:52">07e0c4d2dbf6030028f3d5ab5e9619f3</portal_section>
                         <sys_created_by>hugo.ruano</sys_created_by>
-                        <sys_created_on>2017-12-04 00:22:36</sys_created_on>
-                        <sys_id>bce1c00adb7e0300e7bbdbbb5e961911</sys_id>
+                        <sys_created_on>2017-12-04 18:56:52</sys_created_on>
+                        <sys_id>8be0c4d2dbf6030028f3d5ab5e9619f4</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>hugo.ruano</sys_updated_by>
-                        <sys_updated_on>2017-12-04 00:22:36</sys_updated_on>
+                        <sys_updated_on>2017-12-04 18:56:52</sys_updated_on>
+                        <value>a8500cc6db7e0300e7bbdbbb5e961931</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2017-12-04 12:56:52">07e0c4d2dbf6030028f3d5ab5e9619f3</portal_section>
+                        <sys_created_by>hugo.ruano</sys_created_by>
+                        <sys_created_on>2017-12-04 18:56:52</sys_created_on>
+                        <sys_id>8fe0c4d2dbf6030028f3d5ab5e9619f3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>hugo.ruano</sys_updated_by>
+                        <sys_updated_on>2017-12-04 18:56:52</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2017-12-04 12:56:52">07e0c4d2dbf6030028f3d5ab5e9619f3</portal_section>
+                        <sys_created_by>hugo.ruano</sys_created_by>
+                        <sys_created_on>2017-12-04 18:56:52</sys_created_on>
+                        <sys_id>c7e0c4d2dbf6030028f3d5ab5e9619f4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>hugo.ruano</sys_updated_by>
+                        <sys_updated_on>2017-12-04 18:56:52</sys_updated_on>
+                        <value>Capex/opex mgmt - Delayed purchase requisitions (grouped by delayed document)</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2017-12-04 12:56:52">07e0c4d2dbf6030028f3d5ab5e9619f3</portal_section>
+                        <sys_created_by>hugo.ruano</sys_created_by>
+                        <sys_created_on>2017-12-04 18:56:52</sys_created_on>
+                        <sys_id>cbe0c4d2dbf6030028f3d5ab5e9619f3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>hugo.ruano</sys_updated_by>
+                        <sys_updated_on>2017-12-04 18:56:52</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone999</dropzone>
+                <offset>0</offset>
+                <page display_value="Capex/Opex management overview">a8500cc6db7e0300e7bbdbbb5e961931</page>
+                <summary/>
+                <sys_created_by>hugo.ruano</sys_created_by>
+                <sys_created_on>2017-12-04 18:56:52</sys_created_on>
+                <sys_id>c7e0c4d2dbf6030028f3d5ab5e9619f6</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>hugo.ruano</sys_updated_by>
+                <sys_updated_on>2017-12-04 18:56:52</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2017-12-04 12:56:52">c7e0c4d2dbf6030028f3d5ab5e9619f6</portal_section>
+                        <sys_created_by>hugo.ruano</sys_created_by>
+                        <sys_created_on>2017-12-04 18:56:52</sys_created_on>
+                        <sys_id>07e0c4d2dbf6030028f3d5ab5e9619f7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>hugo.ruano</sys_updated_by>
+                        <sys_updated_on>2017-12-04 18:56:52</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2017-12-04 12:56:52">c7e0c4d2dbf6030028f3d5ab5e9619f6</portal_section>
+                        <sys_created_by>hugo.ruano</sys_created_by>
+                        <sys_created_on>2017-12-04 18:56:52</sys_created_on>
+                        <sys_id>0be0c4d2dbf6030028f3d5ab5e9619f6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>hugo.ruano</sys_updated_by>
+                        <sys_updated_on>2017-12-04 18:56:52</sys_updated_on>
+                        <value>a658eb75dbb2030028f3d5ab5e9619fe</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2017-12-04 12:56:52">c7e0c4d2dbf6030028f3d5ab5e9619f6</portal_section>
+                        <sys_created_by>hugo.ruano</sys_created_by>
+                        <sys_created_on>2017-12-04 18:56:52</sys_created_on>
+                        <sys_id>43e0c4d2dbf6030028f3d5ab5e9619f7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>hugo.ruano</sys_updated_by>
+                        <sys_updated_on>2017-12-04 18:56:52</sys_updated_on>
                         <value>true</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>current_page</name>
-                        <portal_section display_value="Created 2017-12-03 18:22:36">34e1c00adb7e0300e7bbdbbb5e961911</portal_section>
+                        <portal_section display_value="Created 2017-12-04 12:56:52">c7e0c4d2dbf6030028f3d5ab5e9619f6</portal_section>
                         <sys_created_by>hugo.ruano</sys_created_by>
-                        <sys_created_on>2017-12-04 00:22:36</sys_created_on>
-                        <sys_id>f4e1c00adb7e0300e7bbdbbb5e961912</sys_id>
+                        <sys_created_on>2017-12-04 18:56:52</sys_created_on>
+                        <sys_id>8be0c4d2dbf6030028f3d5ab5e9619f7</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>hugo.ruano</sys_updated_by>
-                        <sys_updated_on>2017-12-04 00:22:36</sys_updated_on>
+                        <sys_updated_on>2017-12-04 18:56:52</sys_updated_on>
                         <value>a8500cc6db7e0300e7bbdbbb5e961931</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>help_text_window</name>
-                        <portal_section display_value="Created 2017-12-03 18:22:36">34e1c00adb7e0300e7bbdbbb5e961911</portal_section>
+                        <portal_section display_value="Created 2017-12-04 12:56:52">c7e0c4d2dbf6030028f3d5ab5e9619f6</portal_section>
                         <sys_created_by>hugo.ruano</sys_created_by>
-                        <sys_created_on>2017-12-04 00:22:36</sys_created_on>
-                        <sys_id>f8e1c00adb7e0300e7bbdbbb5e961911</sys_id>
+                        <sys_created_on>2017-12-04 18:56:52</sys_created_on>
+                        <sys_id>8fe0c4d2dbf6030028f3d5ab5e9619f6</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>hugo.ruano</sys_updated_by>
-                        <sys_updated_on>2017-12-04 00:22:36</sys_updated_on>
+                        <sys_updated_on>2017-12-04 18:56:52</sys_updated_on>
                         <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2017-12-04 12:56:52">c7e0c4d2dbf6030028f3d5ab5e9619f6</portal_section>
+                        <sys_created_by>hugo.ruano</sys_created_by>
+                        <sys_created_on>2017-12-04 18:56:52</sys_created_on>
+                        <sys_id>c7e0c4d2dbf6030028f3d5ab5e9619f7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>hugo.ruano</sys_updated_by>
+                        <sys_updated_on>2017-12-04 18:56:52</sys_updated_on>
+                        <value>Capex/opex mgmt - Delayed purchase requisitions</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2017-12-04 12:56:52">c7e0c4d2dbf6030028f3d5ab5e9619f6</portal_section>
+                        <sys_created_by>hugo.ruano</sys_created_by>
+                        <sys_created_on>2017-12-04 18:56:52</sys_created_on>
+                        <sys_id>cbe0c4d2dbf6030028f3d5ab5e9619f6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>hugo.ruano</sys_updated_by>
+                        <sys_updated_on>2017-12-04 18:56:52</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
                     </sys_portal_preferences>
                 </related_items_node>
             </sys_portal>
@@ -124,88 +226,88 @@
                 <page display_value="Capex/Opex management overview">a8500cc6db7e0300e7bbdbbb5e961931</page>
                 <summary/>
                 <sys_created_by>hugo.ruano</sys_created_by>
-                <sys_created_on>2017-12-04 00:22:36</sys_created_on>
-                <sys_id>3ce1c00adb7e0300e7bbdbbb5e961912</sys_id>
+                <sys_created_on>2017-12-04 18:56:52</sys_created_on>
+                <sys_id>cfe0c4d2dbf6030028f3d5ab5e9619f4</sys_id>
                 <sys_mod_count>0</sys_mod_count>
                 <sys_updated_by>hugo.ruano</sys_updated_by>
-                <sys_updated_on>2017-12-04 00:22:36</sys_updated_on>
+                <sys_updated_on>2017-12-04 18:56:52</sys_updated_on>
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>renderer</name>
-                        <portal_section display_value="Created 2017-12-03 18:22:36">3ce1c00adb7e0300e7bbdbbb5e961912</portal_section>
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2017-12-04 12:56:52">cfe0c4d2dbf6030028f3d5ab5e9619f4</portal_section>
                         <sys_created_by>hugo.ruano</sys_created_by>
-                        <sys_created_on>2017-12-04 00:22:36</sys_created_on>
-                        <sys_id>30e1c00adb7e0300e7bbdbbb5e961913</sys_id>
+                        <sys_created_on>2017-12-04 18:56:52</sys_created_on>
+                        <sys_id>03e0c4d2dbf6030028f3d5ab5e9619f5</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>hugo.ruano</sys_updated_by>
-                        <sys_updated_on>2017-12-04 00:22:36</sys_updated_on>
+                        <sys_updated_on>2017-12-04 18:56:52</sys_updated_on>
+                        <value>84b08c92dbf6030028f3d5ab5e961949</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2017-12-04 12:56:52">cfe0c4d2dbf6030028f3d5ab5e9619f4</portal_section>
+                        <sys_created_by>hugo.ruano</sys_created_by>
+                        <sys_created_on>2017-12-04 18:56:52</sys_created_on>
+                        <sys_id>0fe0c4d2dbf6030028f3d5ab5e9619f5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>hugo.ruano</sys_updated_by>
+                        <sys_updated_on>2017-12-04 18:56:52</sys_updated_on>
+                        <value>bar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2017-12-04 12:56:52">cfe0c4d2dbf6030028f3d5ab5e9619f4</portal_section>
+                        <sys_created_by>hugo.ruano</sys_created_by>
+                        <sys_created_on>2017-12-04 18:56:52</sys_created_on>
+                        <sys_id>4be0c4d2dbf6030028f3d5ab5e9619f5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>hugo.ruano</sys_updated_by>
+                        <sys_updated_on>2017-12-04 18:56:52</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2017-12-04 12:56:52">cfe0c4d2dbf6030028f3d5ab5e9619f4</portal_section>
+                        <sys_created_by>hugo.ruano</sys_created_by>
+                        <sys_created_on>2017-12-04 18:56:52</sys_created_on>
+                        <sys_id>83e0c4d2dbf6030028f3d5ab5e9619f6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>hugo.ruano</sys_updated_by>
+                        <sys_updated_on>2017-12-04 18:56:52</sys_updated_on>
+                        <value>a8500cc6db7e0300e7bbdbbb5e961931</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2017-12-04 12:56:52">cfe0c4d2dbf6030028f3d5ab5e9619f4</portal_section>
+                        <sys_created_by>hugo.ruano</sys_created_by>
+                        <sys_created_on>2017-12-04 18:56:52</sys_created_on>
+                        <sys_id>87e0c4d2dbf6030028f3d5ab5e9619f5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>hugo.ruano</sys_updated_by>
+                        <sys_updated_on>2017-12-04 18:56:52</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2017-12-04 12:56:52">cfe0c4d2dbf6030028f3d5ab5e9619f4</portal_section>
+                        <sys_created_by>hugo.ruano</sys_created_by>
+                        <sys_created_on>2017-12-04 18:56:52</sys_created_on>
+                        <sys_id>c3e0c4d2dbf6030028f3d5ab5e9619f5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>hugo.ruano</sys_updated_by>
+                        <sys_updated_on>2017-12-04 18:56:52</sys_updated_on>
                         <value>com.glide.ui.portal.RenderReport</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 2017-12-03 18:22:36">3ce1c00adb7e0300e7bbdbbb5e961912</portal_section>
+                        <portal_section display_value="Created 2017-12-04 12:56:52">cfe0c4d2dbf6030028f3d5ab5e9619f4</portal_section>
                         <sys_created_by>hugo.ruano</sys_created_by>
-                        <sys_created_on>2017-12-04 00:22:36</sys_created_on>
-                        <sys_id>3ce1c00adb7e0300e7bbdbbb5e961913</sys_id>
+                        <sys_created_on>2017-12-04 18:56:52</sys_created_on>
+                        <sys_id>cfe0c4d2dbf6030028f3d5ab5e9619f5</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>hugo.ruano</sys_updated_by>
-                        <sys_updated_on>2017-12-04 00:22:36</sys_updated_on>
-                        <value>Capex/opex mgmt - Delayed purchase requisitions</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>can_subscribe</name>
-                        <portal_section display_value="Created 2017-12-03 18:22:36">3ce1c00adb7e0300e7bbdbbb5e961912</portal_section>
-                        <sys_created_by>hugo.ruano</sys_created_by>
-                        <sys_created_on>2017-12-04 00:22:36</sys_created_on>
-                        <sys_id>78e1c00adb7e0300e7bbdbbb5e961913</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>hugo.ruano</sys_updated_by>
-                        <sys_updated_on>2017-12-04 00:22:36</sys_updated_on>
-                        <value>true</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>sys_id</name>
-                        <portal_section display_value="Created 2017-12-03 18:22:36">3ce1c00adb7e0300e7bbdbbb5e961912</portal_section>
-                        <sys_created_by>hugo.ruano</sys_created_by>
-                        <sys_created_on>2017-12-04 00:22:36</sys_created_on>
-                        <sys_id>7ce1c00adb7e0300e7bbdbbb5e961912</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>hugo.ruano</sys_updated_by>
-                        <sys_updated_on>2017-12-04 00:22:36</sys_updated_on>
-                        <value>a658eb75dbb2030028f3d5ab5e9619fe</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>report_type</name>
-                        <portal_section display_value="Created 2017-12-03 18:22:36">3ce1c00adb7e0300e7bbdbbb5e961912</portal_section>
-                        <sys_created_by>hugo.ruano</sys_created_by>
-                        <sys_created_on>2017-12-04 00:22:36</sys_created_on>
-                        <sys_id>b4e1c00adb7e0300e7bbdbbb5e961913</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>hugo.ruano</sys_updated_by>
-                        <sys_updated_on>2017-12-04 00:22:36</sys_updated_on>
-                        <value>list</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>help_text_window</name>
-                        <portal_section display_value="Created 2017-12-03 18:22:36">3ce1c00adb7e0300e7bbdbbb5e961912</portal_section>
-                        <sys_created_by>hugo.ruano</sys_created_by>
-                        <sys_created_on>2017-12-04 00:22:36</sys_created_on>
-                        <sys_id>f0e1c00adb7e0300e7bbdbbb5e961913</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>hugo.ruano</sys_updated_by>
-                        <sys_updated_on>2017-12-04 00:22:36</sys_updated_on>
-                        <value>report_widget_description</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>current_page</name>
-                        <portal_section display_value="Created 2017-12-03 18:22:36">3ce1c00adb7e0300e7bbdbbb5e961912</portal_section>
-                        <sys_created_by>hugo.ruano</sys_created_by>
-                        <sys_created_on>2017-12-04 00:22:36</sys_created_on>
-                        <sys_id>fce1c00adb7e0300e7bbdbbb5e961913</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>hugo.ruano</sys_updated_by>
-                        <sys_updated_on>2017-12-04 00:22:36</sys_updated_on>
-                        <value>a8500cc6db7e0300e7bbdbbb5e961931</value>
+                        <sys_updated_on>2017-12-04 18:56:52</sys_updated_on>
+                        <value>Capex/opex mgmt - Delayed purchase requsitions (grouped by Project)</value>
                     </sys_portal_preferences>
                 </related_items_node>
             </sys_portal>
