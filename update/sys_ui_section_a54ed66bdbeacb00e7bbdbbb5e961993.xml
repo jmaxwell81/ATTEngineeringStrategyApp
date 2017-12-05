@@ -2,72 +2,86 @@
 <record_update>
     <sys_ui_section caption="Opex aging information" section_id="a54ed66bdbeacb00e7bbdbbb5e961993" sys_domain="global" table="x_attme_engr_strat_purchase_requisition" version="3" view="Opex_expense">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>op_requested_to_delivered_duration</element>
+            <element>delayed</element>
             <position>0</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-26 17:21:04</sys_created_on>
-            <sys_id>354ed66bdbeacb00e7bbdbbb5e96199e</sys_id>
+            <sys_created_on>2017-12-04 20:20:20</sys_created_on>
+            <sys_id>e504dc5adbf6030028f3d5ab5e9619f8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Opex aging information" display_value="Opex aging information" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="a14ed66bdbeacb00e7bbdbbb5e961992">a54ed66bdbeacb00e7bbdbbb5e961993</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-26 17:21:04</sys_updated_on>
+            <sys_updated_on>2017-12-04 20:20:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>op_requested_to_delivered_duration</element>
+            <position>1</position>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-12-04 20:20:20</sys_created_on>
+            <sys_id>6904dc5adbf6030028f3d5ab5e9619f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Opex aging information" display_value="Opex aging information" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="a14ed66bdbeacb00e7bbdbbb5e961992">a54ed66bdbeacb00e7bbdbbb5e961993</sys_ui_section>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-12-04 20:20:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>pr_requested_to_delivered_duration</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-26 17:21:04</sys_created_on>
-            <sys_id>b54ed66bdbeacb00e7bbdbbb5e96199e</sys_id>
+            <sys_created_on>2017-12-04 20:20:20</sys_created_on>
+            <sys_id>e904dc5adbf6030028f3d5ab5e9619f8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Opex aging information" display_value="Opex aging information" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="a14ed66bdbeacb00e7bbdbbb5e961992">a54ed66bdbeacb00e7bbdbbb5e961993</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-26 17:21:04</sys_updated_on>
+            <sys_updated_on>2017-12-04 20:20:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>rfq_requested_to_delivered_duration</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-26 17:21:04</sys_created_on>
-            <sys_id>394ed66bdbeacb00e7bbdbbb5e96199e</sys_id>
+            <sys_created_on>2017-12-04 20:20:20</sys_created_on>
+            <sys_id>6d04dc5adbf6030028f3d5ab5e9619f8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Opex aging information" display_value="Opex aging information" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="a14ed66bdbeacb00e7bbdbbb5e961992">a54ed66bdbeacb00e7bbdbbb5e961993</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-26 17:21:04</sys_updated_on>
+            <sys_updated_on>2017-12-04 20:20:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>soca_requested_to_delivered_duration</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-26 17:21:04</sys_created_on>
-            <sys_id>b94ed66bdbeacb00e7bbdbbb5e96199e</sys_id>
+            <sys_created_on>2017-12-04 20:20:20</sys_created_on>
+            <sys_id>ed04dc5adbf6030028f3d5ab5e9619f8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Opex aging information" display_value="Opex aging information" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="a14ed66bdbeacb00e7bbdbbb5e961992">a54ed66bdbeacb00e7bbdbbb5e961993</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-26 17:21:04</sys_updated_on>
+            <sys_updated_on>2017-12-04 20:20:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>oca_requested_to_delivered_duration</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-26 17:21:04</sys_created_on>
-            <sys_id>3d4ed66bdbeacb00e7bbdbbb5e96199e</sys_id>
+            <sys_created_on>2017-12-04 20:20:20</sys_created_on>
+            <sys_id>6104dc5adbf6030028f3d5ab5e9619f9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Opex aging information" display_value="Opex aging information" name="x_attme_engr_strat_purchase_requisition" sys_domain="global" view="a14ed66bdbeacb00e7bbdbbb5e961992">a54ed66bdbeacb00e7bbdbbb5e961993</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-26 17:21:04</sys_updated_on>
+            <sys_updated_on>2017-12-04 20:20:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

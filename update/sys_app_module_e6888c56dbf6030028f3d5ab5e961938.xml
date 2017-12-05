@@ -8,14 +8,14 @@
         <device_type/>
         <filter/>
         <hint/>
-        <homepage display_value="Capex/opex mgmt - Delayed purchase requisitons">a8500cc6db7e0300e7bbdbbb5e961931</homepage>
+        <homepage display_value="Capex/opex mgmt - Projects overview">2d480096dbf6030028f3d5ab5e9619cc</homepage>
         <image/>
         <link_type>HOMEPAGE</link_type>
         <map_page/>
-        <mobile_title>Overview</mobile_title>
+        <mobile_title>Projects overview</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name/>
-        <order>2100</order>
+        <order>2200</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -24,23 +24,23 @@
         <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>hugo.ruano</sys_created_by>
-        <sys_created_on>2017-12-04 00:17:02</sys_created_on>
+        <sys_created_on>2017-12-04 19:30:49</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>4100880edbb2030028f3d5ab5e961941</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Delayed purchase reqs.</sys_name>
+        <sys_id>e6888c56dbf6030028f3d5ab5e961938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Projects overview</sys_name>
         <sys_overrides/>
         <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
-        <sys_update_name>sys_app_module_4100880edbb2030028f3d5ab5e961941</sys_update_name>
+        <sys_update_name>sys_app_module_e6888c56dbf6030028f3d5ab5e961938</sys_update_name>
         <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-12-04 19:17:58</sys_updated_on>
+        <sys_updated_on>2017-12-04 19:30:49</sys_updated_on>
         <timeline_page/>
-        <title>Delayed purchase reqs.</title>
+        <title>Projects overview</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

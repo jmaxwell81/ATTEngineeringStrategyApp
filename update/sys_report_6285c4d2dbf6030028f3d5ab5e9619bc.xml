@@ -29,15 +29,14 @@
         <decimal_precision>0</decimal_precision>
         <description/>
         <direction>minimize</direction>
-        <display_grid>true</display_grid>
+        <display_grid>false</display_grid>
         <donut_width_percent>50</donut_width_percent>
         <exp_report_attrs>true</exp_report_attrs>
-        <field>assigned_to</field>
+        <field>project</field>
         <field_list/>
-        <filter table="x_attme_engr_strat_engineering_strategy_request">active=true^EQ^GROUPBYassigned_to^TRENDBYstate,year<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        <filter table="x_attme_engr_strat_purchase_requisition">opened_atONThis year@javascript:gs.beginningOfThisYear()@javascript:gs.endOfThisYear()^EQ^GROUPBYproject<item endquery="false" field="opened_at" goto="false" newquery="false" operator="ON" or="false" value="This year@javascript:gs.beginningOfThisYear()@javascript:gs.endOfThisYear()"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-            <item endquery="false" field="" goto="false" newquery="false" operator="GROUPBY" or="false" value="assigned_to"/>
-            <item endquery="false" field="" goto="false" newquery="false" operator="TRENDBY" or="false" value="state,year"/>
+            <item endquery="false" field="" goto="false" newquery="false" operator="GROUPBY" or="false" value="project"/>
         </filter>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
@@ -64,7 +63,7 @@
         <page_hdrftr display_value="Default">0ecdb03fc3613000cef73b251eba8f5e</page_hdrftr>
         <report_drilldown/>
         <report_source/>
-        <roles>x_attme_engr_strat.capacity_management_user</roles>
+        <roles>x_attme_engr_strat.capex_opex_mgmt_user</roles>
         <row>active</row>
         <sc_groupby_item_id/>
         <sc_groupby_variable_id/>
@@ -82,27 +81,27 @@
         <show_legend_border>false</show_legend_border>
         <show_marker>true</show_marker>
         <show_zero>false</show_zero>
-        <sumfield>business_duration</sumfield>
+        <sumfield>amount_derived_in_opex</sumfield>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>hugo.ruano</sys_created_by>
-        <sys_created_on>2017-11-22 17:20:03</sys_created_on>
+        <sys_created_on>2017-12-04 19:17:02</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>3fa739dedbe28b00e7bbdbbb5e96191d</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Capacity mgmt - Open requests by assigned to</sys_name>
+        <sys_id>6285c4d2dbf6030028f3d5ab5e9619bc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Capex/opex mgmt - Purchase requisition grouped by project (this year info)</sys_name>
         <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
-        <sys_update_name>sys_report_3fa739dedbe28b00e7bbdbbb5e96191d</sys_update_name>
+        <sys_update_name>sys_report_6285c4d2dbf6030028f3d5ab5e9619bc</sys_update_name>
         <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-12-04 19:31:58</sys_updated_on>
-        <table>x_attme_engr_strat_engineering_strategy_request</table>
-        <title>Capacity mgmt - Open requests by assigned to</title>
+        <sys_updated_on>2017-12-04 19:32:51</sys_updated_on>
+        <table>x_attme_engr_strat_purchase_requisition</table>
+        <title>Capex/opex mgmt - Purchase requisition grouped by project (this year info)</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
-        <trend_field>state</trend_field>
+        <trend_field/>
         <type>bar</type>
         <upper_limit/>
         <use_color_heatmap>true</use_color_heatmap>

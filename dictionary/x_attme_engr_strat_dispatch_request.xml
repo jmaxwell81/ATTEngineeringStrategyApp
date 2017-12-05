@@ -36,7 +36,7 @@
                 <element label="December" sequence="12" value="December"/>
             </choice>
         </element>
-        <element label="Purchase requisition" mandatory="true" max_length="32" name="purchase_requisition" read_only="true" reference="x_attme_engr_strat_purchase_requisition" type="reference"/>
+        <element label="Purchase requisition" max_length="32" name="purchase_requisition" read_only="true" reference="x_attme_engr_strat_purchase_requisition" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Reception number / GR" max_length="40" name="reception_number" type="string"/>
         <element label="Sites detail" max_length="1000" name="sites_detail" type="string"/>
         <element label="Vendor date" max_length="40" name="vendor_date" type="glide_date"/>
