@@ -8,6 +8,5 @@
                 <element label="Core category" sequence="1" value="Core category"/>
             </choice>
         </element>
-        <element label="Order" mandatory="true" max_length="40" name="order" type="integer"/>
     </element>
 </database>
