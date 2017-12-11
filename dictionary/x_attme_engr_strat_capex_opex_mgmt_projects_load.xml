@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="capex/opex mgmt projects load" max_length="40" name="x_attme_engr_strat_capex_opex_mgmt_projects_load" type="collection">
+        <element attributes="import_attribute_name=Numero de cuenta,edge_encryption_enabled=true" label="Numero de cuenta" max_length="40" name="u_numero_de_cuenta" type="string"/>
+        <element attributes="import_attribute_name=Proyecto,edge_encryption_enabled=true" label="Proyecto" max_length="57" name="u_proyecto" type="string"/>
+        <element attributes="import_attribute_name=Responsable,edge_encryption_enabled=true" label="Responsable" max_length="40" name="u_responsable" type="string"/>
+    </element>
+</database>

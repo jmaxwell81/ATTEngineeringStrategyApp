@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="capex/opex mgmt vendors load" max_length="40" name="x_attme_engr_strat_capex_opex_mgmt_vendors_load" type="collection">
+        <element attributes="import_attribute_name=A,edge_encryption_enabled=true" label="A" max_length="40" name="u_a" type="string"/>
+        <element attributes="import_attribute_name=B,edge_encryption_enabled=true" label="B" max_length="42" name="u_b" type="string"/>
+        <element attributes="import_attribute_name=C,edge_encryption_enabled=true" label="C" max_length="46" name="u_c" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Proveedor" max_length="40" name="u_proveedor" type="string"/>
+    </element>
+</database>

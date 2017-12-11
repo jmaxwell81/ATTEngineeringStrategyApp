@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Capex/opex budget access" max_length="40" name="x_attme_engr_strat_capex_opex_budget_access" type="collection">
+        <element label="URL to grant access" mandatory="true" max_length="1024" name="url_to_grant_access" type="url"/>
+        <element label="User" mandatory="true" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="user"/>
+        </index>
+    </element>
+</database>
