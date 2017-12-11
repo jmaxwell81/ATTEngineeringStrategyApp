@@ -15,12 +15,12 @@
         <mobile_title>Purchase docs. estimated times</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_attme_engr_strat_purchase_requisiton_document_estimated_time</name>
-        <order>4400</order>
+        <order>4500</order>
         <override_menu_roles>false</override_menu_roles>
         <query>x_attme_engr_strat_purchase_requisiton_document_estimated_time_list.do?sysparm_query=GROUPBYfor_expense_type^sysparm_order=order"&#13;
 </query>
         <report/>
-        <roles/>
+        <roles>x_attme_engr_strat.capex_opex_mgmt_user</roles>
         <survey/>
         <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>559f4dd8db3a0f00e7bbdbbb5e9619ab</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Purchase times</sys_name>
         <sys_overrides/>
         <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
@@ -39,7 +39,7 @@
         <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
         <sys_update_name>sys_app_module_559f4dd8db3a0f00e7bbdbbb5e9619ab</sys_update_name>
         <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-11-28 19:53:55</sys_updated_on>
+        <sys_updated_on>2017-12-11 04:45:32</sys_updated_on>
         <timeline_page/>
         <title>Purchase times</title>
         <uncancelable>false</uncancelable>

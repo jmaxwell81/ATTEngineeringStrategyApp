@@ -11,14 +11,14 @@
         <order>200</order>
         <payload_name/>
         <question display_value="Capex/Opex management new request" name="Capex/Opex management new request">4df17f70db12070028f3d5ab5e9619a3</question>
-        <roles/>
+        <roles>x_attme_engr_strat.capex_opex_mgmt_user</roles>
         <script/>
         <sys_class_name>sys_wizard_answer</sys_class_name>
         <sys_created_by>hugo.ruano</sys_created_by>
         <sys_created_on>2017-11-06 00:09:44</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>7c627b70db12070028f3d5ab5e96194d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>New dispatch</sys_name>
         <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
         <sys_policy/>
@@ -26,7 +26,7 @@
         <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
         <sys_update_name>sys_wizard_answer_7c627b70db12070028f3d5ab5e96194d</sys_update_name>
         <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-11-12 21:55:46</sys_updated_on>
+        <sys_updated_on>2017-12-11 04:43:55</sys_updated_on>
         <table/>
         <target_url>x_attme_engr_strat_dispatch_request.do?</target_url>
         <type>1</type>

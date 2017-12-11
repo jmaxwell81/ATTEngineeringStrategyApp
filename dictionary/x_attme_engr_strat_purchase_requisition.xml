@@ -115,7 +115,7 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="PO config. &amp; intg. status observations" max_length="255" name="po_config_intg_status_observations" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="PO Hardware" max_length="40" name="po_hardware" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PO hardware" max_length="40" name="po_hardware" type="string"/>
         <element label="PO HW delivery date" max_length="40" name="po_hw_delivery_date" type="glide_date"/>
         <element label="PO HW requested to delivered duration" max_length="40" name="po_hw_requested_to_delivered_duration" read_only="true" type="glide_duration"/>
         <element label="PO HW request date" max_length="40" name="po_hw_request_date" type="glide_date"/>
