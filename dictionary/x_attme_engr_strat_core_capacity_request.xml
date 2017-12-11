@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="x_attme_engr_strat_engineering_strategy_request" label="Core capacity request" max_length="40" name="x_attme_engr_strat_core_capacity_request" sizeclass="34" type="collection"/>
+    <element audit="true" extends="x_attme_engr_strat_engineering_strategy_request" label="Core capacity request" max_length="40" name="x_attme_engr_strat_core_capacity_request" sizeclass="44" type="collection"/>
 </database>

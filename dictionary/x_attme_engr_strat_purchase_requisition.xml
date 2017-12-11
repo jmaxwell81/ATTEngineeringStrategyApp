@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element attributes="use_workflow=true,email_client=true" audit="true" extends="x_attme_engr_strat_capex_opex_request" label="Purchase requisition" max_length="40" name="x_attme_engr_strat_purchase_requisition" sizeclass="25" type="collection">
+    <element attributes="use_workflow=true,email_client=true" audit="true" extends="x_attme_engr_strat_capex_opex_request" label="Purchase requisition" max_length="40" name="x_attme_engr_strat_purchase_requisition" sizeclass="27" type="collection">
         <element label="Amount derived in Opex" max_length="40" name="amount_derived_in_opex" type="float"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="MXN" label="Opex amount currency" max_length="40" name="amount_derived_in_opex_currency" type="string">
             <choice>
@@ -8,6 +8,7 @@
                 <element label="USD" sequence="1" value="USD"/>
             </choice>
         </element>
+        <element label="Approver" mandatory="true" max_length="32" name="approver" reference="x_attme_engr_strat_purchase_requisition_approver" type="reference"/>
         <element label="Awarded amount" max_length="40" name="awarded_amount" type="float"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="MXN" label="Awarded amount currency" max_length="40" name="awarded_amount_currency" type="string">
             <choice>
@@ -60,7 +61,9 @@
         <element attributes="edge_encryption_enabled=true" choice="1" label="NET ID status" max_length="40" name="net_id_status" type="string">
             <choice>
                 <element label="Sent to finance dept." sequence="0" value="Sent to finance dept."/>
-                <element label="Finished" sequence="1" value="Finished"/>
+                <element label="On hold" sequence="1" value="On hold"/>
+                <element label="Finished" sequence="2" value="Finished"/>
+                <element label="Cancelled" sequence="3" value="Cancelled"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="NET ID observations" max_length="255" name="net_id_status_observations" type="string"/>
@@ -83,6 +86,7 @@
             <choice>
                 <element label="Sent to purchase dept." sequence="0" value="Sent to purchase dept."/>
                 <element label="Finished" sequence="1" value="Finished"/>
+                <element label="Cancelled" sequence="2" value="Cancelled"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="OCA status observations" max_length="255" name="oca_status_observations" type="string"/>
@@ -93,7 +97,9 @@
         <element attributes="edge_encryption_enabled=true" choice="1" label="OP status" max_length="40" name="op_status" type="string">
             <choice>
                 <element label="Sent to finance dept." sequence="0" value="Sent to finance dept."/>
-                <element label="Finished" sequence="1" value="Finished"/>
+                <element label="On hold" sequence="1" value="On hold"/>
+                <element label="Finished" sequence="2" value="Finished"/>
+                <element label="Cancelled" sequence="3" value="Cancelled"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="OP status observations" max_length="255" name="op_status_observations" type="string"/>
@@ -105,6 +111,7 @@
             <choice>
                 <element label="Sent to purchase dept." sequence="0" value="Sent to purchase dept."/>
                 <element label="Finished" sequence="1" value="Finished"/>
+                <element label="Cancelled" sequence="2" value="Cancelled"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="PO config. &amp; intg. status observations" max_length="255" name="po_config_intg_status_observations" type="string"/>
@@ -116,6 +123,7 @@
             <choice>
                 <element label="Sent to purchase dept." sequence="0" value="Sent to purchase dept."/>
                 <element label="Finished" sequence="1" value="Finished"/>
+                <element label="Cancelled" sequence="2" value="Cancelled"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="PO HW status observations" max_length="255" name="po_hw_status_observations" type="string"/>
@@ -127,6 +135,7 @@
             <choice>
                 <element label="Sent to purchase dept." sequence="0" value="Sent to purchase dept."/>
                 <element label="Finished" sequence="1" value="Finished"/>
+                <element label="Cancelled" sequence="3" value="Cancelled"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="PO instal. serv. status observations" max_length="255" name="po_instal_serv_status_observations" type="string"/>
@@ -138,6 +147,7 @@
             <choice>
                 <element label="Sent to purchase dept." sequence="0" value="Sent to purchase dept."/>
                 <element label="Finished" sequence="1" value="Finished"/>
+                <element label="Cancelled" sequence="2" value="Cancelled"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="PO others status observations" max_length="255" name="po_others_status_observations" type="string"/>
@@ -149,6 +159,7 @@
             <choice>
                 <element label="Sent to purchase dept." sequence="0" value="Sent to purchase dept."/>
                 <element label="Finished" sequence="1" value="Finished"/>
+                <element label="Cancelled" sequence="3" value="Cancelled"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="PO SW status observations" max_length="255" name="po_sw_status_observations" type="string"/>
@@ -160,7 +171,9 @@
         <element attributes="edge_encryption_enabled=true" choice="1" label="PR status" max_length="40" name="pr_status" type="string">
             <choice>
                 <element label="Sent to finance dept." sequence="0" value="Sent to finance dept."/>
-                <element label="Finished" sequence="1" value="Finished"/>
+                <element label="On hold" sequence="1" value="On hold"/>
+                <element label="Finished" sequence="2" value="Finished"/>
+                <element label="Cancelled" sequence="3" value="Cancelled"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="PR status observations" max_length="255" name="pr_status_observations" type="string"/>
@@ -180,6 +193,7 @@
                 <element label="Sent to purchase dept." sequence="0" value="Sent to purchase dept."/>
                 <element label="Sent to finance dept." sequence="1" value="Sent to finance dept."/>
                 <element label="Finished" sequence="2" value="Finished"/>
+                <element label="Cancelled" sequence="3" value="Cancelled"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Req. status observations" max_length="255" name="requisition_status_observations" type="string"/>
@@ -192,8 +206,8 @@
                 <element label="Sent to purchase dept." sequence="0" value="Sent to purchase dept."/>
                 <element label="Vendor negotiation" sequence="1" value="Vendor negotiation"/>
                 <element label="User's review" sequence="2" value="User's review"/>
-                <element label="Rejected" sequence="3" value="Rejected"/>
-                <element label="Finished" sequence="4" value="Finished"/>
+                <element label="Finished" sequence="3" value="Finished"/>
+                <element label="Cancelled" sequence="4" value="Cancelled"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="RFQ status observations" max_length="255" name="rfq_status_observations" type="string"/>
@@ -206,6 +220,7 @@
                 <element label="Sent to purchase dept." sequence="0" value="Sent to purchase dept."/>
                 <element label="Sent to finance dept." sequence="1" value="Sent to finance dept."/>
                 <element label="Finished" sequence="2" value="Finished"/>
+                <element label="Cancelled" sequence="3" value="Cancelled"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="SOCA status observations" max_length="255" name="soca_status_observations" type="string"/>

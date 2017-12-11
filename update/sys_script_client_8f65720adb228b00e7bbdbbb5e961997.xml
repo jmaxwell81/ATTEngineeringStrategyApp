@@ -4,34 +4,52 @@
         <active>true</active>
         <applies_extended>false</applies_extended>
         <condition/>
-        <description>El presente client script sirve para controlar la obligatoriedad del campo "solution document url" en el caso de que se defina el estado de la solicitud  de core capacity request como closed o delivered</description>
+        <description>El presente client script sirve para controlar que se proporcione información en el campo solution document URL, en el caso de que no se cuente con información en este se solicitaran comentarios de manera obligatoria en el campo "close notes".</description>
         <field>active</field>
         <global>true</global>
         <messages/>
-        <name>CCR verify solution document url</name>
+        <name>CCR check solution doc url &amp; close note </name>
         <order/>
         <script><![CDATA[function onSubmit() {
 	
+	// si no es una solicitud de "capacity problem" es decir, es una solicitud de reporte a demanda o de reporte mensual
 	if(g_form.getValue('request_type') != 'Capacity problem')
 	{
 		
 		var solution_document_url = g_form.getValue('solution_document_url');
 		var state = g_form.getValue('state');
 		
-		
+		//si no se modifico la información default del campo "Solution document URL"
 		if(solution_document_url == '<Insert your Ajax URL or TSpace URL where specific files for this request can be found>' && (state == 7 || state == 6))
 		{
+			//			
+			if(g_form.getValue('close_notes') == '')
+			{
+				alert('Please define in "Close notes" field the reason why you do not give a valid "solution document URL"');
+				g_form.setMandatory('close_notes', true);
+			    g_form.showErrorBox('close_notes', 'Please define in this field the reason why you do not give a valid "solution document URL"');
+				
+				return false;
+			}
 			
-			alert("You need to specify a valid URL of the documents to attach.");
-			g_form.hideFieldMsg('solution_document_url', true);
-			g_form.showErrorBox("solution_document_url", "You need to specify a valid URL of the documents to attach.");
+			else
+			{
+				g_form.addInfoMessage('A close notification will be sent with the information in "close notes" field');
+			}
 			
-			return false;
-		
+				
 		}
 		
 	}
-}]]></script>
+	
+	//si se trata de un capacity problem las close notes son siempre obligatorioas
+	if(g_form.getValue('request_type') == 'Capacity problem')
+	{
+		g_form.setMandatory('close_notes', true);
+	}	   
+}
+		   
+		   ]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>hugo.ruano</sys_created_by>
         <sys_created_on>2017-11-22 03:13:35</sys_created_on>
@@ -39,8 +57,8 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8f65720adb228b00e7bbdbbb5e961997</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>CCR verify solution document url</sys_name>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>CCR check solution doc url &amp; close note </sys_name>
         <sys_overrides/>
         <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
         <sys_policy/>
@@ -48,7 +66,7 @@
         <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
         <sys_update_name>sys_script_client_8f65720adb228b00e7bbdbbb5e961997</sys_update_name>
         <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-11-22 17:12:00</sys_updated_on>
+        <sys_updated_on>2017-12-05 18:27:26</sys_updated_on>
         <table>x_attme_engr_strat_core_capacity_request</table>
         <type>onSubmit</type>
         <ui_type>10</ui_type>

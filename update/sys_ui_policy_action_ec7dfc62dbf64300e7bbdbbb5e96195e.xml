@@ -2,24 +2,24 @@
 <record_update table="sys_ui_policy_action">
     <sys_ui_policy_action action="INSERT_OR_UPDATE">
         <disabled>ignore</disabled>
-        <field>close_notes</field>
-        <mandatory>true</mandatory>
+        <field>solution_document_url</field>
+        <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>hugo.ruano</sys_created_by>
-        <sys_created_on>2017-10-23 21:53:04</sys_created_on>
+        <sys_created_on>2017-12-05 17:59:58</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>4c76d4f4dbce034028f3d5ab5e961914</sys_id>
+        <sys_id>ec7dfc62dbf64300e7bbdbbb5e96195e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>close_notes</sys_name>
+        <sys_name>solution_document_url</sys_name>
         <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
-        <sys_update_name>sys_ui_policy_action_4c76d4f4dbce034028f3d5ab5e961914</sys_update_name>
+        <sys_update_name>sys_ui_policy_action_ec7dfc62dbf64300e7bbdbbb5e96195e</sys_update_name>
         <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-10-23 21:53:04</sys_updated_on>
+        <sys_updated_on>2017-12-05 17:59:58</sys_updated_on>
         <table>x_attme_engr_strat_engineering_strategy_request</table>
-        <ui_policy display_value="ESR unhide section (closure information)">fc041360db8e034028f3d5ab5e96191b</ui_policy>
-        <visible>ignore</visible>
+        <ui_policy display_value="ESR solution document url control">411d3862dbf64300e7bbdbbb5e9619d9</ui_policy>
+        <visible>true</visible>
     </sys_ui_policy_action>
 </record_update>

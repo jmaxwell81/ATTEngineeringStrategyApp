@@ -6,9 +6,9 @@
         <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
-        <collection>x_attme_engr_strat_core_capacity_request</collection>
-        <condition table="x_attme_engr_strat_core_capacity_request">stateCHANGESTO7^solution_document_url=&lt;Insert your Ajax URL or TSpace URL where specific files for this request can be found&gt;^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="7"/>
-            <item endquery="false" field="solution_document_url" goto="false" newquery="false" operator="=" or="false" value="&lt;Insert your Ajax URL or TSpace URL where specific files for this request can be found&gt;"/>
+        <collection>x_attme_engr_strat_transport_capacity_request</collection>
+        <condition table="x_attme_engr_strat_transport_capacity_request">stateCHANGESTO7^solution_document_url!=&lt;Insert your Ajax URL or TSpace URL where specific files for this request can be found&gt;^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="7"/>
+            <item endquery="false" field="solution_document_url" goto="false" newquery="false" operator="!=" or="false" value="&lt;Insert your Ajax URL or TSpace URL where specific files for this request can be found&gt;"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
@@ -27,13 +27,13 @@
         <mandatory>false</mandatory>
         <message/>
         <message_html><![CDATA[<p><span style="font-family: verdana, geneva;"><font face="verdana,geneva">Estimado(a) ${requested_for}</font></span></p>
-<p><span style="font-family: verdana, geneva;"><font face="verdana,geneva">Se le informa que su solicitud <em>${number} - ${short_description}</em> ha sido <strong>cerrada</strong>. Esta solicitud tuvo los siguientes comentarios de cierre:</font></span></p>
-<p><em><span style="font-family: verdana, geneva;"><font face="verdana,geneva">"${close_notes}"</font></span></em></p>
+<p><span style="font-family: verdana, geneva;"><font face="verdana,geneva">Se le informa que su solicitud <em>${number} - ${short_description}</em> ha sido <strong>cerrada</strong>.&nbsp;El reporte solicita puede ser descargado en la siguiente liga:</font></span></p>
+<p><strong><span style="font-family: verdana, geneva;"><font face="verdana,geneva"><a href="${solution_document_url}">${solution_document_url}</a></font></span></strong></p>
 <p><span style="font-family: verdana, geneva;"><font face="verdana,geneva">Puede revisar el detalle de esta accediendo a la siguiente liga: ${URI}</font></span></p>
 <p><span style="font-family: verdana, geneva;"><font face="verdana,geneva">Saludos</font></span></p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>CCR closed (with no valid URL)</name>
+        <name>TCR closed (with valid URL)</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
@@ -48,21 +48,21 @@
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>hugo.ruano</sys_created_by>
-        <sys_created_on>2017-11-15 16:39:55</sys_created_on>
+        <sys_created_on>2017-12-05 18:23:13</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>f43bad40dbe2830028f3d5ab5e961968</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>CCR closed (with no valid URL)</sys_name>
+        <sys_id>ffc245e2dbf64300e7bbdbbb5e9619b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TCR closed (with valid URL)</sys_name>
         <sys_overrides/>
         <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
-        <sys_update_name>sysevent_email_action_f43bad40dbe2830028f3d5ab5e961968</sys_update_name>
+        <sys_update_name>sysevent_email_action_ffc245e2dbf64300e7bbdbbb5e9619b7</sys_update_name>
         <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-12-05 18:20:20</sys_updated_on>
+        <sys_updated_on>2017-12-05 18:23:13</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
