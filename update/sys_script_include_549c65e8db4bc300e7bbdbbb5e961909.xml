@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_attme_engr_strat.getPurchaseRequisitionApprover</api_name>
+        <client_callable>true</client_callable>
+        <description>El presente script include sirve para determinar el aprobador de una purchase requsition, es llamado por el client script "PRQ get approver".</description>
+        <name>getPurchaseRequisitionApprover</name>
+        <script><![CDATA[var getPurchaseRequisitionApprover = Class.create();
+getPurchaseRequisitionApprover.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	getApprover: function() {
+		
+		var project = this.getParameter('sysparm_project');
+		
+		var gr =  new GlideRecord('x_attme_engr_strat_project');
+		gr.addQuery('sys_id', project);
+		gr.query();
+		gr.next() ;
+		
+		var project_responsible = gr.getValue('project_responsible');
+		
+		var result = this.newItem("result");
+		result.setAttribute("project_responsible", project_responsible);
+		
+	},
+	
+	
+	type: 'getPurchaseRequisitionApprover'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>hugo.ruano</sys_created_by>
+        <sys_created_on>2017-12-12 02:36:56</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>549c65e8db4bc300e7bbdbbb5e961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>getPurchaseRequisitionApprover</sys_name>
+        <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
+        <sys_update_name>sys_script_include_549c65e8db4bc300e7bbdbbb5e961909</sys_update_name>
+        <sys_updated_by>hugo.ruano</sys_updated_by>
+        <sys_updated_on>2017-12-12 02:36:56</sys_updated_on>
+    </sys_script_include>
+</record_update>

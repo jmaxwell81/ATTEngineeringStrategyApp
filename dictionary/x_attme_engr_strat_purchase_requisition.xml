@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element attributes="use_workflow=true,email_client=true" audit="true" extends="x_attme_engr_strat_capex_opex_request" label="Purchase requisition" max_length="40" name="x_attme_engr_strat_purchase_requisition" sizeclass="27" type="collection">
+    <element attributes="use_workflow=true,email_client=true" audit="true" extends="x_attme_engr_strat_capex_opex_request" label="Purchase requisition" max_length="40" name="x_attme_engr_strat_purchase_requisition" sizeclass="30" type="collection">
         <element label="Amount derived in Opex" max_length="40" name="amount_derived_in_opex" type="float"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="MXN" label="Opex amount currency" max_length="40" name="amount_derived_in_opex_currency" type="string">
             <choice>
@@ -8,7 +8,7 @@
                 <element label="USD" sequence="1" value="USD"/>
             </choice>
         </element>
-        <element label="Approver" mandatory="true" max_length="32" name="approver" reference="x_attme_engr_strat_purchase_requisition_approver" type="reference"/>
+        <element label="Approver" mandatory="true" max_length="32" name="approver" read_only="true" reference="sys_user" type="reference"/>
         <element label="Awarded amount" max_length="40" name="awarded_amount" type="float"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="MXN" label="Awarded amount currency" max_length="40" name="awarded_amount_currency" type="string">
             <choice>

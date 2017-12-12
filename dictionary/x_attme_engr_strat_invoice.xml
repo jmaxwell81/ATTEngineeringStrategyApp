@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Invoice" max_length="40" name="x_attme_engr_strat_invoice" type="collection">
+        <element label="Invoice amount" mandatory="true" max_length="40" name="amount" type="float"/>
+        <element choice="1" label="Invoice currency" mandatory="true" max_length="40" name="currency" type="choice">
+            <choice>
+                <element label="MXN" sequence="0" value="MXN"/>
+                <element label="USD" sequence="1" value="USD"/>
+            </choice>
+        </element>
+        <element label="Dispatch request" mandatory="true" max_length="32" name="dispatch_request" read_only="true" reference="x_attme_engr_strat_dispatch_request" type="reference"/>
+        <element label="Invoice number" mandatory="true" max_length="40" name="invoice_number" type="string"/>
+        <index name="index">
+            <element name="dispatch_request"/>
+        </index>
+    </element>
+</database>
