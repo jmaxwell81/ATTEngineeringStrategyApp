@@ -2,19 +2,19 @@
 <record_update table="sys_process_flow">
     <sys_process_flow action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition table="x_attme_engr_strat_purchase_requisition">stateIN11,2^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="11,2"/>
+        <condition table="x_attme_engr_strat_purchase_requisition">stateIN11,12,2^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="11,12,2"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <description/>
         <label>In progress</label>
         <name>In progress</name>
-        <order>200</order>
+        <order>300</order>
         <sys_class_name>sys_process_flow</sys_class_name>
         <sys_created_by>hugo.ruano</sys_created_by>
         <sys_created_on>2017-11-30 16:27:24</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>e13872f4db364f00e7bbdbbb5e9619e9</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>In progress</sys_name>
         <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
         <sys_policy/>
@@ -22,7 +22,7 @@
         <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
         <sys_update_name>sys_process_flow_e13872f4db364f00e7bbdbbb5e9619e9</sys_update_name>
         <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-12-11 04:20:32</sys_updated_on>
+        <sys_updated_on>2017-12-12 17:21:32</sys_updated_on>
         <table>x_attme_engr_strat_purchase_requisition</table>
     </sys_process_flow>
 </record_update>

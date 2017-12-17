@@ -4,9 +4,9 @@
         <active>true</active>
         <admin_overrides>true</admin_overrides>
         <advanced>false</advanced>
-        <condition table="x_attme_engr_strat_core_capacity_request.*">stateNOT IN6,7,8^assignment_groupDYNAMICd6435e965f510100a9ad2572f2b47744^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <condition table="x_attme_engr_strat_core_capacity_request.*">stateNOT IN6,7,8^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
-        <description>Un usuario fulfiller puede modificar una core capacity request, siempre y cuando pertenezca al grupo de asignación.</description>
+        <description>Un usuario fulfiller puede modificar una core capacity request</description>
         <name>x_attme_engr_strat_core_capacity_request.*</name>
         <operation display_value="write">write</operation>
         <script/>
@@ -15,7 +15,7 @@
         <sys_created_on>2017-10-23 21:24:37</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>79ff0c34dbce034028f3d5ab5e9619eb</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>x_attme_engr_strat_core_capacity_request.*</sys_name>
         <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
         <sys_policy/>
@@ -23,7 +23,7 @@
         <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
         <sys_update_name>sys_security_acl_79ff0c34dbce034028f3d5ab5e9619eb</sys_update_name>
         <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-11-22 03:04:22</sys_updated_on>
+        <sys_updated_on>2017-12-13 00:18:27</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>

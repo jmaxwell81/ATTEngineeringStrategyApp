@@ -128,7 +128,7 @@
 	}
 	
 	
-	//Fecha de solicitud de la Requicisión no puede ser menor a la fecha de entrega de la Requicisión
+	//Fecha de solicitud de la Requisición no puede ser menor a la fecha de entrega de la Requicisión
 	if((requisition_request_date_glide.compareTo(requisition_delivery_date_glide) == 1) && !current.requisition_delivery_date.nil())
 	{
 		gs.addErrorMessage("Requisition request date cannot be after delivery date");
@@ -136,7 +136,7 @@
 	}
 	
 	
-	//Fecha de solicitud de la Requisión no puede ser menor a la fecha de entrega del RFQ 
+	//Fecha de solicitud de la Requisición no puede ser menor a la fecha de entrega del RFQ 
 	if((rfq_delivery_date_glide.compareTo(requisition_request_date_glide) == 1) && !current.requisition_request_date.nil())
 	{
 		gs.addErrorMessage("Requisition request date cannot be before RFQ delivery date");
@@ -230,7 +230,7 @@ if((po_config_integration_request_date_glide.compareTo(po_config_integration_del
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8643fcf7dbaecb00e7bbdbbb5e96196e</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>PRQ document dates control (Capex)</sys_name>
         <sys_overrides/>
         <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
@@ -239,7 +239,7 @@ if((po_config_integration_request_date_glide.compareTo(po_config_integration_del
         <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
         <sys_update_name>sys_script_8643fcf7dbaecb00e7bbdbbb5e96196e</sys_update_name>
         <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-11-28 19:08:26</sys_updated_on>
+        <sys_updated_on>2017-12-12 21:54:10</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

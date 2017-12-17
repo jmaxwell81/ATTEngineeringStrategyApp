@@ -169,7 +169,7 @@
 	
 	
 	//calculo de la duración de la entrega del SOCA
-	//Se valida que los campos de fecha de solicitud y entrega del RFQ tengan información
+	//Se valida que los campos de fecha de solicitud y entrega del SOCA tengan información
 	if(!current.soca_request_date.nil() && !current.soca_delivery_date.nil())
 		{
 		var soca_request_date = current.soca_request_date + " 12:00:00";
@@ -208,8 +208,9 @@
 		    current.soca_requested_to_delivered_duration = "0 00:00:00";
 	}
 	
-	//calculo de la duración de la entrega del OCA
-	//Se valida que los campos de fecha de solicitud y entrega del RFQ tengan información
+	
+	//calculo de la duración de la entrega de la OCA
+	//Se valida que los campos de fecha de solicitud y entrega de la OCA tengan información
 	if(!current.oca_request_date.nil() && !current.oca_delivery_date.nil())
 		{
 		var oca_request_date = current.oca_request_date + " 12:00:00";
@@ -248,6 +249,225 @@
 		    current.oca_requested_to_delivered_duration = "0 00:00:00";
 	}
 	
+	
+	
+	//calculo de la duración de la entrega de la PO consultancy
+	//Se valida que los campos de fecha de solicitud y entrega de la PO consultancy tengan información
+	if(!current.po_consultancy_request_date.nil() && !current.po_consultancy_delivery_date.nil())
+		{
+		var po_consultancy_request_date = current.po_consultancy_request_date + " 12:00:00";
+		var po_consultancy_delivery_date = current.po_consultancy_delivery_date + " 12:00:00";
+		var po_consultancy_request_date_glide = new GlideDateTime(po_consultancy_request_date);
+		var po_consultancy_delivery_date_glide = new GlideDateTime(po_consultancy_delivery_date);
+		var po_consultancy_request_day_week = po_consultancy_request_date_glide.getDayOfWeekUTC();
+		var po_consultancy_delivery_day_week = po_consultancy_delivery_date_glide.getDayOfWeekUTC();
+		var po_consultancy_dur = new GlideDuration();
+		
+		if(po_consultancy_request_day_week == 6 || po_consultancy_request_day_week == 7)
+			{
+			po_consultancy_delivery_date_glide.subtract(offset_6_hours);
+			po_consultancy_dur = sched.duration(po_consultancy_request_date_glide, po_consultancy_delivery_date_glide);
+			current.po_consultancy_requested_to_delivered_duration = po_consultancy_dur.getDurationValue();
+		}
+		
+		if(po_consultancy_delivery_day_week == 6 || po_consultancy_delivery_day_week == 7)
+			{
+			po_consultancy_delivery_date_glide.subtract(offset_24_hours);
+			po_consultancy_dur = sched.duration(po_consultancy_request_date_glide, po_consultancy_delivery_date_glide);
+			current.po_consultancy_requested_to_delivered_duration = po_consultancy_dur.getDurationValue();
+		}
+		
+		else
+			{
+			po_consultancy_dur = sched.duration(po_consultancy_request_date_glide, po_consultancy_delivery_date_glide);
+			current.po_consultancy_requested_to_delivered_duration = po_consultancy_dur.getDurationValue();
+		}
+		
+	}
+	
+	//En el caso de que las fechas de solicitud y entrega de la PO consultancy se encuentren vacías
+	else
+		{
+		    current.po_consultancy_requested_to_delivered_duration = "0 00:00:00";
+	}
+	
+	
+	
+	
+	//calculo de la duración de la entrega de la PO licenses
+	//Se valida que los campos de fecha de solicitud y entrega de la PO licenses tengan información
+	if(!current.po_licenses_request_date.nil() && !current.po_licenses_delivery_date.nil())
+		{
+		var po_licenses_request_date = current.po_licenses_request_date + " 12:00:00";
+		var po_licenses_delivery_date = current.po_licenses_delivery_date + " 12:00:00";
+		var po_licenses_request_date_glide = new GlideDateTime(po_licenses_request_date);
+		var po_licenses_delivery_date_glide = new GlideDateTime(po_licenses_delivery_date);
+		var po_licenses_request_day_week = po_licenses_request_date_glide.getDayOfWeekUTC();
+		var po_licenses_delivery_day_week = po_licenses_delivery_date_glide.getDayOfWeekUTC();
+		var po_licenses_dur = new GlideDuration();
+		
+		if(po_licenses_request_day_week == 6 || po_licenses_request_day_week == 7)
+			{
+			po_licenses_delivery_date_glide.subtract(offset_6_hours);
+			po_licenses_dur = sched.duration(po_licenses_request_date_glide, po_licenses_delivery_date_glide);
+			current.po_licenses_requested_to_delivered_duration = po_licenses_dur.getDurationValue();
+		}
+		
+		if(po_licenses_delivery_day_week == 6 || po_licenses_delivery_day_week == 7)
+			{
+			po_licenses_delivery_date_glide.subtract(offset_24_hours);
+			po_licenses_dur = sched.duration(po_licenses_request_date_glide, po_licenses_delivery_date_glide);
+			current.po_licenses_requested_to_delivered_duration = po_licenses_dur.getDurationValue();
+		}
+		
+		else
+			{
+			po_licenses_dur = sched.duration(po_licenses_request_date_glide, po_licenses_delivery_date_glide);
+			current.po_licenses_requested_to_delivered_duration = po_licenses_dur.getDurationValue();
+		}
+		
+	}
+	
+	//En el caso de que las fechas de solicitud y entrega de la PO licenses se encuentren vacías
+	else
+		{
+		    current.po_licenses_requested_to_delivered_duration = "0 00:00:00";
+	}
+	
+	
+	
+	
+	//calculo de la duración de la entrega de la PO support
+	//Se valida que los campos de fecha de solicitud y entrega de la PO support tengan información
+	if(!current.po_support_request_date.nil() && !current.po_support_delivery_date.nil())
+		{
+		var po_support_request_date = current.po_support_request_date + " 12:00:00";
+		var po_support_delivery_date = current.po_support_delivery_date + " 12:00:00";
+		var po_support_request_date_glide = new GlideDateTime(po_support_request_date);
+		var po_support_delivery_date_glide = new GlideDateTime(po_support_delivery_date);
+		var po_support_request_day_week = po_support_request_date_glide.getDayOfWeekUTC();
+		var po_support_delivery_day_week = po_support_delivery_date_glide.getDayOfWeekUTC();
+		var po_support_dur = new GlideDuration();
+		
+		if(po_support_request_day_week == 6 || po_support_request_day_week == 7)
+		    {
+			po_support_delivery_date_glide.subtract(offset_6_hours);
+			po_support_dur = sched.duration(po_support_request_date_glide, po_support_delivery_date_glide);
+			current.po_support_requested_to_delivered_duration = po_support_dur.getDurationValue();
+		}
+		
+		if(po_support_delivery_day_week == 6 || po_support_delivery_day_week == 7)
+			{
+			po_support_delivery_date_glide.subtract(offset_24_hours);
+			po_support_dur = sched.duration(po_support_request_date_glide, po_support_delivery_date_glide);
+			current.po_support_requested_to_delivered_duration = po_support_dur.getDurationValue();
+		}
+		
+		else
+			{
+			po_support_dur = sched.duration(po_support_request_date_glide, po_support_delivery_date_glide);
+			current.po_support_requested_to_delivered_duration = po_support_dur.getDurationValue();
+		}
+		
+	}
+	
+	//En el caso de que las fechas de solicitud y entrega de la PO support se encuentren vacías
+	else
+		{
+		    current.po_support_requested_to_delivered_duration = "0 00:00:00";
+	}
+	
+	
+	
+	
+	
+	//calculo de la duración de la entrega del PO HW
+	//Se valida que los campos de fecha de solicitud y entrega de la PO Hardware tengan información
+	if(!current.po_hw_request_date.nil() && !current.po_hw_delivery_date.nil())
+		{
+		var po_hw_request_date = current.po_hw_request_date + " 12:00:00";
+		var po_hw_delivery_date = current.po_hw_delivery_date + " 12:00:00";
+		var po_hw_request_date_glide = new GlideDateTime(po_hw_request_date);
+		var po_hw_delivery_date_glide = new GlideDateTime(po_hw_delivery_date);
+		var po_hw_request_day_week = po_hw_request_date_glide.getDayOfWeekUTC();
+		var po_hw_delivery_day_week = po_hw_delivery_date_glide.getDayOfWeekUTC();
+		var po_hw_dur = new GlideDuration();
+		
+		if(po_hw_request_day_week == 6 || po_hw_request_day_week == 7)
+			{
+			po_hw_delivery_date_glide.subtract(offset_6_hours);
+			po_hw_dur = sched.duration(po_hw_request_date_glide, po_hw_delivery_date_glide);
+			current.po_hw_requested_to_delivered_duration = po_hw_dur.getDurationValue();
+			
+		}
+		
+		if(po_hw_delivery_day_week == 6 || po_hw_delivery_day_week == 7)
+			{
+			po_hw_delivery_date_glide.subtract(offset_24_hours);
+			po_hw_dur = sched.duration(po_hw_request_date_glide, po_hw_delivery_date_glide);
+			current.po_hw_requested_to_delivered_duration = po_hw_dur.getDurationValue();
+		}
+		
+		else
+			{
+			po_hw_dur = sched.duration(po_hw_request_date_glide, po_hw_delivery_date_glide);
+			current.po_hw_requested_to_delivered_duration = po_hw_dur.getDurationValue();
+		}
+		
+	}
+	
+	//En el caso de que las fechas de solicitud y entrega de la PO Hardware se encuentren vacías
+	else
+		{
+		    current.po_hw_requested_to_delivered_duration = "0 00:00:00";
+	}
+	
+	
+	
+	
+	//calculo de la duración de la entrega del PO others
+	//Se valida que los campos de fecha de solicitud y entrega de la PO otros tengan información
+	if(!current.po_others_request_date.nil() && !current.po_others_delivery_date.nil())
+		{
+		var po_others_request_date = current.po_others_request_date + " 12:00:00";
+		var po_others_delivery_date = current.po_others_delivery_date + " 12:00:00";
+		var po_others_request_date_glide = new GlideDateTime(po_others_request_date);
+		var po_others_delivery_date_glide = new GlideDateTime(po_others_delivery_date);
+		var po_others_request_day_week = po_others_request_date_glide.getDayOfWeekUTC();
+		var po_others_delivery_day_week = po_others_delivery_date_glide.getDayOfWeekUTC();
+		var po_others_dur = new GlideDuration();
+		
+		if(po_others_request_day_week == 6 || po_others_request_day_week == 7)
+			{
+			po_others_delivery_date_glide.subtract(offset_6_hours);
+			po_others_dur = sched.duration(po_others_request_date_glide, po_others_delivery_date_glide);
+			current.po_others_requested_to_delivered_duration = po_others_dur.getDurationValue();
+			
+		}
+		
+		if(po_others_delivery_day_week == 6 || po_others_delivery_day_week == 7)
+			{
+			po_others_delivery_date_glide.subtract(offset_24_hours);
+			po_others_dur = sched.duration(po_others_request_date_glide, po_others_delivery_date_glide);
+			current.po_others_requested_to_delivered_duration = po_others_dur.getDurationValue();
+		}
+		
+		else
+			{
+			po_others_dur = sched.duration(po_others_request_date_glide, po_others_delivery_date_glide);
+			current.po_others_requested_to_delivered_duration = po_others_dur.getDurationValue();
+		}
+		
+	}
+	
+	//En el caso de que las fechas de solicitud y entrega de la PO others se encuentren vacías
+	else
+		{
+		    current.po_others_requested_to_delivered_duration = "0 00:00:00";
+	}
+	
+	
+	
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>hugo.ruano</sys_created_by>
@@ -256,7 +476,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d668803ddb2a4b00e7bbdbbb5e9619b0</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>PRQ calculate aging information (Opex)</sys_name>
         <sys_overrides/>
         <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
@@ -265,7 +485,7 @@
         <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
         <sys_update_name>sys_script_d668803ddb2a4b00e7bbdbbb5e9619b0</sys_update_name>
         <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-11-29 18:48:07</sys_updated_on>
+        <sys_updated_on>2017-12-12 21:04:30</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

@@ -34,12 +34,12 @@
         <sys_created_by>hugo.ruano</sys_created_by>
         <sys_created_on>2017-12-12 14:42:48</sys_created_on>
         <sys_id>5373d4fcdb83c30028f3d5ab5e96197f</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-12-12 14:48:20</sys_updated_on>
+        <sys_updated_on>2017-12-12 19:06:13</sys_updated_on>
         <table>x_attme_engr_strat_purchase_requisition</table>
         <timezone>Mexico/General</timezone>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="Capex/opex mgmt - Capex purchase requisition delay control">d1da667ddb32030028f3d5ab5e961984</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">

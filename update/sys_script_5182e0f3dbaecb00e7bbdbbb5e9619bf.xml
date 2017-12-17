@@ -64,6 +64,31 @@
 	var oca_request_date_glide = new GlideDateTime(oca_request_date);
 	var oca_delivery_date_glide = new GlideDateTime(oca_delivery_date);
 	
+	var po_consultancy_request_date = current.po_consultancy_request_date + " 12:00:00";
+	var po_consultancy_delivery_date = current.po_consultancy_delivery_date + " 12:00:00";
+	var po_consultancy_request_date_glide = new GlideDateTime(po_consultancy_request_date);
+	var po_consultancy_delivery_date_glide = new GlideDateTime(po_consultancy_delivery_date);
+	
+	var po_licenses_request_date = current.po_licenses_request_date + " 12:00:00";
+	var po_licenses_delivery_date = current.po_licenses_delivery_date + " 12:00:00";
+	var po_licenses_request_date_glide = new GlideDateTime(po_licenses_request_date);
+	var po_licenses_delivery_date_glide = new GlideDateTime(po_licenses_delivery_date);
+	
+	var po_support_request_date = current.po_support_request_date + " 12:00:00";
+	var po_support_delivery_date = current.po_support_delivery_date + " 12:00:00";
+	var po_support_request_date_glide = new GlideDateTime(po_support_request_date);
+	var po_support_delivery_date_glide = new GlideDateTime(po_support_delivery_date);
+	
+	var po_hw_request_date = current.po_hw_request_date + " 12:00:00";
+	var po_hw_delivery_date = current.po_hw_delivery_date + " 12:00:00";
+	var po_hw_request_date_glide = new GlideDateTime(po_hw_request_date);
+	var po_hw_delivery_date_glide = new GlideDateTime(po_hw_delivery_date);
+	
+	var po_others_request_date = current.po_others_request_date + " 12:00:00";
+	var po_others_delivery_date = current.po_others_delivery_date + " 12:00:00";
+	var po_others_request_date_glide = new GlideDateTime(po_others_request_date);
+	var po_others_delivery_date_glide = new GlideDateTime(po_others_delivery_date);
+	
 	
 	//****************************************************************************
 	//A continuación se presenta las condiciones que se deben de cumplir para las fechas de los documentos requeridos en una compra de OPEX
@@ -141,6 +166,85 @@
 	}
 	
 	
+	//Fecha de solicitud de la PO consultancy no puede ser menor a la fecha de entrega de la PO consultancy
+	if((po_consultancy_request_date_glide.compareTo(po_consultancy_delivery_date_glide) == 1) && !current.po_consultancy_delivery_date.nil())
+	{
+		gs.addErrorMessage("PO Consultancy request date cannot be after delivery date");
+		current.setAbortAction(true);
+	}
+	
+	
+	//Fecha de solicitud de la PO consultancy no puede ser menor a la fecha de entrega de la SOCA u OCA 
+	if(((soca_delivery_date_glide.compareTo(po_consultancy_request_date_glide) == 1) || (oca_delivery_date_glide.compareTo(po_consultancy_request_date_glide) == 1)) && !current.po_consultancy_request_date.nil())
+	{
+		gs.addErrorMessage("PO consultancy request date cannot be before SOCA/OCA delivery date");
+		current.setAbortAction(true);
+	}
+	
+	
+	//Fecha de solicitud de la PO licenses no puede ser menor a la fecha de entrega de la PO licenses
+	if((po_licenses_request_date_glide.compareTo(po_licenses_delivery_date_glide) == 1) && !current.po_licenses_delivery_date.nil())
+	{
+		gs.addErrorMessage("PO licenses request date cannot be after delivery date");
+		current.setAbortAction(true);
+	}
+	
+	
+	//Fecha de solicitud de la PO licenses no puede ser menor a la fecha de entrega de la SOCA u OCA 
+	if(((soca_delivery_date_glide.compareTo(po_licenses_request_date_glide) == 1) || (oca_delivery_date_glide.compareTo(po_licenses_request_date_glide) == 1)) && !current.po_licenses_request_date.nil())
+	{
+		gs.addErrorMessage("PO licenses request date cannot be before SOCA/OCA delivery date");
+		current.setAbortAction(true);
+	}
+	
+	
+	//Fecha de solicitud de la PO support no puede ser menor a la fecha de entrega de la PO support
+	if((po_support_request_date_glide.compareTo(po_support_delivery_date_glide) == 1) && !current.po_support_delivery_date.nil())
+	{
+		gs.addErrorMessage("PO support request date cannot be after delivery date");
+		current.setAbortAction(true);
+	}
+	
+	
+	//Fecha de solicitud de la PO support no puede ser menor a la fecha de entrega de la SOCA u OCA 
+	if(((soca_delivery_date_glide.compareTo(po_support_request_date_glide) == 1) || (oca_delivery_date_glide.compareTo(po_support_request_date_glide) == 1)) && !current.po_support_request_date.nil())
+	{
+		gs.addErrorMessage("PO support request date cannot be before SOCA/OCA delivery date");
+		current.setAbortAction(true);
+	}
+	
+	
+	//Fecha de solicitud de la PO HW no puede ser menor a la fecha de entrega de la PO HW
+	if((po_hw_request_date_glide.compareTo(po_hw_delivery_date_glide) == 1) && !current.po_hw_delivery_date.nil())
+	{
+		gs.addErrorMessage("PO Hardware request date cannot be after delivery date");
+		current.setAbortAction(true);
+	}
+	
+	
+	//Fecha de solicitud de la PO HW no puede ser menor a la fecha de entrega de la SOCA u OCA 
+	if(((soca_delivery_date_glide.compareTo(po_hw_request_date_glide) == 1) || (oca_delivery_date_glide.compareTo(po_hw_request_date_glide) == 1)) && !current.po_hw_request_date.nil())
+	{
+		gs.addErrorMessage("PO HW request date cannot be before SOCA/OCA delivery date");
+		current.setAbortAction(true);
+	}
+	
+	
+	
+	//Fecha de solicitud de la PO others no puede ser menor a la fecha de entrega de la PO others
+	if((po_others_request_date_glide.compareTo(po_others_delivery_date_glide) == 1) && !current.po_others_delivery_date.nil())
+	{
+		gs.addErrorMessage("PO others request date cannot be after delivery date");
+		current.setAbortAction(true);
+	}
+	
+	
+	//Fecha de solicitud de la PO others no puede ser menor a la fecha de entrega de la SOCA u OCA 
+	if(((soca_delivery_date_glide.compareTo(po_others_request_date_glide) == 1) || (oca_delivery_date_glide.compareTo(po_others_request_date_glide) == 1)) && !current.po_others_request_date.nil())
+	{
+		gs.addErrorMessage("PO others request date cannot be before SOCA/OCA delivery date");
+		current.setAbortAction(true);
+	}
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>hugo.ruano</sys_created_by>
@@ -149,7 +253,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5182e0f3dbaecb00e7bbdbbb5e9619bf</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>PRQ document dates control (Opex)</sys_name>
         <sys_overrides/>
         <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
@@ -158,7 +262,7 @@
         <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
         <sys_update_name>sys_script_5182e0f3dbaecb00e7bbdbbb5e9619bf</sys_update_name>
         <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-11-28 19:22:41</sys_updated_on>
+        <sys_updated_on>2017-12-12 22:08:23</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
