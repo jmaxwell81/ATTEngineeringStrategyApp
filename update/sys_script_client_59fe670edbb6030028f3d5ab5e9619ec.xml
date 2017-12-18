@@ -24,7 +24,7 @@ if(g_form.getValue('expense_type') == 'Capex')
 	{
 		if(g_form.getValue('net_id_request_date') == '' || g_form.getValue('net_id_delivery_date') == '')
 		{
-			g_form.addErrorMessage('You need to provide "NET ID request date" and "NET ID delivery date');
+			g_form.addErrorMessage('You need to provide "NET ID request date" and "NET ID delivery date"');
 			g_form.setMandatory('net_id_request_date', true);
 			g_form.setMandatory('net_id_delivery_date', true);
 			return false;
@@ -52,7 +52,7 @@ if(g_form.getValue('expense_type') == 'Capex')
 	{
 		if(g_form.getValue('pr_request_date') == '' || g_form.getValue('pr_delivery_date') == '')
 		{
-			g_form.addErrorMessage('You need to provide "PR request date" and "PR delivery date');
+			g_form.addErrorMessage('You need to provide "PR request date" and "PR delivery date"');
 			g_form.setMandatory('pr_request_date', true);
 			g_form.setMandatory('pr_delivery_date', true);
 			return false;
@@ -80,7 +80,7 @@ if(g_form.getValue('expense_type') == 'Capex')
 	{
 		if(g_form.getValue('rfq_request_date') == '' || g_form.getValue('rfq_delivery_date') == '')
 		{
-			g_form.addErrorMessage('You need to provide "RFQ request date" and "RFQ delivery date');
+			g_form.addErrorMessage('You need to provide "RFQ request date" and "RFQ delivery date"');
 			g_form.setMandatory('rfq_request_date', true);
 			g_form.setMandatory('rfq_delivery_date', true);
 			return false;
@@ -106,7 +106,7 @@ if(g_form.getValue('expense_type') == 'Capex')
 	{
 		if(g_form.getValue('requisition_request_date') == '' || g_form.getValue('requisition_delivery_date') == '')
 		{
-			g_form.addErrorMessage('You need to provide "Requisition request date" and "Requisition delivery date');
+			g_form.addErrorMessage('You need to provide "Requisition request date" and "Requisition delivery date"');
 			g_form.setMandatory('requisition_request_date', true);
 			g_form.setMandatory('requisition_delivery_date', true);
 			return false;
@@ -136,7 +136,7 @@ if(g_form.getValue('expense_type') == 'Capex')
 	{
 		if(g_form.getValue('po_sw_request_date') == '' || g_form.getValue('po_sw_delivery_date') == '')
 		{
-			g_form.addErrorMessage('You need to provide "PO SW request date" and "PO SW delivery date');
+			g_form.addErrorMessage('You need to provide "PO SW request date" and "PO SW delivery date"');
 			g_form.setMandatory('po_sw_request_date', true);
 			g_form.setMandatory('po_sw_delivery_date', true);
 			return false;
@@ -164,7 +164,7 @@ if(g_form.getValue('expense_type') == 'Capex')
 	{
 		if(g_form.getValue('po_hw_request_date') == '' || g_form.getValue('po_hw_delivery_date') == '')
 		{
-			g_form.addErrorMessage('You need to provide "PO HW request date" and "PO HW delivery date');
+			g_form.addErrorMessage('You need to provide "PO HW request date" and "PO HW delivery date"');
 			g_form.setMandatory('po_hw_request_date', true);
 			g_form.setMandatory('po_hw_delivery_date', true);
 			return false;
@@ -191,7 +191,7 @@ if(g_form.getValue('expense_type') == 'Capex')
 	{
 		if(g_form.getValue('po_installation_service_request_date') == '' || g_form.getValue('po_installation_service_delivery_date') == '')
 		{
-			g_form.addErrorMessage('You need to provide "PO installation service request date" and "PO installation service delivery date');
+			g_form.addErrorMessage('You need to provide "PO installation service request date" and "PO installation service delivery date"');
 			g_form.setMandatory('po_installation_service_request_date', true);
 			g_form.setMandatory('po_installation_service_date', true);
 			return false;
@@ -218,7 +218,7 @@ if(g_form.getValue('expense_type') == 'Capex')
 	{
 		if(g_form.getValue('po_config_integration_request_date') == '' || g_form.getValue('po_config_integration_delivery_date') == '')
 		{
-			g_form.addErrorMessage('You need to provide "PO configuration & integration service request date" and "PO configuration & integration service delivery date');
+			g_form.addErrorMessage('You need to provide "PO configuration & integration service request date" and "PO configuration & integration service delivery date"');
 			g_form.setMandatory('po_config_integration_request_date', true);
 			g_form.setMandatory('po_config_integration_delivery_date', true);
 			return false;
@@ -245,7 +245,7 @@ if(g_form.getValue('expense_type') == 'Capex')
 	{
 		if(g_form.getValue('po_others_request_date') == '' || g_form.getValue('po_others_delivery_date') == '')
 		{
-			g_form.addErrorMessage('You need to provide "PO others request date" and "PO others delivery date');
+			g_form.addErrorMessage('You need to provide "PO others request date" and "PO others delivery date"');
 			g_form.setMandatory('po_others_request_date', true);
 			g_form.setMandatory('po_others_delivery_date', true);
 			return false;
@@ -275,7 +275,7 @@ if(g_form.getValue('expense_type') == 'Capex')
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>59fe670edbb6030028f3d5ab5e9619ec</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>PRQ documents mandatory fields (Capex)</sys_name>
         <sys_overrides/>
         <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
@@ -284,7 +284,7 @@ if(g_form.getValue('expense_type') == 'Capex')
         <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
         <sys_update_name>sys_script_client_59fe670edbb6030028f3d5ab5e9619ec</sys_update_name>
         <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-12-04 18:22:18</sys_updated_on>
+        <sys_updated_on>2017-12-18 01:02:23</sys_updated_on>
         <table>x_attme_engr_strat_purchase_requisition</table>
         <type>onSubmit</type>
         <ui_type>10</ui_type>

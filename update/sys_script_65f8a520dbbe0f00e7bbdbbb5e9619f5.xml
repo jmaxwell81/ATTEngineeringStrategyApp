@@ -33,7 +33,7 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
-	//La presente business rule determina cual es el ultimo documento entregado para tipo de expense OPEX, para este tipo de solicitud de compra se tienen contemplado los documentos: OP, PR, RFQ y SOCA u OCA, en dicho orden.
+	//La presente business rule determina cual es el ultimo documento entregado para tipo de expense OPEX, para este tipo de solicitud de compra se tienen contemplado los documentos: OP, PR, RFQ, SOCA u OCA y PO(s), en dicho orden.
 	
 	var last_delivered_document;
 	var next_document_to_deliver;
@@ -59,6 +59,13 @@
 	if(!current.soca.nil() || !current.oca_number.nil())
 	{	
 		last_delivered_document = "SOCA/OCA";
+		next_document_to_deliver = "PO";
+	   
+	}
+	
+	if(!current.po_consultancy_service.nil() || !current.po_licenses.nil() || !current.po_support.nil() || !current.po_hardware.nil() || !current.po_others.nil())
+	{	
+		last_delivered_document = "PO";
 		next_document_to_deliver = "";
 	   
 	}
@@ -75,7 +82,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>65f8a520dbbe0f00e7bbdbbb5e9619f5</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>PRQ set last and next document (Opex)</sys_name>
         <sys_overrides/>
         <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
@@ -84,7 +91,7 @@
         <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
         <sys_update_name>sys_script_65f8a520dbbe0f00e7bbdbbb5e9619f5</sys_update_name>
         <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-11-29 18:54:59</sys_updated_on>
+        <sys_updated_on>2017-12-18 00:50:59</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

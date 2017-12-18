@@ -14,7 +14,7 @@
 	
 g_form.clearMessages();
 	
-//Si es una compra tipo CAPEX
+//Si es una compra tipo Opex
 if(g_form.getValue('expense_type') == 'Opex')
 {
 	
@@ -24,7 +24,7 @@ if(g_form.getValue('expense_type') == 'Opex')
 	{
 		if(g_form.getValue('op_request_date') == '' || g_form.getValue('op_delivery_date') == '')
 		{
-			g_form.addErrorMessage('You need to provide "OP request date" and "OP delivery date');
+			g_form.addErrorMessage('You need to provide "OP request date" and "OP delivery date"');
 			g_form.setMandatory('op_request_date', true);
 			g_form.setMandatory('op_delivery_date', true);
 			return false;
@@ -52,7 +52,7 @@ if(g_form.getValue('expense_type') == 'Opex')
 	{
 		if(g_form.getValue('pr_request_date') == '' || g_form.getValue('pr_delivery_date') == '')
 		{
-			g_form.addErrorMessage('You need to provide "PR request date" and "PR delivery date');
+			g_form.addErrorMessage('You need to provide "PR request date" and "PR delivery date"');
 			g_form.setMandatory('pr_request_date', true);
 			g_form.setMandatory('pr_delivery_date', true);
 			return false;
@@ -80,7 +80,7 @@ if(g_form.getValue('expense_type') == 'Opex')
 	{
 		if(g_form.getValue('rfq_request_date') == '' || g_form.getValue('rfq_delivery_date') == '')
 		{
-			g_form.addErrorMessage('You need to provide "RFQ request date" and "RFQ delivery date');
+			g_form.addErrorMessage('You need to provide "RFQ request date" and "RFQ delivery date"');
 			g_form.setMandatory('rfq_request_date', true);
 			g_form.setMandatory('rfq_delivery_date', true);
 			return false;
@@ -106,7 +106,7 @@ if(g_form.getValue('expense_type') == 'Opex')
 	{
 		if(g_form.getValue('soca_request_date') == '' || g_form.getValue('soca_delivery_date') == '')
 		{
-			g_form.addErrorMessage('You need to provide "SOCA request date" and "SOCA delivery date');
+			g_form.addErrorMessage('You need to provide "SOCA request date" and "SOCA delivery date"');
 			g_form.setMandatory('soca_request_date', true);
 			g_form.setMandatory('soca_delivery_date', true);
 			return false;
@@ -134,7 +134,7 @@ if(g_form.getValue('expense_type') == 'Opex')
 	{
 		if(g_form.getValue('oca_request_date') == '' || g_form.getValue('oca_delivery_date') == '')
 		{
-			g_form.addErrorMessage('You need to provide "OCA request date" and "OCA delivery date');
+			g_form.addErrorMessage('You need to provide "OCA request date" and "OCA delivery date"');
 			g_form.setMandatory('oca_request_date', true);
 			g_form.setMandatory('oca_delivery_date', true);
 			return false;
@@ -152,9 +152,145 @@ if(g_form.getValue('expense_type') == 'Opex')
 			return false;			
 		}
 	}
+	
+	
+	
+	
+	//PO Consultancy
+	//si ya contamos con una PO consultancy definida, revisamos que ambos campos de fecha tengan información.
+	if(g_form.getValue('po_consultancy_service') != '' )
+	{
+		if(g_form.getValue('po_consultancy_request_date') == '' || g_form.getValue('po_consultancy_delivery_date') == '')
+		{
+			g_form.addErrorMessage('You need to provide "PO Consultancy request date" and "PO Consultancy delivery date"');
+			g_form.setMandatory('po_consultancy_request_date', true);
+			g_form.setMandatory('po_consultancy_delivery_date', true);
+			return false;
+		}
 		
+	}
+	
+	//si no tenemos un ID definido pero ambos campos de fecha ya poseen información
+	else
+	{
+		if(g_form.getValue('po_consultancy_request_date') != '' && g_form.getValue('po_consultancy_delivery_date') != '')
+		{
+			g_form.addErrorMessage('You need to provide a "PO Consultancy number"');
+			g_form.setMandatory('po_consultancy', true);
+			return false;			
+		}
+	}
 
+	
+	
+	
+	//PO Licenses
+	//si ya contamos con una PO licenses definida, revisamos que ambos campos de fecha tengan información.
+	if(g_form.getValue('po_licenses') != '' )
+	{
+		if(g_form.getValue('po_licenses_request_date') == '' || g_form.getValue('po_licenses_delivery_date') == '')
+		{
+			g_form.addErrorMessage('You need to provide "PO Licenses request date" and "PO Licenses delivery date"');
+			g_form.setMandatory('po_licenses_request_date', true);
+			g_form.setMandatory('po_licenses_delivery_date', true);
+			return false;
+		}
+		
+	}
+	
+	//si no tenemos un ID definido pero ambos campos de fecha ya poseen información
+	else
+	{
+		if(g_form.getValue('po_licenses_request_date') != '' && g_form.getValue('po_licenses_delivery_date') != '')
+		{
+			g_form.addErrorMessage('You need to provide a "PO Liceneses number"');
+			g_form.setMandatory('po_licenses', true);
+			return false;			
+		}
+	}
+	
+	
+	
+	//PO Support
+	//si ya contamos con una PO licenses definida, revisamos que ambos campos de fecha tengan información.
+	if(g_form.getValue('po_support') != '' )
+	{
+		if(g_form.getValue('po_support_request_date') == '' || g_form.getValue('po_support_delivery_date') == '')
+		{
+			g_form.addErrorMessage('You need to provide "PO Support request date" and "PO Support delivery date"');
+			g_form.setMandatory('po_support_request_date', true);
+			g_form.setMandatory('po_support_delivery_date', true);
+			return false;
+		}
+		
+	}
+	
+	//si no tenemos un ID definido pero ambos campos de fecha ya poseen información
+	else
+	{
+		if(g_form.getValue('po_support_request_date') != '' && g_form.getValue('po_support_delivery_date') != '')
+		{
+			g_form.addErrorMessage('You need to provide a "PO Support number"');
+			g_form.setMandatory('po_support', true);
+			return false;			
+		}
+	}
+	
+	
+	
+	
+	//PO Hardware
+	//si ya contamos con una PO hardware definida, revisamos que ambos campos de fecha tengan información.
+	if(g_form.getValue('po_hardware') != '' )
+	{
+		if(g_form.getValue('po_hw_request_date') == '' || g_form.getValue('po_hw_delivery_date') == '')
+		{
+			g_form.addErrorMessage('You need to provide "PO HW request date" and "PO HW delivery date"');
+			g_form.setMandatory('po_hw_request_date', true);
+			g_form.setMandatory('po_hw_delivery_date', true);
+			return false;
+		}
+		
+	}
+	
+	//si no tenemos un ID definido pero ambos campos de fecha ya poseen información
+	else
+	{
+		if(g_form.getValue('po_hw_request_date') != '' && g_form.getValue('po_hw_delivery_date') != '')
+		{
+			g_form.addErrorMessage('You need to provide a "PO HW number"');
+			g_form.setMandatory('po_hardware', true);
+			return false;			
+		}
+	}
 
+     
+	
+	
+	//PO Others
+	//si ya contamos con una PO others definida, revisamos que ambos campos de fecha tengan información.
+	if(g_form.getValue('po_others') != '' )
+	{
+		if(g_form.getValue('po_others_request_date') == '' || g_form.getValue('po_others_delivery_date') == '')
+		{
+			g_form.addErrorMessage('You need to provide "PO others request date" and "PO others delivery date"');
+			g_form.setMandatory('po_others_request_date', true);
+			g_form.setMandatory('po_others_delivery_date', true);
+			return false;
+		}
+		
+	}
+	
+	//si no tenemos un ID definido pero ambos campos de fecha ya poseen información
+	else
+	{
+		if(g_form.getValue('po_others_request_date') != '' && g_form.getValue('po_others_delivery_date') != '')
+		{
+			g_form.addErrorMessage('You need to provide a "PO others number"');
+			g_form.setMandatory('po_others', true);
+			return false;			
+		}
+	}
 	
 	
 }
@@ -167,7 +303,7 @@ if(g_form.getValue('expense_type') == 'Opex')
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>85393302dbf6030028f3d5ab5e961917</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>PRQ documents mandatory fields (Opex)</sys_name>
         <sys_overrides/>
         <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
@@ -176,7 +312,7 @@ if(g_form.getValue('expense_type') == 'Opex')
         <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
         <sys_update_name>sys_script_client_85393302dbf6030028f3d5ab5e961917</sys_update_name>
         <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-12-04 18:27:36</sys_updated_on>
+        <sys_updated_on>2017-12-18 01:03:02</sys_updated_on>
         <table>x_attme_engr_strat_purchase_requisition</table>
         <type>onSubmit</type>
         <ui_type>10</ui_type>

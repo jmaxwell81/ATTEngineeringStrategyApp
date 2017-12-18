@@ -120,7 +120,11 @@
         <element label="PO cnslt. request date" max_length="40" name="po_consultancy_request_date" type="glide_date"/>
         <element label="PO consultancy" max_length="40" name="po_consultancy_service" type="string"/>
         <element choice="1" label="PO consultancy status" max_length="40" name="po_consultancy_status" type="choice">
-            <choice/>
+            <choice>
+                <element label="Sent to purchase dept." sequence="0" value="Sent to purchase dept."/>
+                <element label="Finished" sequence="1" value="Finished"/>
+                <element label="Cancelled" sequence="2" value="Cancelled"/>
+            </choice>
         </element>
         <element label="PO consultancy status observations" max_length="255" name="po_consultancy_status_observations" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="PO hardware" max_length="40" name="po_hardware" type="string"/>
@@ -152,7 +156,11 @@
         <element label="PO licenses requested to delivered duration" max_length="40" name="po_licenses_requested_to_delivered_duration" read_only="true" type="glide_duration"/>
         <element label="PO licenses request date" max_length="40" name="po_licenses_request_date" type="glide_date"/>
         <element choice="1" label="PO licenses status" max_length="40" name="po_licenses_status" type="choice">
-            <choice/>
+            <choice>
+                <element label="Sent to purchase dept." sequence="0" value="Sent to purchase dept."/>
+                <element label="Finished" sequence="1" value="Finished"/>
+                <element label="Cancelled" sequence="2" value="Cancelled"/>
+            </choice>
         </element>
         <element label="PO licenses status observations" max_length="255" name="po_licenses_status_observations" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="PO others" max_length="40" name="po_others" type="string"/>
@@ -173,7 +181,11 @@
         <element label="PO support requested to delivered duration" max_length="40" name="po_support_requested_to_delivered_duration" read_only="true" type="glide_duration"/>
         <element label="PO support request date" max_length="40" name="po_support_request_date" type="glide_date"/>
         <element choice="1" label="PO support status" max_length="40" name="po_support_status" type="choice">
-            <choice/>
+            <choice>
+                <element label="Sent to purchase dept." sequence="0" value="Sent to purchase dept."/>
+                <element label="Finished" sequence="1" value="Finished"/>
+                <element label="Cancelled" sequence="2" value="Cancelled"/>
+            </choice>
         </element>
         <element label="PO support status observations" max_length="255" name="po_support_status_observations" type="string"/>
         <element label="PO SW delivery date" max_length="40" name="po_sw_delivery_date" type="glide_date"/>
