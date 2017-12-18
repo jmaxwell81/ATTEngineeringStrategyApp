@@ -6,42 +6,43 @@
         <assessment/>
         <content_page/>
         <device_type/>
-        <filter/>
+        <filter table="x_attme_engr_strat_dispatch_request">related_invoice=false^EQ<item endquery="false" field="related_invoice" goto="false" newquery="false" operator="=" or="false" value="false"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
         <hint/>
-        <homepage display_value="Capex/opex mgmt - Projects overview">2d480096dbf6030028f3d5ab5e9619cc</homepage>
+        <homepage/>
         <image/>
-        <link_type>DIRECT</link_type>
+        <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>Projects overview</mobile_title>
+        <mobile_title>Dispatch request with no invoices</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name/>
-        <order>2200</order>
+        <name>x_attme_engr_strat_dispatch_request</name>
+        <order>1300</order>
         <override_menu_roles>false</override_menu_roles>
-        <query>wizard_view.do?sysparm_parent=3a861432dbcf4700e7bbdbbb5e961951&#13;
-</query>
+        <query/>
         <report/>
-        <roles>x_attme_engr_strat.capex_opex_mgmt_user</roles>
+        <roles/>
         <survey/>
         <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>hugo.ruano</sys_created_by>
-        <sys_created_on>2017-12-04 19:30:49</sys_created_on>
+        <sys_created_on>2017-12-18 19:51:32</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>e6888c56dbf6030028f3d5ab5e961938</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Projects reports</sys_name>
+        <sys_id>898310fedb8f4700e7bbdbbb5e961923</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Dispatch request with no invoices</sys_name>
         <sys_overrides/>
         <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
-        <sys_update_name>sys_app_module_e6888c56dbf6030028f3d5ab5e961938</sys_update_name>
+        <sys_update_name>sys_app_module_898310fedb8f4700e7bbdbbb5e961923</sys_update_name>
         <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-12-18 20:08:15</sys_updated_on>
+        <sys_updated_on>2017-12-18 19:51:48</sys_updated_on>
         <timeline_page/>
-        <title>Projects reports</title>
+        <title>Dispatch request with no invoices</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

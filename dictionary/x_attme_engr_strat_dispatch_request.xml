@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element attributes="email_client=true" audit="true" extends="x_attme_engr_strat_capex_opex_request" label="Dispatch request" max_length="40" name="x_attme_engr_strat_dispatch_request" sizeclass="6" type="collection">
+    <element attributes="email_client=true" audit="true" extends="x_attme_engr_strat_capex_opex_request" label="Dispatch request" max_length="40" name="x_attme_engr_strat_dispatch_request" sizeclass="7" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Associated PO" mandatory="true" max_length="40" name="associated_po" type="string"/>
         <element label="Dispatch amount" mandatory="true" max_length="40" name="dispatch_amount" type="float"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="MXN" label="Dispatch amount currency" mandatory="true" max_length="40" name="dispatch_amount_currency" type="string">
