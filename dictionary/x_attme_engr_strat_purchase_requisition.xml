@@ -247,6 +247,7 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="RFQ status observations" max_length="255" name="rfq_status_observations" type="string"/>
+        <element label="Sites" max_length="4000" name="sites" reference="x_attme_microwaves_sites" type="glide_list"/>
         <element attributes="edge_encryption_enabled=true" label="SOCA" max_length="40" name="soca" type="string"/>
         <element label="SOCA delivery date" max_length="40" name="soca_delivery_date" type="glide_date"/>
         <element label="SOCA requested to delivered duration" max_length="40" name="soca_requested_to_delivered_duration" read_only="true" type="glide_duration"/>

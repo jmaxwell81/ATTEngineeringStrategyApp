@@ -39,7 +39,7 @@
         <element label="Purchase requisition" mandatory="true" max_length="32" name="purchase_requisition" read_only="true" reference="x_attme_engr_strat_purchase_requisition" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Reception number / GR" max_length="40" name="reception_number" type="string"/>
         <element label="Related invoice" max_length="40" name="related_invoice" read_only="true" type="boolean"/>
-        <element label="Sites detail" max_length="1000" name="sites_detail" type="string"/>
+        <element label="Sites" max_length="4000" name="sites" reference="x_attme_microwaves_sites" type="glide_list"/>
         <element label="Vendor date" max_length="40" name="vendor_date" type="glide_date"/>
     </element>
 </database>
