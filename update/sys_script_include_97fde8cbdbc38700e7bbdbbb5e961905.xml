@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_attme_engr_strat.getCapacityReportCategories3</api_name>
+        <client_callable>false</client_callable>
+        <description>Este script entrega las report categories 3 asociadas con report categories 2, es usado en el advance reference qualifier del campo "report category 3" de la tabla "Capacity request".</description>
+        <name>getCapacityReportCategories3</name>
+        <script><![CDATA[function getCapacityReportCategories3(report_categories_2_list)
+{
+	var report_categories_3_list;
+	
+	//primero guardamos las report categories en un arreglo
+	
+	var report_category_2_array = report_categories_2_list.split(',');  //separamos por comas
+	
+	//buscamos las report categories 3 de cada report category 2
+	
+	for(var i=0; i<report_category_2_array.length; i++)
+		{
+		
+		var report_category_3 = new GlideRecord('x_attme_engr_strat_capacity_report_category_3');
+		report_category_3.addQuery('parent_category_2', report_category_2_array[i]);
+		report_category_3.query();
+		
+		while(report_category_3.next())
+			{
+			
+			report_categories_3_list += (',' + report_category_3.sys_id);
+			
+		}
+		
+		
+	}
+	
+	
+	gs.info(report_categories_3_list);
+	return 'sys_idIN' + report_categories_3_list;
+	
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>hugo.ruano</sys_created_by>
+        <sys_created_on>2017-12-19 16:27:18</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>97fde8cbdbc38700e7bbdbbb5e961905</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>getCapacityReportCategories3</sys_name>
+        <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
+        <sys_update_name>sys_script_include_97fde8cbdbc38700e7bbdbbb5e961905</sys_update_name>
+        <sys_updated_by>hugo.ruano</sys_updated_by>
+        <sys_updated_on>2017-12-19 16:27:18</sys_updated_on>
+    </sys_script_include>
+</record_update>
