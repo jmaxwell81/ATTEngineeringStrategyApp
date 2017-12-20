@@ -5,13 +5,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-10-23 20:54:10</sys_created_on>
-            <sys_id>3ff884b0dbce034028f3d5ab5e96195f</sys_id>
+            <sys_created_on>2017-12-19 16:53:48</sys_created_on>
+            <sys_id>3a94bc4fdbc38700e7bbdbbb5e9619c0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_engineering_strategy_request" sys_domain="global" view="Default view">b51f8facdb4e034028f3d5ab5e961929</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-10-23 20:54:10</sys_updated_on>
+            <sys_updated_on>2017-12-19 16:53:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>requested_for</element>
             <position>1</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-10-23 20:54:10</sys_created_on>
-            <sys_id>bff884b0dbce034028f3d5ab5e96195f</sys_id>
+            <sys_created_on>2017-12-19 16:53:48</sys_created_on>
+            <sys_id>ba94bc4fdbc38700e7bbdbbb5e9619c0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_engineering_strategy_request" sys_domain="global" view="Default view">b51f8facdb4e034028f3d5ab5e961929</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-10-23 20:54:10</sys_updated_on>
+            <sys_updated_on>2017-12-19 16:53:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,13 +33,13 @@
             <element>sys_class_name</element>
             <position>2</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-10-23 20:54:10</sys_created_on>
-            <sys_id>33f884b0dbce034028f3d5ab5e961960</sys_id>
+            <sys_created_on>2017-12-19 16:53:48</sys_created_on>
+            <sys_id>3e94bc4fdbc38700e7bbdbbb5e9619c0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_engineering_strategy_request" sys_domain="global" view="Default view">b51f8facdb4e034028f3d5ab5e961929</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-10-23 20:54:10</sys_updated_on>
+            <sys_updated_on>2017-12-19 16:53:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -47,13 +47,13 @@
             <element>request_type</element>
             <position>3</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-10-23 20:54:10</sys_created_on>
-            <sys_id>b3f884b0dbce034028f3d5ab5e961960</sys_id>
+            <sys_created_on>2017-12-19 16:53:48</sys_created_on>
+            <sys_id>be94bc4fdbc38700e7bbdbbb5e9619c0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_engineering_strategy_request" sys_domain="global" view="Default view">b51f8facdb4e034028f3d5ab5e961929</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-10-23 20:54:10</sys_updated_on>
+            <sys_updated_on>2017-12-19 16:53:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -61,13 +61,13 @@
             <element>.split</element>
             <position>4</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-10-23 20:54:10</sys_created_on>
-            <sys_id>37f884b0dbce034028f3d5ab5e961960</sys_id>
+            <sys_created_on>2017-12-19 16:53:48</sys_created_on>
+            <sys_id>3294bc4fdbc38700e7bbdbbb5e9619c1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_engineering_strategy_request" sys_domain="global" view="Default view">b51f8facdb4e034028f3d5ab5e961929</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-10-23 20:54:10</sys_updated_on>
+            <sys_updated_on>2017-12-19 16:53:48</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -75,13 +75,13 @@
             <element>opened_at</element>
             <position>5</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-10-23 20:54:10</sys_created_on>
-            <sys_id>b7f884b0dbce034028f3d5ab5e961960</sys_id>
+            <sys_created_on>2017-12-19 16:53:48</sys_created_on>
+            <sys_id>b294bc4fdbc38700e7bbdbbb5e9619c1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_engineering_strategy_request" sys_domain="global" view="Default view">b51f8facdb4e034028f3d5ab5e961929</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-10-23 20:54:10</sys_updated_on>
+            <sys_updated_on>2017-12-19 16:53:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -89,13 +89,13 @@
             <element>state</element>
             <position>6</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-10-23 20:54:10</sys_created_on>
-            <sys_id>3bf884b0dbce034028f3d5ab5e961960</sys_id>
+            <sys_created_on>2017-12-19 16:53:48</sys_created_on>
+            <sys_id>3694bc4fdbc38700e7bbdbbb5e9619c1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_engineering_strategy_request" sys_domain="global" view="Default view">b51f8facdb4e034028f3d5ab5e961929</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-10-23 20:54:10</sys_updated_on>
+            <sys_updated_on>2017-12-19 16:53:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -103,13 +103,13 @@
             <element>on_hold_reason</element>
             <position>7</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-10-23 20:54:10</sys_created_on>
-            <sys_id>bbf884b0dbce034028f3d5ab5e961960</sys_id>
+            <sys_created_on>2017-12-19 16:53:48</sys_created_on>
+            <sys_id>b694bc4fdbc38700e7bbdbbb5e9619c1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_engineering_strategy_request" sys_domain="global" view="Default view">b51f8facdb4e034028f3d5ab5e961929</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-10-23 20:54:10</sys_updated_on>
+            <sys_updated_on>2017-12-19 16:53:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -117,13 +117,13 @@
             <element>assignment_group</element>
             <position>8</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-10-23 20:54:10</sys_created_on>
-            <sys_id>3ff884b0dbce034028f3d5ab5e961960</sys_id>
+            <sys_created_on>2017-12-19 16:53:48</sys_created_on>
+            <sys_id>3a94bc4fdbc38700e7bbdbbb5e9619c1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_engineering_strategy_request" sys_domain="global" view="Default view">b51f8facdb4e034028f3d5ab5e961929</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-10-23 20:54:10</sys_updated_on>
+            <sys_updated_on>2017-12-19 16:53:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -131,13 +131,13 @@
             <element>assigned_to</element>
             <position>9</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-10-23 20:54:10</sys_created_on>
-            <sys_id>bff884b0dbce034028f3d5ab5e961960</sys_id>
+            <sys_created_on>2017-12-19 16:53:48</sys_created_on>
+            <sys_id>ba94bc4fdbc38700e7bbdbbb5e9619c1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_engineering_strategy_request" sys_domain="global" view="Default view">b51f8facdb4e034028f3d5ab5e961929</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-10-23 20:54:10</sys_updated_on>
+            <sys_updated_on>2017-12-19 16:53:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -145,13 +145,13 @@
             <element>.end_split</element>
             <position>10</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-10-23 20:54:10</sys_created_on>
-            <sys_id>33f884b0dbce034028f3d5ab5e961961</sys_id>
+            <sys_created_on>2017-12-19 16:53:48</sys_created_on>
+            <sys_id>3e94bc4fdbc38700e7bbdbbb5e9619c1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_engineering_strategy_request" sys_domain="global" view="Default view">b51f8facdb4e034028f3d5ab5e961929</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-10-23 20:54:10</sys_updated_on>
+            <sys_updated_on>2017-12-19 16:53:48</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -159,13 +159,13 @@
             <element>short_description</element>
             <position>11</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-10-23 20:54:10</sys_created_on>
-            <sys_id>b3f884b0dbce034028f3d5ab5e961961</sys_id>
+            <sys_created_on>2017-12-19 16:53:48</sys_created_on>
+            <sys_id>be94bc4fdbc38700e7bbdbbb5e9619c1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_engineering_strategy_request" sys_domain="global" view="Default view">b51f8facdb4e034028f3d5ab5e961929</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-10-23 20:54:10</sys_updated_on>
+            <sys_updated_on>2017-12-19 16:53:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -173,13 +173,13 @@
             <element>description</element>
             <position>12</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-10-23 20:54:10</sys_created_on>
-            <sys_id>37f884b0dbce034028f3d5ab5e961961</sys_id>
+            <sys_created_on>2017-12-19 16:53:48</sys_created_on>
+            <sys_id>3294bc4fdbc38700e7bbdbbb5e9619c2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_engineering_strategy_request" sys_domain="global" view="Default view">b51f8facdb4e034028f3d5ab5e961929</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-10-23 20:54:10</sys_updated_on>
+            <sys_updated_on>2017-12-19 16:53:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -187,13 +187,13 @@
             <element>report_category_1</element>
             <position>13</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-09 19:06:02</sys_created_on>
-            <sys_id>65439b8edb52030028f3d5ab5e961919</sys_id>
+            <sys_created_on>2017-12-19 16:53:48</sys_created_on>
+            <sys_id>b294bc4fdbc38700e7bbdbbb5e9619c2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_engineering_strategy_request" sys_domain="global" view="Default view">b51f8facdb4e034028f3d5ab5e961929</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-09 19:06:02</sys_updated_on>
+            <sys_updated_on>2017-12-19 16:53:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -201,13 +201,13 @@
             <element>report_category_2</element>
             <position>14</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-09 19:08:49</sys_created_on>
-            <sys_id>56e393cedb52030028f3d5ab5e96193e</sys_id>
+            <sys_created_on>2017-12-19 16:53:48</sys_created_on>
+            <sys_id>3694bc4fdbc38700e7bbdbbb5e9619c2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_engineering_strategy_request" sys_domain="global" view="Default view">b51f8facdb4e034028f3d5ab5e961929</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-09 19:08:49</sys_updated_on>
+            <sys_updated_on>2017-12-19 16:53:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -215,13 +215,13 @@
             <element>report_category_3</element>
             <position>15</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-09 19:09:23</sys_created_on>
-            <sys_id>320417cedb52030028f3d5ab5e9619db</sys_id>
+            <sys_created_on>2017-12-19 16:53:48</sys_created_on>
+            <sys_id>b694bc4fdbc38700e7bbdbbb5e9619c2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_engineering_strategy_request" sys_domain="global" view="Default view">b51f8facdb4e034028f3d5ab5e961929</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-09 19:09:23</sys_updated_on>
+            <sys_updated_on>2017-12-19 16:53:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -229,13 +229,13 @@
             <element>problemt_ticket</element>
             <position>16</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-09 19:52:04</sys_created_on>
-            <sys_id>f7cddb82db92030028f3d5ab5e961987</sys_id>
+            <sys_created_on>2017-12-19 16:53:48</sys_created_on>
+            <sys_id>3a94bc4fdbc38700e7bbdbbb5e9619c2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_engineering_strategy_request" sys_domain="global" view="Default view">b51f8facdb4e034028f3d5ab5e961929</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-09 19:52:04</sys_updated_on>
+            <sys_updated_on>2017-12-19 16:53:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -243,13 +243,13 @@
             <element>reject_reason</element>
             <position>17</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-22 00:01:54</sys_created_on>
-            <sys_id>541a8e46dbee4b00e7bbdbbb5e961970</sys_id>
+            <sys_created_on>2017-12-19 16:53:48</sys_created_on>
+            <sys_id>ba94bc4fdbc38700e7bbdbbb5e9619c2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_engineering_strategy_request" sys_domain="global" view="Default view">b51f8facdb4e034028f3d5ab5e961929</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-22 00:01:54</sys_updated_on>
+            <sys_updated_on>2017-12-19 16:53:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -257,13 +257,13 @@
             <element>reject_count</element>
             <position>18</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-22 00:05:33</sys_created_on>
-            <sys_id>82ea06c6dbee4b00e7bbdbbb5e96193f</sys_id>
+            <sys_created_on>2017-12-19 16:53:48</sys_created_on>
+            <sys_id>3e94bc4fdbc38700e7bbdbbb5e9619c2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_engineering_strategy_request" sys_domain="global" view="Default view">b51f8facdb4e034028f3d5ab5e961929</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-22 00:05:33</sys_updated_on>
+            <sys_updated_on>2017-12-19 16:53:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -271,13 +271,13 @@
             <element>report_start_date</element>
             <position>19</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-22 02:03:14</sys_created_on>
-            <sys_id>75d56e42db228b00e7bbdbbb5e9619f3</sys_id>
+            <sys_created_on>2017-12-19 16:53:48</sys_created_on>
+            <sys_id>be94bc4fdbc38700e7bbdbbb5e9619c2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_engineering_strategy_request" sys_domain="global" view="Default view">b51f8facdb4e034028f3d5ab5e961929</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-22 02:03:14</sys_updated_on>
+            <sys_updated_on>2017-12-19 16:53:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -285,27 +285,41 @@
             <element>report_end_date</element>
             <position>20</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-22 02:03:49</sys_created_on>
-            <sys_id>96f56282db228b00e7bbdbbb5e96199d</sys_id>
+            <sys_created_on>2017-12-19 16:53:48</sys_created_on>
+            <sys_id>3294bc4fdbc38700e7bbdbbb5e9619c3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_engineering_strategy_request" sys_domain="global" view="Default view">b51f8facdb4e034028f3d5ab5e961929</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-22 02:03:49</sys_updated_on>
+            <sys_updated_on>2017-12-19 16:53:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>report_dates_range</element>
+            <position>21</position>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-12-19 16:53:49</sys_created_on>
+            <sys_id>b294bc4fdbc38700e7bbdbbb5e9619c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_engineering_strategy_request" sys_domain="global" view="Default view">b51f8facdb4e034028f3d5ab5e961929</sys_ui_section>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-12-19 16:53:49</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>solution_document_url</element>
-            <position>21</position>
+            <position>22</position>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-11-22 02:20:20</sys_created_on>
-            <sys_id>9cc9aec2db228b00e7bbdbbb5e96196e</sys_id>
+            <sys_created_on>2017-12-19 16:53:49</sys_created_on>
+            <sys_id>3694bc4fdbc38700e7bbdbbb5e9619c3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_attme_engr_strat_engineering_strategy_request" sys_domain="global" view="Default view">b51f8facdb4e034028f3d5ab5e961929</sys_ui_section>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-11-22 02:20:20</sys_updated_on>
+            <sys_updated_on>2017-12-19 16:53:49</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

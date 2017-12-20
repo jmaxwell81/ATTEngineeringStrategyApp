@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_attme_engr_strat_core_capacity_request</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_attme_engr_strat_core_capacity_request">report_category_1=6931030adb52030028f3d5ab5e96190d^report_start_dateISEMPTY^ORreport_end_dateISEMPTY^EQ<item display_table="x_attme_engr_strat_capacity_report_category_1" display_value="CS" endquery="false" field="report_category_1" goto="false" newquery="false" operator="=" or="false" value="6931030adb52030028f3d5ab5e96190d"/>
+            <item endquery="false" field="report_start_date" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item endquery="false" field="report_end_date" goto="false" newquery="false" operator="ISEMPTY" or="true" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>CCR populate report start/end date (CS)</name>
+        <order>50</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	//esta business rule llena los campos "report start date" y "report end date" a partir de lo contenido en el campo "report dates range", esto solo aplica en el caso de la selección del dominio CS.
+	
+	var dates_range = current.report_dates_range;
+	var start_date;
+	var end_date;
+	
+	//obtenemos el mes y año en curso
+	var now = new GlideDate();
+    var now_string = now.toString();
+	var now_split = now_string.split('-');
+	var now_year = now_split[0];
+	var now_month = now_split[1];
+	
+	//obtenemos el último día del mes
+	var end_of_this_month = new GlideDateTime(gs.endOfThisMonth());
+    var end_of_this_month_date = new GlideDate();
+    end_of_this_month_date  = end_of_this_month.getLocalDate();
+	
+	
+	
+	
+	if(dates_range == '1-15 day (this month)')
+	{
+		
+	    start_date = now_year + "-" + now_month + "-" +"01";
+		end_date = now_year + "-" + now_month + "-" + "15";
+		
+		current.report_start_date = start_date;
+		current.report_end_date = end_date;
+	}
+	
+	if(dates_range == '16-end day (this month)')
+	{
+		start_date = now_year + "-" + now_month + "-" + "16";
+		end_date = end_of_this_month_date;
+		
+		current.report_start_date = start_date;
+		current.report_end_date = end_date;
+	}
+	
+	
+	
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>hugo.ruano</sys_created_by>
+        <sys_created_on>2017-12-19 17:43:51</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>233df003db078700e7bbdbbb5e9619e3</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>CCR populate report start/end date (CS)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
+        <sys_update_name>sys_script_233df003db078700e7bbdbbb5e9619e3</sys_update_name>
+        <sys_updated_by>hugo.ruano</sys_updated_by>
+        <sys_updated_on>2017-12-19 18:00:25</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=233df003db078700e7bbdbbb5e9619e3"/>
+</record_update>

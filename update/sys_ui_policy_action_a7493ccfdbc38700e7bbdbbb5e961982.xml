@@ -2,24 +2,24 @@
 <record_update table="sys_ui_policy_action">
     <sys_ui_policy_action action="INSERT_OR_UPDATE">
         <disabled>ignore</disabled>
-        <field>report_end_date</field>
+        <field>report_dates_range</field>
         <mandatory>true</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>hugo.ruano</sys_created_by>
-        <sys_created_on>2017-11-22 02:04:21</sys_created_on>
+        <sys_created_on>2017-12-19 17:14:41</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>b706a282db228b00e7bbdbbb5e9619a2</sys_id>
+        <sys_id>a7493ccfdbc38700e7bbdbbb5e961982</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>report_end_date</sys_name>
+        <sys_name>report_dates_range</sys_name>
         <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
-        <sys_update_name>sys_ui_policy_action_b706a282db228b00e7bbdbbb5e9619a2</sys_update_name>
+        <sys_update_name>sys_ui_policy_action_a7493ccfdbc38700e7bbdbbb5e961982</sys_update_name>
         <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-11-22 02:04:21</sys_updated_on>
+        <sys_updated_on>2017-12-19 17:14:41</sys_updated_on>
         <table>x_attme_engr_strat_core_capacity_request</table>
-        <ui_policy display_value="CCR type on demand report">23d85f02db92030028f3d5ab5e9619eb</ui_policy>
+        <ui_policy display_value="CCR type on demand report dates (CS)">ed39f8cfdbc38700e7bbdbbb5e961920</ui_policy>
         <visible>true</visible>
     </sys_ui_policy_action>
 </record_update>

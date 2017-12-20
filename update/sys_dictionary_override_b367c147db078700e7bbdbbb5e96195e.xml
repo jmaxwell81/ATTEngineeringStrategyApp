@@ -13,25 +13,25 @@
         <display_override>false</display_override>
         <element>assignment_group</element>
         <mandatory>false</mandatory>
-        <mandatory_override>true</mandatory_override>
-        <name>x_attme_engr_strat_engineering_strategy_request</name>
+        <mandatory_override>false</mandatory_override>
+        <name>x_attme_engr_strat_capex_opex_request</name>
         <read_only>false</read_only>
         <read_only_override>false</read_only_override>
-        <reference_qual>type=cfed1f24db8e034028f3d5ab5e9619ac^EQ</reference_qual>
+        <reference_qual>type=140ac8e2dbd6030028f3d5ab5e96197f^EQ</reference_qual>
         <reference_qual_override>true</reference_qual_override>
         <sys_class_name>sys_dictionary_override</sys_class_name>
         <sys_created_by>hugo.ruano</sys_created_by>
-        <sys_created_on>2017-10-23 17:53:41</sys_created_on>
+        <sys_created_on>2017-12-19 18:16:19</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>8a5f9764db8e034028f3d5ab5e9619cd</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_id>b367c147db078700e7bbdbbb5e96195e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>assignment_group</sys_name>
         <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
-        <sys_update_name>sys_dictionary_override_8a5f9764db8e034028f3d5ab5e9619cd</sys_update_name>
+        <sys_update_name>sys_dictionary_override_b367c147db078700e7bbdbbb5e96195e</sys_update_name>
         <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-12-19 18:13:19</sys_updated_on>
+        <sys_updated_on>2017-12-19 18:16:19</sys_updated_on>
     </sys_dictionary_override>
 </record_update>

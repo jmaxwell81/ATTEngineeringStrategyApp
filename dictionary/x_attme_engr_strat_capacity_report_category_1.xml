@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Capacity report category 1" max_length="40" name="x_attme_engr_strat_capacity_report_category_1" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element display="true" label="Category name" mandatory="true" max_length="250" name="category_name" type="string"/>
         <element choice="1" label="Category type" mandatory="true" max_length="40" name="category_type" type="choice">
             <choice>

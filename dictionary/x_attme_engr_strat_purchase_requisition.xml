@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element attributes="use_workflow=true,email_client=true" audit="true" extends="x_attme_engr_strat_capex_opex_request" label="Purchase requisition" max_length="40" name="x_attme_engr_strat_purchase_requisition" sizeclass="35" type="collection">
+    <element attributes="use_workflow=true,email_client=true" audit="true" extends="x_attme_engr_strat_capex_opex_request" label="Purchase requisition" max_length="40" name="x_attme_engr_strat_purchase_requisition" sizeclass="37" type="collection">
         <element label="Amount derived in Opex" max_length="40" name="amount_derived_in_opex" type="float"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="MXN" label="Opex amount currency" max_length="40" name="amount_derived_in_opex_currency" type="string">
             <choice>
