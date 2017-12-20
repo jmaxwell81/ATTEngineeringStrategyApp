@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element attributes="email_client=true" audit="true" extends="x_attme_engr_strat_capex_opex_request" label="Dispatch request" max_length="40" name="x_attme_engr_strat_dispatch_request" sizeclass="8" type="collection">
+    <element attributes="email_client=true" audit="true" extends="x_attme_engr_strat_capex_opex_request" label="Dispatch request" max_length="40" name="x_attme_engr_strat_dispatch_request" sizeclass="10" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Associated PO" mandatory="true" max_length="40" name="associated_po" type="string"/>
         <element label="Dispatch amount" mandatory="true" max_length="40" name="dispatch_amount" type="float"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="MXN" label="Dispatch amount currency" mandatory="true" max_length="40" name="dispatch_amount_currency" type="string">
@@ -20,6 +20,7 @@
         </element>
         <element label="Sent to finance dept. date" max_length="40" name="finance_area_date" type="glide_date"/>
         <element label="Finance area request date" max_length="40" name="finance_area_request_date" type="glide_date"/>
+        <element default="&lt;Insert your Ajax URL or TSpace URL where specific files for this request can be found&gt;" label="Dispatch request Excel file URL" mandatory="true" max_length="1024" name="input_document_url" type="url"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Payment period" mandatory="true" max_length="40" name="payment_period" type="string">
             <choice>
                 <element label="January" sequence="1" value="January"/>

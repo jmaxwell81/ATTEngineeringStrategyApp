@@ -2,10 +2,14 @@
 <database>
     <element label="Project" max_length="40" name="x_attme_engr_strat_project" type="collection">
         <element label="Account number" max_length="40" name="account_number" type="string"/>
+        <element label="Project's director" mandatory="true" max_length="32" name="project_director" reference="sys_user" type="reference"/>
         <element display="true" label="Project name" mandatory="true" max_length="200" name="project_name" type="string"/>
-        <element label="Project's responsible" max_length="32" name="project_responsible" reference="sys_user" type="reference"/>
+        <element label="Project's responsible" mandatory="true" max_length="32" name="project_responsible" reference="sys_user" type="reference"/>
         <index name="index">
             <element name="project_responsible"/>
+        </index>
+        <index name="index2">
+            <element name="project_director"/>
         </index>
     </element>
 </database>

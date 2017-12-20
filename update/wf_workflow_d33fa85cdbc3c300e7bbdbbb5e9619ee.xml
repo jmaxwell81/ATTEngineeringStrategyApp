@@ -35,12 +35,12 @@
         <sys_created_by>hugo.ruano</sys_created_by>
         <sys_created_on>2017-12-19 14:37:02</sys_created_on>
         <sys_id>d74594c3dbc38700e7bbdbbb5e9619ff</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-12-19 14:38:19</sys_updated_on>
+        <sys_updated_on>2017-12-20 20:52:38</sys_updated_on>
         <table>x_attme_engr_strat_purchase_requisition</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="Capex/opex mgmt - New purchase requisition">d33fa85cdbc3c300e7bbdbbb5e9619ee</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">

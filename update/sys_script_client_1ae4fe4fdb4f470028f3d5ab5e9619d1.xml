@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>El presente client script valida que exista información relevante en el campo "dispatch request excel file URL", en caso contrario no permite el Sumbit.</description>
+        <field>active</field>
+        <global>true</global>
+        <messages/>
+        <name>DSP validate dispatch request URL</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   
+	var url = g_form.getValue('input_document_url');
+	
+	if(url == '<Insert your Ajax URL or TSpace URL where specific files for this request can be found>')
+	{
+	   g_form.addErrorMessage("It's necessary to give a valid purchase requisition file URL. Action aborted");
+	   g_form.flash("x_attme_engr_strat_purchase_requisition.input_document_url", "#ff6666", 0);
+		return false;
+	}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>hugo.ruano</sys_created_by>
+        <sys_created_on>2017-12-20 02:14:24</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1ae4fe4fdb4f470028f3d5ab5e9619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DSP validate dispatch request URL</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Engineering Strategy" source="x_attme_engr_strat">8fcb836cdb4e034028f3d5ab5e961972</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Engineering Strategy">8fcb836cdb4e034028f3d5ab5e961972</sys_scope>
+        <sys_update_name>sys_script_client_1ae4fe4fdb4f470028f3d5ab5e9619d1</sys_update_name>
+        <sys_updated_by>hugo.ruano</sys_updated_by>
+        <sys_updated_on>2017-12-20 02:14:24</sys_updated_on>
+        <table>x_attme_engr_strat_dispatch_request</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
