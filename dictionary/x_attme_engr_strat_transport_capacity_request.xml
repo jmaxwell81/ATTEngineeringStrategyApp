@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="x_attme_engr_strat_engineering_strategy_request" label="Transport capacity request" max_length="40" name="x_attme_engr_strat_transport_capacity_request" sizeclass="25" type="collection">
+    <element audit="true" extends="x_attme_engr_strat_engineering_strategy_request" label="Transport capacity request" max_length="40" name="x_attme_engr_strat_transport_capacity_request" sizeclass="27" type="collection">
         <element label="Point A" max_length="32" name="point_a" reference="x_attme_microwaves_sites" type="reference"/>
         <element label="Point B" max_length="32" name="point_b" reference="x_attme_microwaves_sites" type="reference"/>
     </element>
